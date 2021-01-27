@@ -19,7 +19,13 @@ class Release(models.Model):
     tags = models.ManyToManyField(
       'tags.Tag',
       related_name="tags",
-      blank=True)
+      blank=True
+    )
+    favourited_by = models.ManyToManyField(
+      'jwt_auth.User',
+      related_name = "favourited_releases",
+      blank=True
+    )
 
     def __str__(self):
         return f"{self.title}"

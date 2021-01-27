@@ -2,6 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.exceptions import NotFound
+from rest_framework.permissions import IsAuthenticated
 
 from .models import Release
 from .serializers.common import ReleaseSerializer
@@ -33,4 +34,22 @@ class ReleaseDetailView(APIView):
         release = self.get_release(pk=pk)
         serialized_release = PopulatedReleaseSerializer(release)
         return Response(serialized_release.data, status.HTTP_200_OK)
+
+
+class ReleaseFavouriteView(ReleaseDetailView):
+
+    permission_classes = (IsAuthenticated, )
+
+    def post(self, request, pk):
+        release_to_favourite = self.get_release(pk=pk)
+        release_to_favourite.favourited_by.add(request.user.id)
+        release_to_favourite.save()
+        serialized_favourited_release = PopulatedReleaseSerializer(release_to_favourite)
+        return Response(serialized_favourited_release.data, status=status.HTTP_201_CREATED)
+
+    def delete(self, request, pk):
+        release_to_delete = self.get_release(pk=pk)
+        release_to_delete.favourited_by.remove(request.user.id)
+        release_to_delete.save()
+        return Response(status=status.HTTP_200_OK)
 
