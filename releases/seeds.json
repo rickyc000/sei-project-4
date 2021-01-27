@@ -1,0 +1,53 @@
+[
+{
+  "model": "releases.release",
+  "pk": 1,
+  "fields": {
+    "title": "Ricky's Mixtape",
+    "release_year": 2020,
+    "artwork": "image.com",
+    "buy_link": "buy.com",
+    "artist": 1,
+    "label": 1,
+    "tags": [
+      1,
+      2
+    ],
+    "favourited_by": [
+      2
+    ]
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 2,
+  "fields": {
+    "title": "Album Test Number 2",
+    "release_year": 2009,
+    "artwork": "image.com/image",
+    "buy_link": "buy/buy.com",
+    "artist": 1,
+    "label": 1,
+    "tags": [
+      2
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 3,
+  "fields": {
+    "title": "THIRD ALBUM Test",
+    "release_year": 2001,
+    "artwork": "artworkurl.com",
+    "buy_link": "buylinkbuy.com",
+    "artist": 1,
+    "label": 1,
+    "tags": [
+      1
+    ],
+    "favourited_by": []
+  }
+}
+]

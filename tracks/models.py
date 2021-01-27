@@ -5,7 +5,7 @@ class Track(models.Model):
     disc_number = models.PositiveIntegerField(unique=False)
     artist_name = models.CharField(max_length=100, unique=False)
     preview_URL = models.CharField(max_length=300)
-    # duration = models.TimeField
+    duration_ms = models.PositiveIntegerField(unique=False)
     release = models.ForeignKey(
       "releases.Release",
       related_name="tracks",
