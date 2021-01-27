@@ -40,7 +40,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'jwt_auth',
     'releases',
-    'artists'
+    'artists',
+    'labels',
+    'tracks',
+    'tags'
 ]
 
 MIDDLEWARE = [

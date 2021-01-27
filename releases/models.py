@@ -11,6 +11,15 @@ class Release(models.Model):
         related_name="releases",
         on_delete=models.CASCADE
     )
+    label = models.ForeignKey(
+      "labels.Label",
+      related_name="label_releases",
+      on_delete=models.CASCADE
+    )
+    tags = models.ManyToManyField(
+      'tags.Tag',
+      related_name="tags",
+      blank=True)
 
     def __str__(self):
         return f"{self.title}"
