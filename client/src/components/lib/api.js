@@ -3,14 +3,17 @@ const baseURL = '/api'
 
 
 //*AUTH
-//REGISTER
+// REGISTER
 export function registerUser(formdata) {
   console.log('registerUser')
   return axios.post(`${baseURL}/auth/register/`, formdata)
 }
 
-//LOGIN
-
+// LOGIN
+export function loginUser(formdata) {
+  console.log('loginUser')
+  return axios.post(`${baseURL}/auth/login/`, formdata)
+}
 
 //PROFILE
 
