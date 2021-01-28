@@ -3,7 +3,7 @@ from django.db import models
 class Track(models.Model):
     title = models.CharField(max_length=100, unique=False)
     disc_number = models.PositiveIntegerField(unique=False)
-    artist_name = models.CharField(max_length=100, unique=False)
+    artist_name = models.CharField(max_length=100, unique=False, blank=True)
     preview_URL = models.CharField(max_length=300)
     duration_ms = models.PositiveIntegerField(unique=False)
     release = models.ForeignKey(
