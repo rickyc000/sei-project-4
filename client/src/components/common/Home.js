@@ -1,5 +1,5 @@
 import React from 'react'
-import { getSingleRelease } from '../lib/api'
+import { getSingleArtist } from '../lib/api'
 
 
 
@@ -11,7 +11,7 @@ function Home() {
   React.useEffect(() => {
     const getReleases = async () => {
       try {
-        const { data } = await getSingleRelease(45)
+        const { data } = await getSingleArtist(23)
         setReleases(data)
 
       } catch (err) {

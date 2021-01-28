@@ -1,47 +1,26 @@
 import React from 'react'
-import Home from './components/common/Home'
-class App extends React.Component {
-  async componentDidMount() {
-    try {
-      const response = await fetch('/api/releases/')
-      const data = await response.json()
-      console.log(data)
-    } catch (err) {
-      console.log(err)
-    }
-  }
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-  render() {
-    return <div>
-      <Home />
-      <h1>Hello there</h1>
-    </div>
-  }
+import Home from './components/common/Home'
+import Nav from './components/common/Nav'
+
+import Register from './components/auth/Register'
+import Login from './components/auth/Login'
+
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Nav />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/register" component={Register} />
+        <Route path="/login" component={Login} />
+      </Switch>
+    </BrowserRouter>
+
+  )
 }
 
-// function App() {
-
-//   const [releases, setReleases] = React.useState(null)
-//   const [hasError, setHasError] = React.useState(false)
-
-//   React.useEffect(() => {
-//     const getReleases = async () => {
-//       try {
-//         const { data } = await getAllReleases()
-//         setReleases(data)
-
-//       } catch (err) {
-//         console.log(err)
-//         setHasError(true)
-//       }
-//     }
-//     getReleases()
-//   }, [])
-
-//   console.log(releases)
-//   console.log(hasError)
-
-
-// }
 
 export default App
