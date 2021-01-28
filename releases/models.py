@@ -4,7 +4,7 @@ class Release(models.Model):
     title = models.CharField(max_length=100, unique=False)
     release_year = models.PositiveIntegerField(unique=False)
     artwork = models.CharField(max_length=300)
-    description = models.TextField
+    description = models.TextField(max_length=2000, blank=True)
     buy_link = models.CharField(max_length=300)
     artist = models.ForeignKey(
         "artists.Artist",
