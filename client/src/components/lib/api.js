@@ -4,7 +4,10 @@ const baseURL = '/api'
 
 //*AUTH
 //REGISTER
-
+export function registerUser(formdata) {
+  console.log('registerUser')
+  return axios.post(`${baseURL}/auth/register/`, formdata)
+}
 
 //LOGIN
 
