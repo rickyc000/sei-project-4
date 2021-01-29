@@ -5,13 +5,11 @@ import { getUserProfile, headers } from '../lib/api'
 
 
 function Nav() {
+  console.log(isAuthenticated() + ' is Authenticated')
 
   const [profile, setProfile] = React.useState({})
   const [isLoggedIn, setIsLoggedIn] = React.useState(isAuthenticated())
 
-  console.log(isAuthenticated() + ' is Authenticated')
-
-  
   const handleLogout = () => {
     setIsLoggedIn(false)
     logout()
@@ -20,8 +18,6 @@ function Nav() {
   console.log(isLoggedIn + ' :isLoggedIn')
 
   const history = useHistory()
-
-  
 
   React.useEffect(() => {
     const getProfile = async () => {
@@ -63,7 +59,7 @@ function Nav() {
         <div>
           <div>
             <Link to='/profile/'>
-              Account
+              Account: {profile.username}
             </Link>
           </div>
           <div

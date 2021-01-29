@@ -56,7 +56,7 @@ function Genres() {
             <div>
               {genrePageReleases.map(release => (
                 <div key={release.id}>
-                  <Link to={`/release/${release.id}`}>
+                  <Link to={`/release/${release.id}/`}>
                     <div> {release.title} </div>
                     <div>
                       <img

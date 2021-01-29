@@ -18,6 +18,7 @@ function Login() {
     try {
       const { data } = await loginUser(formdata)
       setToken(data.token)
+      // setError(false)
       history.push('/')
     } catch (err) {
       setError(true)
