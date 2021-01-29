@@ -1,1 +1,65 @@
-[{"model": "tags.tag", "pk": 1, "fields": {"name": "Test Tag 1"}}, {"model": "tags.tag", "pk": 2, "fields": {"name": "Test Tag 2"}}, {"model": "tags.tag", "pk": 3, "fields": {"name": "Ambient / Electronic"}}, {"model": "tags.tag", "pk": 4, "fields": {"name": "Techno / Electro / House"}}, {"model": "tags.tag", "pk": 5, "fields": {"name": "Jungle / Drum & Bass / Footwork"}}, {"model": "tags.tag", "pk": 6, "fields": {"name": "Hip-Hop / R&B / Soul"}}, {"model": "tags.tag", "pk": 7, "fields": {"name": "Alternative / Punk / Rock / Folk"}}, {"model": "tags.tag", "pk": 8, "fields": {"name": "Dubstep / UKG"}}, {"model": "tags.tag", "pk": 9, "fields": {"name": "Grime / UK Rap / Drill"}}]
+[
+{
+  "model": "tags.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Test Tag 1"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Test Tag 2"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Ambient / Electronic"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Techno / Electro / House"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Jungle / Drum & Bass / Footwork"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Hip-Hop / R&B / Soul"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Alternative / Punk / Rock / Folk"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Dubstep / UKG"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Grime / UK Rap / Drill"
+  }
+}
+]

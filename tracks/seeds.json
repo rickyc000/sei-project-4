@@ -1,1 +1,974 @@
-[{"model": "tracks.track", "pk": 1, "fields": {"title": "First Track To Add (Remix)", "disc_number": 1, "artist_name": "RRRicky", "preview_URL": "song.com", "duration_ms": 78000, "release": 1}}, {"model": "tracks.track", "pk": 2, "fields": {"title": "Second Track (Original Mix", "disc_number": 2, "artist_name": "Disco Tony", "preview_URL": "song/id.com", "duration_ms": 78000, "release": 1}}]
+[
+{
+  "model": "tracks.track",
+  "pk": 1,
+  "fields": {
+    "title": "First Track To Add (Remix)",
+    "disc_number": 1,
+    "artist_name": "RRRicky",
+    "preview_URL": "song.com",
+    "duration_ms": 78000,
+    "release": 1
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 2,
+  "fields": {
+    "title": "Second Track (Original Mix",
+    "disc_number": 2,
+    "artist_name": "Disco Tony",
+    "preview_URL": "song/id.com",
+    "duration_ms": 78000,
+    "release": 1
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 3,
+  "fields": {
+    "title": "Xtal",
+    "disc_number": 1,
+    "artist_name": "Aphex Twin",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music7/v4/3a/a3/01/3aa30184-78e2-7030-c6e0-d33f3d3e21b7/mzaf_3396140578378232458.plus.aac.p.m4a",
+    "duration_ms": 266820,
+    "release": 4
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 4,
+  "fields": {
+    "title": "We Are The Music Makers",
+    "disc_number": 8,
+    "artist_name": "Aphex Twin",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview20/v4/15/29/5d/15295d7e-b718-c4d1-ac25-2da777eac0b9/mzaf_1837233871706744374.plus.aac.p.m4a",
+    "duration_ms": 463520,
+    "release": 4
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 5,
+  "fields": {
+    "title": "Actium",
+    "disc_number": 13,
+    "artist_name": "Aphex Twin",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview20/v4/32/2b/f0/322bf0cb-d77f-ed0d-24bb-f7e3c79d08db/mzaf_7743957734587616153.plus.aac.p.m4a",
+    "duration_ms": 455000,
+    "release": 4
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 6,
+  "fields": {
+    "title": "A3",
+    "disc_number": 3,
+    "artist_name": "Pessimist & Karim Maas",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/51/2f/c4/512fc401-45d0-5495-bc0c-4edf44b061d5/mzaf_12710503624111759817.plus.aac.p.m4a",
+    "duration_ms": 209000,
+    "release": 5
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 7,
+  "fields": {
+    "title": "A7",
+    "disc_number": 7,
+    "artist_name": "Pessimist & Karim Maas",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/51/77/af/5177afd7-309a-0e74-900f-716b52d4c837/mzaf_6566976314132644895.plus.aac.p.m4a",
+    "duration_ms": 323000,
+    "release": 5
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 8,
+  "fields": {
+    "title": "B1",
+    "disc_number": 7,
+    "artist_name": "Pessimist & Karim Maas",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/5b/53/35/5b5335d2-2e1a-0927-f079-dc5c0e1f245d/mzaf_16663279049731199479.plus.aac.p.m4a",
+    "duration_ms": 146000,
+    "release": 5
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 9,
+  "fields": {
+    "title": "B6",
+    "disc_number": 13,
+    "artist_name": "Pessimist & Karim Maas",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/aa/b1/71/aab171ad-4ab9-e14d-6874-7b7dcb5c7395/mzaf_15952274876737263318.plus.aac.p.m4a",
+    "duration_ms": 326000,
+    "release": 5
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 10,
+  "fields": {
+    "title": "Wavejumper",
+    "disc_number": 2,
+    "artist_name": "Drexciya",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/d3/8c/74/d38c74e5-c532-c59c-086d-7a1111f32890/mzaf_2373682207095842419.plus.aac.p.m4a",
+    "duration_ms": 400201,
+    "release": 18
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 11,
+  "fields": {
+    "title": "Unknown Journey I",
+    "disc_number": 7,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/0e/70/ba/0e70badc-3bf1-3a73-8bf8-b283c7c401fc/mzaf_6594449736110396664.plus.aac.p.m4a",
+    "duration_ms": 285818,
+    "release": 18
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 12,
+  "fields": {
+    "title": "Dehydration",
+    "disc_number": 13,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/fb/08/dd/fb08dd9e-f2ef-4d87-d44b-77471121a5af/mzaf_4751720072794755832.plus.aac.p.m4a",
+    "duration_ms": 175591,
+    "release": 18
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 13,
+  "fields": {
+    "title": "Phylyps Trak II/I",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/a5/ac/7f/a5ac7fcc-3567-53e5-8369-cfbebe549dd4/mzaf_3368664091787805117.plus.aac.p.m4a",
+    "duration_ms": 737555,
+    "release": 22
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 14,
+  "fields": {
+    "title": "Phylyps Trak II/II",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/dc/f4/81/dcf481c9-cf16-09b1-95d2-a1c51ff00851/mzaf_7640991308141074555.plus.aac.p.m4a",
+    "duration_ms": 793619,
+    "release": 22
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 15,
+  "fields": {
+    "title": "The Frontier",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/26/94/8e/26948efe-032f-f0a7-8093-62107f18da7d/mzaf_11080209260377756234.plus.aac.p.m4a",
+    "duration_ms": 454491,
+    "release": 24
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 16,
+  "fields": {
+    "title": "2000 Species of Cacti",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/db/52/34/db523496-409b-b365-145e-c0d0ee4d6196/mzaf_4042701277227493345.plus.aac.p.m4a",
+    "duration_ms": 345353,
+    "release": 24
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 17,
+  "fields": {
+    "title": "The Frontier (High Desert Synthapella)",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/48/4a/02/484a0225-a444-2ca2-b2a2-b8e393fb74d0/mzaf_9668953503398694159.plus.aac.p.m4a",
+    "duration_ms": 141984,
+    "release": 24
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 18,
+  "fields": {
+    "title": "Avril",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/0d/f5/24/0df524db-66cc-d86c-99c1-a4154e52591d/mzaf_2003405613409183223.plus.aac.p.m4a",
+    "duration_ms": 144995,
+    "release": 12
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 19,
+  "fields": {
+    "title": "Melt in My Heated Hands",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/77/28/93/7728936f-5108-062b-f275-447a40e3a384/mzaf_15899049230525491674.plus.aac.p.m4a",
+    "duration_ms": 223822,
+    "release": 14
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 20,
+  "fields": {
+    "title": "Growing out of the Plastic Box",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/34/54/45/345445b2-db66-227e-b909-077660bad8a1/mzaf_12934112961447238741.plus.aac.p.m4a",
+    "duration_ms": 243629,
+    "release": 14
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 21,
+  "fields": {
+    "title": "It Drips",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/72/7b/63/727b63e8-350c-98e6-8dc5-e34c8c6e100b/mzaf_9017815954182668109.plus.aac.p.m4a",
+    "duration_ms": 221879,
+    "release": 14
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 22,
+  "fields": {
+    "title": "Subsoil",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ad/15/e1/ad15e1fc-250b-9451-6a0e-baa9fff00737/mzaf_4939898468976109860.plus.aac.p.m4a",
+    "duration_ms": 258213,
+    "release": 14
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 23,
+  "fields": {
+    "title": "In a Shade",
+    "disc_number": 5,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e9/75/3e/e9753e25-25d2-949a-16f6-f9b1ed08e5c1/mzaf_10692518737500617402.plus.aac.p.m4a",
+    "duration_ms": 276714,
+    "release": 14
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 24,
+  "fields": {
+    "title": "Echo Boomed",
+    "disc_number": 6,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cf/bf/db/cfbfdbc4-4eec-1bf9-c9a1-a9aba7aac08f/mzaf_4774754056508375031.plus.aac.p.m4a",
+    "duration_ms": 196548,
+    "release": 14
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 25,
+  "fields": {
+    "title": "Send-Zen",
+    "disc_number": 7,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/4d/c7/d6/4dc7d6d8-a577-a656-ec0d-a36708228d67/mzaf_13378594442795854212.plus.aac.p.m4a",
+    "duration_ms": 305042,
+    "release": 14
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 26,
+  "fields": {
+    "title": "Overflowering",
+    "disc_number": 8,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d6/bb/61/d6bb613b-46e1-8f76-c691-a68fa4dad5e7/mzaf_8326717192627784944.plus.aac.p.m4a",
+    "duration_ms": 222042,
+    "release": 14
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 27,
+  "fields": {
+    "title": "The Sudden Rush",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/71/cf/93/71cf9373-de04-88d7-31f2-37a340e00aab/mzaf_18369648444203041632.plus.aac.p.m4a",
+    "duration_ms": 208000,
+    "release": 15
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 28,
+  "fields": {
+    "title": "As Bright as the Night",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/84/7e/a8/847ea80e-b7cb-415e-3625-51556488b583/mzaf_6746127807840650941.plus.aac.p.m4a",
+    "duration_ms": 296000,
+    "release": 15
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 29,
+  "fields": {
+    "title": "Talking to Some Imaginary Person",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/bf/d6/89/bfd68968-667d-627d-d186-8478189a69e4/mzaf_9615575567335887643.plus.aac.p.m4a",
+    "duration_ms": 205433,
+    "release": 15
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 30,
+  "fields": {
+    "title": "In the Ballroom",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/83/f6/34/83f6343d-eef6-4eeb-caad-07ad2977728d/mzaf_7639791838511299698.plus.aac.p.m4a",
+    "duration_ms": 244000,
+    "release": 15
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 31,
+  "fields": {
+    "title": "As Weird as the Elfin Lights",
+    "disc_number": 5,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/eb/9f/ee/eb9fee64-1ddf-bb5c-b9f2-583102d7be6c/mzaf_8746603844457953920.plus.aac.p.m4a",
+    "duration_ms": 234440,
+    "release": 15
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 32,
+  "fields": {
+    "title": "Angel's Flight",
+    "disc_number": 6,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/2b/00/09/2b000985-7270-2221-214f-f4e9462600d4/mzaf_11221276370237197999.plus.aac.p.m4a",
+    "duration_ms": 352357,
+    "release": 15
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 33,
+  "fields": {
+    "title": "As Pale as a Pearl",
+    "disc_number": 7,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/1f/ad/8a/1fad8a50-62ae-aa88-5dec-b256d5feafef/mzaf_404757602895502890.plus.aac.p.m4a",
+    "duration_ms": 193660,
+    "release": 15
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 34,
+  "fields": {
+    "title": "Faith and Reverence",
+    "disc_number": 10,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/05/b4/9d/05b49deb-b347-c9fd-6921-968b7c945917/mzaf_11179446851714455984.plus.aac.p.m4a",
+    "duration_ms": 198000,
+    "release": 15
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 35,
+  "fields": {
+    "title": "The Illest Villains",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music4/v4/85/ec/0e/85ec0e79-7c72-b14b-6344-de26d63aaa7e/mzaf_267027390178756316.plus.aac.p.m4a",
+    "duration_ms": 115360,
+    "release": 36
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 36,
+  "fields": {
+    "title": "Sickfit",
+    "disc_number": 7,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music4/v4/22/6d/49/226d49a1-fa72-6282-d24c-4c72e3bb475d/mzaf_6444979144687864322.plus.aac.p.m4a",
+    "duration_ms": 81880,
+    "release": 36
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 37,
+  "fields": {
+    "title": "America's Most Blunted (feat. Quasimoto)",
+    "disc_number": 6,
+    "artist_name": "Madvillain feat. Quasimoto",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music2/v4/50/36/b3/5036b37f-4a32-4cf6-84cc-dd4b35fb6221/mzaf_8446313449567497602.plus.aac.p.m4a",
+    "duration_ms": 234040,
+    "release": 36
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 38,
+  "fields": {
+    "title": "Money Folder",
+    "disc_number": 11,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music4/v4/6a/4a/b2/6a4ab236-e323-f269-4315-97f4070fad29/mzaf_2948841862081917530.plus.aac.p.m4a",
+    "duration_ms": 182800,
+    "release": 36
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 39,
+  "fields": {
+    "title": "Block Boy",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/f5/3d/81/f53d8144-4ce8-5d33-0355-6bb8049c606d/mzaf_5227671548262122043.plus.aac.p.m4a",
+    "duration_ms": 137880,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 40,
+  "fields": {
+    "title": "No Warnin’ (feat. Boy Boy)",
+    "disc_number": 2,
+    "artist_name": "Pa Salieu feat. Boy Boy",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/b1/9b/ac/b19bac32-c132-01a3-480b-96989680df71/mzaf_2915567590778535954.plus.aac.p.m4a",
+    "duration_ms": 197653,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 41,
+  "fields": {
+    "title": "Frontline",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/aa/0a/df/aa0adfc7-9c57-2542-cc6d-23207fe412a4/mzaf_16900305260906947182.plus.aac.p.m4a",
+    "duration_ms": 201108,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 42,
+  "fields": {
+    "title": "Flip, Repeat",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/e2/d4/5a/e2d45a96-2cee-b6f4-8a9f-acf66344d7e6/mzaf_6583669127336172106.plus.aac.p.m4a",
+    "duration_ms": 159547,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 43,
+  "fields": {
+    "title": "Informa",
+    "disc_number": 5,
+    "artist_name": "Pa Salieu feat. M1llionz",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/66/25/8a/66258a1d-35be-ed97-d51a-c892d8b087e0/mzaf_2442552890822102621.plus.aac.p.m4a",
+    "duration_ms": 140360,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 44,
+  "fields": {
+    "title": "Over There",
+    "disc_number": 6,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/fc/41/a4/fc41a4c7-52ad-9067-311c-163e65800d1d/mzaf_1230200223388482772.plus.aac.p.m4a",
+    "duration_ms": 134160,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 45,
+  "fields": {
+    "title": "Betty",
+    "disc_number": 7,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/e4/b9/00/e4b9002e-6044-2055-ba44-3799db9fa5d3/mzaf_16725187771898736736.plus.aac.p.m4a",
+    "duration_ms": 136627,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 46,
+  "fields": {
+    "title": "Pile Up (Interlude)",
+    "disc_number": 8,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/90/a9/8e/90a98ee4-c433-8056-1701-91cd0cf664cd/mzaf_1133493115319590627.plus.aac.p.m4a",
+    "duration_ms": 84587,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 47,
+  "fields": {
+    "title": "More Paper",
+    "disc_number": 9,
+    "artist_name": "Pa Salieu feat. Eight9FLY",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/7e/47/f1/7e47f136-bd2d-5e86-2338-d6a746be0b63/mzaf_2817407943790276478.plus.aac.p.m4a",
+    "duration_ms": 182520,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 48,
+  "fields": {
+    "title": "Active",
+    "disc_number": 10,
+    "artist_name": "Pa Salieu feat. Ni Santora, Lz Dinero, Stizee & Shakavellie",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/28/c4/79/28c47968-53ab-89c4-963f-eb89f4f026b4/mzaf_6809259813463105916.plus.aac.p.m4a",
+    "duration_ms": 232120,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 49,
+  "fields": {
+    "title": "T.T.M",
+    "disc_number": 11,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/dc/ae/56/dcae56a3-b3b7-c151-e667-a7e8e5ccd069/mzaf_3090876449207653533.plus.aac.p.m4a",
+    "duration_ms": 174853,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 50,
+  "fields": {
+    "title": "They Don’t Know (Interlude)",
+    "disc_number": 12,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/dc/ae/56/dcae56a3-b3b7-c151-e667-a7e8e5ccd069/mzaf_3090876449207653533.plus.aac.p.m4a",
+    "duration_ms": 174853,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 51,
+  "fields": {
+    "title": "My Family",
+    "disc_number": 13,
+    "artist_name": "Pa Salieu feat. BackRoad Gee",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/d4/92/e2/d492e232-be83-9c76-693c-63641784534d/mzaf_14106331265525778188.plus.aac.p.m4a",
+    "duration_ms": 160293,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 52,
+  "fields": {
+    "title": "B***K",
+    "disc_number": 14,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/6d/0c/03/6d0c03ab-e0a3-8fce-e38d-fc0f0e6ebeaa/mzaf_6389585779511488976.plus.aac.p.m4a",
+    "duration_ms": 130080,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 53,
+  "fields": {
+    "title": "Energy",
+    "disc_number": 15,
+    "artist_name": "Pa Salieu feat. Mahalia",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/8c/26/f3/8c26f362-6d83-813b-7d40-03ff4d08d3a8/mzaf_3466523830683736071.plus.aac.p.m4a",
+    "duration_ms": 188827,
+    "release": 67
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 54,
+  "fields": {
+    "title": "Savage",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/2e/7f/c0/2e7fc0d8-bba5-24b4-b505-73f681ccfa30/mzaf_9439519114175996340.plus.aac.p.m4a",
+    "duration_ms": 298733,
+    "release": 52
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 55,
+  "fields": {
+    "title": "Match Bet",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/94/15/55/94155597-b898-eab2-b708-2510ee4716b5/mzaf_15233569314664763063.plus.aac.p.m4a",
+    "duration_ms": 258133,
+    "release": 52
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 56,
+  "fields": {
+    "title": "The Cleaner",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/3a/c1/0a/3ac10ac0-22b9-1f25-6e53-38baca1c4270/mzaf_11985333853125138450.plus.aac.p.m4a",
+    "duration_ms": 453212,
+    "release": 52
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 57,
+  "fields": {
+    "title": "Rodeo",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/78/22/c2/7822c25c-0168-9f20-cfa3-30bf4e24def0/mzaf_6523887331639245325.plus.aac.p.m4a",
+    "duration_ms": 373587,
+    "release": 52
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 58,
+  "fields": {
+    "title": "Loos In Twos (NRG)",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/27/b7/73/27b77376-8469-822e-118a-d425706a9dfd/mzaf_7801744753729513683.plus.aac.p.m4a",
+    "duration_ms": 321241,
+    "release": 57
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 59,
+  "fields": {
+    "title": "Gary Mission",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/61/be/1a/61be1a9d-5800-9b34-9d0d-61ee11ea28e1/mzaf_4737697525612490244.plus.aac.p.m4a",
+    "duration_ms": 300196,
+    "release": 57
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 60,
+  "fields": {
+    "title": "Stepper",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/d2/76/7a/d2767ab1-5df5-9935-4b5b-daf41aed5283/mzaf_15800762400037421334.plus.aac.p.m4a",
+    "duration_ms": 210799,
+    "release": 57
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 61,
+  "fields": {
+    "title": "Rim Shot (Intro)",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/7d/15/8f/7d158f63-bbd9-bd29-2eaa-a79b113a96a2/mzaf_3470661838539800115.plus.aac.p.m4a",
+    "duration_ms": 117160,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 62,
+  "fields": {
+    "title": "On & On",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/91/1c/4f/911c4fe0-a9b4-fc50-3a34-10a5ea67187e/mzaf_6716761144426595505.plus.aac.p.m4a",
+    "duration_ms": 225973,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 63,
+  "fields": {
+    "title": "Appletree",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/d7/b8/6a/d7b86a0d-a13b-59b1-d517-abb150196f40/mzaf_7256652438655475014.plus.aac.p.m4a",
+    "duration_ms": 265400,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 64,
+  "fields": {
+    "title": "Other Side of the Game",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/a1/70/39/a17039f3-e133-b78e-70fb-37154f42bb9a/mzaf_1428609555682589910.plus.aac.p.m4a",
+    "duration_ms": 393693,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 65,
+  "fields": {
+    "title": "Sometimes (Mix #9)",
+    "disc_number": 5,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/7a/cf/98/7acf9806-4ea4-352f-1988-79d0031ff59a/mzaf_8305300905042242857.plus.aac.p.m4a",
+    "duration_ms": 44400,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 66,
+  "fields": {
+    "title": "Next Lifetime",
+    "disc_number": 6,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/c5/ee/8c/c5ee8c72-b415-c83e-ba78-f5c2835c7a09/mzaf_3722406710282190726.plus.aac.p.m4a",
+    "duration_ms": 386533,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 67,
+  "fields": {
+    "title": "Afro (Freestyle Skit)",
+    "disc_number": 7,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/6e/eb/2e/6eeb2ec8-c795-a99c-a447-0dfb788b141f/mzaf_2551440447594703608.plus.aac.p.m4a",
+    "duration_ms": 124400,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 68,
+  "fields": {
+    "title": "Certainly",
+    "disc_number": 8,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/5a/ab/d2/5aabd2bd-34c6-d90e-8b03-2c059ab44645/mzaf_646206203998030253.plus.aac.p.m4a",
+    "duration_ms": 283200,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 69,
+  "fields": {
+    "title": "4 Leaf Clover",
+    "disc_number": 9,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/32/2d/50/322d5065-7b81-a471-34a2-6e75831ede4c/mzaf_1794335861798348952.plus.aac.p.m4a",
+    "duration_ms": 274573,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 70,
+  "fields": {
+    "title": "No Love",
+    "disc_number": 10,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/32/2d/50/322d5065-7b81-a471-34a2-6e75831ede4c/mzaf_1794335861798348952.plus.aac.p.m4a",
+    "duration_ms": 274573,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 71,
+  "fields": {
+    "title": "Drama",
+    "disc_number": 11,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/d7/2a/4f/d72a4f80-d7d5-7a05-ebfc-14d8d1f2c94e/mzaf_878786456765714379.plus.aac.p.m4a",
+    "duration_ms": 362600,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 72,
+  "fields": {
+    "title": "Certainly (Flipped It)",
+    "disc_number": 13,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/ca/1b/9b/ca1b9b88-2d54-1c92-8c71-0ca126ed7587/mzaf_3346996631495832559.plus.aac.p.m4a",
+    "duration_ms": 326093,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 73,
+  "fields": {
+    "title": "Rim Shot (Outro)",
+    "disc_number": 15,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/d9/53/3f/d9533f79-4641-d6ac-d893-8a846f23d0d4/mzaf_3972288913343907286.plus.aac.p.m4a",
+    "duration_ms": 139707,
+    "release": 39
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 74,
+  "fields": {
+    "title": "Gospel For a New Century",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ce/89/98/ce89987a-873f-2230-7f85-2b5ee40a164e/mzaf_893309027454095939.plus.aac.p.m4a",
+    "duration_ms": 198627,
+    "release": 46
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 75,
+  "fields": {
+    "title": "Medicine Burn",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/da/c0/f6/dac0f66c-9c0e-0fb9-bb53-fd82bcce2bae/mzaf_12841698015948216195.plus.aac.p.m4a",
+    "duration_ms": 244907,
+    "release": 46
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 76,
+  "fields": {
+    "title": "Identity Trade",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/51/a7/f8/51a7f84d-9476-73b7-227c-1072760597cb/mzaf_12903775882087833782.plus.aac.p.m4a",
+    "duration_ms": 119867,
+    "release": 46
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 77,
+  "fields": {
+    "title": "Kerosene!",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/d0/bc/2c/d0bc2c10-d1eb-5495-53a7-457b6a216456/mzaf_1714434424653477423.plus.aac.p.m4a",
+    "duration_ms": 305507,
+    "release": 46
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 78,
+  "fields": {
+    "title": "Yawneb Pt.1",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview117/v4/3e/c6/12/3ec61225-1fa6-1d58-7437-9237edf3fd95/mzaf_7417325948913761115.plus.aac.p.m4a",
+    "duration_ms": 112500,
+    "release": 8
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 79,
+  "fields": {
+    "title": "The Crystal World",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview117/v4/17/32/12/1732121d-87a3-66b2-efbc-fe382004f285/mzaf_7057319494897342018.plus.aac.p.m4a",
+    "duration_ms": 50625,
+    "release": 8
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 80,
+  "fields": {
+    "title": "The Singing Towers",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview117/v4/e8/bf/46/e8bf4634-7c01-dc31-9518-3d14cea3e3af/mzaf_6731187055971165255.plus.aac.p.m4a",
+    "duration_ms": 110750,
+    "release": 8
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 81,
+  "fields": {
+    "title": "Interzone Bureau Desk",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview117/v4/cf/eb/1c/cfeb1c04-6961-6203-4eae-3dc85b424667/mzaf_2655116778889908172.plus.aac.p.m4a",
+    "duration_ms": 121916,
+    "release": 8
+  }
+}
+]
