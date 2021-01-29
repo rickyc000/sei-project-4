@@ -4,37 +4,33 @@ import { getSingleTag } from '../../components/lib/api'
 
 function Genres() {
 
-
+  const { id } = useParams()
 
   const history = useHistory()
-  
-  const { id } = useParams()
-  console.log(id)
-  
-  const [activeGenre, setActiveGenre] = React.useState(useParams())
+
+  // const [tagID, setTagID] = React.useState(id)
   const [genrePageReleases, setGenrePageReleases] = React.useState(null)
   const [hasError, setHasError] = React.useState(false)
 
-  React.useEffect(() => {
-    const getReleases = async () => {
-      try {
-        const { data } = await getSingleTag(activeGenre)
-        const taggedReleases = data.tags
-        setGenrePageReleases(taggedReleases)
-      } catch (err) {
-        console.log(err)
-        setHasError(true)
-      }
+  const getReleases = async (id) => {
+    try {
+      const { data } = await getSingleTag(id)
+      const taggedReleases = data.tags
+      setGenrePageReleases(taggedReleases)
+    } catch (err) {
+      console.log(err)
+      setHasError(true)
     }
-    getReleases()
+  }
+
+  React.useEffect(() => {
+    getReleases(id)
   }, [])
 
   const handleChange = event => {
-    console.log(event.target.value)
+    getReleases(event.target.value)
     history.push(`/genres/${event.target.value}/`)
-    setActiveGenre(event.target.value)
-    console.log(activeGenre)
-  } 
+  }
 
 
   console.log(genrePageReleases)
@@ -49,7 +45,7 @@ function Genres() {
         <select
           name="genres"
           id="genre-select"
-          value={activeGenre}
+          value={id}
           onChange={handleChange}>
           <option value="3">Ambient / Electronic</option>
           <option value="4">Techno / Electro / House</option>
@@ -60,6 +56,32 @@ function Genres() {
           <option value="9">Grime / UK Rap / Drill</option>
         </select>
 
+
+
+        <div>
+          {genrePageReleases ?
+            <div>
+              {genrePageReleases.map(release => (
+                <div key={release.id}>
+
+                  <div> {release.title} </div>
+                  <div>
+                    <img
+                      key={release.id}
+                      src={release.artwork}
+                      alt={release.title}
+                      width='300px'
+                    />
+                  </div>
+
+                </div>
+              ))}
+            </div>
+            :
+            <div>Loading</div>
+          }
+
+        </div>
 
 
 
