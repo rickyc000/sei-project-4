@@ -1,10 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Nav() {
 
   return (
     <header>
-      Nav
+
+      <Link to='/'>
+        Home
+      </Link>
+
     </header>
   )
 }

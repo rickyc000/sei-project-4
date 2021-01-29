@@ -35,11 +35,31 @@ function ReleaseShow() {
 
       <div>
         {showRelease ?
-          <img
-            src={showRelease.artwork}
-            alt='show release'
-            width='300px'
-          />
+          <div>
+            <img
+              src={showRelease.artwork}
+              alt='show release'
+              width='300px'
+            />
+            <div>
+              {showRelease.title}
+            </div>
+            <div>
+              {showRelease.label.name}
+            </div>
+            <div>
+              {showRelease.description}
+            </div>
+
+            {showRelease.tracks.map(track => (
+              <div key={track.id}>
+                <p> {track.discNumber} </p>
+                <p> {track.title}  </p>
+              </div>
+            ))}
+
+
+          </div>
           :
           <p>Loading</p>
         }

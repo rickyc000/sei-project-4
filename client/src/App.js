@@ -9,6 +9,7 @@ import Register from './components/auth/Register'
 import Login from './components/auth/Login'
 
 import ReleaseShow from './components/show/ReleaseShow'
+import Genres from './components/common/Genres'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/register" component={Register} />
         <Route path="/login" component={Login} />
         <Route path="/release/:id" component={ReleaseShow} /> 
+        <Route path="/genres/:id" component={Genres} /> 
       </Switch>
       <Footer />
     </BrowserRouter>
