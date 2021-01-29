@@ -1,5 +1,12 @@
 import axios from 'axios'
+import { getToken } from './auth'
 const baseURL = '/api'
+
+export function headers() {
+  return {
+    headers: { authorization: `Bearer ${getToken()}` }
+  }
+}
 
 
 //*AUTH
@@ -16,7 +23,10 @@ export function loginUser(formdata) {
 }
 
 //PROFILE
-
+export function getUserProfile() {
+  console.log(headers())
+  return axios.get(`${baseURL}/auth/profile/`, headers())
+}
 
 //* RELEASES
 // ALL RELEASES

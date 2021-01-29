@@ -1,16 +1,13 @@
 import React from 'react'
-import { useParams, useHistory } from 'react-router-dom'
+import { useParams, useHistory, Link } from 'react-router-dom'
 import { getSingleTag } from '../../components/lib/api'
 
 function Genres() {
 
   const { id } = useParams()
-
   const history = useHistory()
 
-  // const [tagID, setTagID] = React.useState(id)
   const [genrePageReleases, setGenrePageReleases] = React.useState(null)
-  const [hasError, setHasError] = React.useState(false)
 
   const getReleases = async (id) => {
     try {
@@ -19,7 +16,6 @@ function Genres() {
       setGenrePageReleases(taggedReleases)
     } catch (err) {
       console.log(err)
-      setHasError(true)
     }
   }
 
@@ -32,9 +28,6 @@ function Genres() {
     history.push(`/genres/${event.target.value}/`)
   }
 
-
-  console.log(genrePageReleases)
-  console.log(hasError)
 
   return (
     <main>
@@ -63,17 +56,17 @@ function Genres() {
             <div>
               {genrePageReleases.map(release => (
                 <div key={release.id}>
-
-                  <div> {release.title} </div>
-                  <div>
-                    <img
-                      key={release.id}
-                      src={release.artwork}
-                      alt={release.title}
-                      width='300px'
-                    />
-                  </div>
-
+                  <Link to={`/release/${release.id}`}>
+                    <div> {release.title} </div>
+                    <div>
+                      <img
+                        key={release.id}
+                        src={release.artwork}
+                        alt={release.title}
+                        width='300px'
+                      />
+                    </div>
+                  </Link>
                 </div>
               ))}
             </div>

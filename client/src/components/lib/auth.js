@@ -18,6 +18,11 @@ function getPayload() {
   return JSON.parse(atob(parts[1]))
 }
 
+export function getUserId() {
+  return getPayload().sub
+}
+
+
 export function isAuthenticated() {
   const payload = getPayload()
   if (!payload) return false
@@ -25,8 +30,8 @@ export function isAuthenticated() {
   return now < payload.exp
 }
 
-export function isOwner(userId) {
-  const payload = getPayload()
-  if (!payload) return false
-  return userId === payload.sub
-}
+// export function isOwner(userId) {
+//   const payload = getPayload()
+//   if (!payload) return false
+//   return userId === payload.sub
+// }

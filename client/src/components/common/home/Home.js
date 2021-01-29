@@ -28,7 +28,7 @@ function Home() {
 
   return (
     <main>
-      Home
+      Home Contents:
 
       <div>
         {featuredReleases ?
