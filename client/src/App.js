@@ -1,11 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import Home from './components/common/Home'
+import Home from './components/common/home/Home'
 import Nav from './components/common/Nav'
+import Footer from './components/common/Footer'
 
 import Register from './components/auth/Register'
 import Login from './components/auth/Login'
+
+import ReleaseShow from './components/show/ReleaseShow'
 
 
 function App() {
@@ -16,7 +19,9 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/register" component={Register} />
         <Route path="/login" component={Login} />
+        <Route path="/release/:id" component={ReleaseShow} /> 
       </Switch>
+      <Footer />
     </BrowserRouter>
   )
 }
