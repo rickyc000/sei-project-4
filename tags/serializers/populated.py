@@ -1,6 +1,6 @@
 from ..serializers.common import TagSerializer
-from releases.serializers.common import ReleaseSerializer
+from releases.serializers.populated import NestedReleaseSerializer
 
 class PopulatedTagSerializer(TagSerializer):
 
-    tags = ReleaseSerializer(many=True)
+    tags = NestedReleaseSerializer(many=True)

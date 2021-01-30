@@ -22,3 +22,8 @@ class PopulatedReleaseSerializer(ReleaseSerializer):
     label = LabelSerializer()
     tracks = TrackSerializer(many=True)
     tags = TagSerializer(many=True)
+
+class NestedReleaseSerializer(ReleaseSerializer):
+
+    artist = ArtistSerializer()
+    label = LabelSerializer()
