@@ -1,0 +1,21 @@
+.product-card {
+  display: flex;
+  border: 2px solid  #AB9F36;
+  // width: 200px;
+  // height: 200px;
+  margin: 5px;
+}
+
+//* ARTWORK
+
+.product-card-inner-wrapper {
+  // width: 200px;
+  margin: 5px;
+  // margin: 10px;
+  // flex-grow: 1;
+}
+
+.product-card-image {
+  object-fit: cover;
+  max-height: 200px;
+}

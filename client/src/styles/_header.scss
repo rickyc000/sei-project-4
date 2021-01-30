@@ -4,12 +4,13 @@ $text-color: rgb(155, 155, 155);
 
 
 .navbar-wrapper {
-  color:rgb(155, 155, 155);
-  // background-color: #222621;
+  color: $text-color;
+  background-color: $base-color;
   display: flex;
   justify-content: space-between;
   height: 30px;
   align-items: center;
+  border-bottom: 1px solid $text-color;
 }
 
 

@@ -6,12 +6,13 @@ $base-color: #222621;
 $text-color: rgb(155, 155, 155);
 
 .scroll-banner {
+  border-bottom: 2px solid #AB9F36;
   display: flex;
   position: relative;
   width: 100%;
   height: 45px;
   margin: auto;
-  background-color: $text-color;
+  background-color: $base-color;
   overflow: hidden;
   z-index: 1;
   cursor: default;
@@ -44,7 +45,7 @@ $text-color: rgb(155, 155, 155);
       p {
         // text-decoration:none;
         // padding: 10px;
-        color: $base-color;
+        color: $text-color;
         animation: fade-in 3s;
         }
       // p:hover{
