@@ -53,7 +53,7 @@ function FeaturedSection() {
     <div className="home-feature-wrapper">
       <div className="featured-title-wrapper">
         <div className="feature-box-text">
-          Featured 
+          Featured
         </div>
       </div>
 
@@ -84,7 +84,7 @@ function FeaturedSection() {
                     {release.title}
                   </div>
                   <div className="featured-album-name">
-                    {release.title}
+                    {release.artist.name}
                   </div>
                 </div>
 
@@ -158,7 +158,11 @@ function FeaturedSection() {
         }
       </div> */}
 
+      <div className="parallax featured-see-more">
+        <div className="featured-see-more">
 
+        </div>
+      </div>
 
 
 

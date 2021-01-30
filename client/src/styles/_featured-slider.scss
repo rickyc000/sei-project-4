@@ -14,9 +14,10 @@ $text-color: rgb(155, 155, 155);
 
 //* MIDDLE SECTION, CONTAINS SLIDER
 .home-feature-content {
-  border: 2px solid #AB9F36;
-  background-color: #AB9F36;
-  width: 500px;
+  // border: 2px solid #AB9F36;
+  // background-color: #AB9F36;
+  background-color: $text-color;
+  width: 400px;
   display: flex;
 }
 
@@ -36,7 +37,7 @@ $text-color: rgb(155, 155, 155);
 
 .home-feature-artwork-wrapper {
   width: 300px;
-  margin: 10px;
+  // margin: 10px;
   // flex-grow: 1;
 }
 
@@ -68,8 +69,6 @@ $text-color: rgb(155, 155, 155);
 }
 
 
-
-
 .slick-slide {
   visibility: hidden;
 }
@@ -92,13 +91,13 @@ $text-color: rgb(155, 155, 155);
 //* FEATURED
 
 .featured-title-wrapper {
-  width: 200px;
+  width: 500px;
   background-color: #DEBBFB;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  padding: 40px 10px;
-  margin: 0px 10px;
+  align-items: center;
+  // padding: 40px 10px;
+  // margin: 10px;
 }
 
 .feature-box-text {
@@ -107,6 +106,12 @@ $text-color: rgb(155, 155, 155);
   font-family: 'Amiri', serif;
   color: $base-color;
   font-size: 90px;
-  height: 300px;
+  // height: 300px;
+  padding: 10px;
   display: block;
+}
+
+.featured-see-more {
+  width: 100%;
+  // margin: 10px;
 }
