@@ -970,5 +970,725 @@
     "duration_ms": 121916,
     "release": 8
   }
+},
+{
+  "model": "tracks.track",
+  "pk": 82,
+  "fields": {
+    "title": "Dub (Dub)",
+    "disc_number": 1,
+    "artist_name": "DJ Marcelle, Another Nice Mess",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c5/54/ff/c554ffb9-c012-8181-3c16-85a7b4f194c4/mzaf_13425819678938582517.plus.aac.p.m4a",
+    "duration_ms": 62510,
+    "release": 20
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 83,
+  "fields": {
+    "title": "What’s the Plan?",
+    "disc_number": 2,
+    "artist_name": "rRoxymore",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/83/89/92/83899270-246a-52b2-842a-7fa8917202b7/mzaf_7375953696831046558.plus.aac.p.m4a",
+    "duration_ms": 93809,
+    "release": 20
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 84,
+  "fields": {
+    "title": "I Dream So Loud",
+    "disc_number": 3,
+    "artist_name": "Tenesha The Wordsmith feat. Daniel B Summerhill",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/34/67/95/34679578-0cce-208a-b44d-c21722ae6efa/mzaf_1772993229337784887.plus.aac.p.m4a",
+    "duration_ms": 163073,
+    "release": 20
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 85,
+  "fields": {
+    "title": "Phase Two",
+    "disc_number": 4,
+    "artist_name": "AFRODEUTSCHE",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/62/94/a8/6294a85d-457b-8177-87f7-ca4aaec2687b/mzaf_3918777715149081318.plus.aac.p.m4a",
+    "duration_ms": 246676,
+    "release": 20
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 86,
+  "fields": {
+    "title": "BBoy",
+    "disc_number": 5,
+    "artist_name": "Fotomachine",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/09/c3/b5/09c3b51a-6380-8b6e-937e-85792f731f9b/mzaf_18418008271765965964.plus.aac.p.m4a",
+    "duration_ms": 294619,
+    "release": 20
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 87,
+  "fields": {
+    "title": "Workaround One",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/27/4a/44/274a449d-6f55-b914-d6fe-da63c035d6db/mzaf_16352344808159583789.plus.aac.p.m4a",
+    "duration_ms": 217634,
+    "release": 11
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 88,
+  "fields": {
+    "title": "Workaround Two",
+    "disc_number": 2,
+    "artist_name": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/11/96/ea/1196ea2a-3c15-0529-e6db",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/11/96/ea/1196ea2a-3c15-0529-e6db-5a6bc939c8c4/mzaf_2828795466080806145.plus.aac.p.m4a",
+    "duration_ms": 261566,
+    "release": 11
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 89,
+  "fields": {
+    "title": "Workaround Three",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ff/bb/ff/ffbbff91-b9ca-c298-f77d-335d4063c52d/mzaf_6292431311879806726.plus.aac.p.m4a",
+    "duration_ms": 264910,
+    "release": 11
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 90,
+  "fields": {
+    "title": "Workaround Four",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/09/e3/51/09e3519d-122b-67aa-1567-8baa4beb3330/mzaf_12699053881035127158.plus.aac.p.m4a",
+    "duration_ms": 350855,
+    "release": 11
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 91,
+  "fields": {
+    "title": "When Nothing Is Safe",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/4e/a7/7f/4ea77ff9-ab24-3b19-08d3-6a943fe3c086/mzaf_5156089611733875238.plus.aac.p.m4a",
+    "duration_ms": 354497,
+    "release": 17
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 92,
+  "fields": {
+    "title": "Who’s In Control",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/24/f7/07/24f70754-9901-bfb3-4788-eae97eecc167/mzaf_2924657153922009617.plus.aac.p.m4a",
+    "duration_ms": 271140,
+    "release": 17
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 93,
+  "fields": {
+    "title": "Intense Incense",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/dc/bb/d9/dcbbd90f-39bb-bad1-6937-02e5fd06db38/mzaf_2711403479212589589.plus.aac.p.m4a",
+    "duration_ms": 278840,
+    "release": 17
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 94,
+  "fields": {
+    "title": "Natural Connection",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/8b/1e/05/8b1e0539-4805-8827-ef0a-1942c3a5904e/mzaf_12176036669509755486.plus.aac.p.m4a",
+    "duration_ms": 287404,
+    "release": 17
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 95,
+  "fields": {
+    "title": "Impulse",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/b9/46/d7/b946d7d8-f72c-fd30-4682-810d59c1f924/mzaf_18157072361650008597.plus.aac.p.m4a",
+    "duration_ms": 441872,
+    "release": 29
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 96,
+  "fields": {
+    "title": "Terminus",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d7/66/13/d7661312-5577-6fc4-f3ac-a15204742515/mzaf_4797091923245728317.plus.aac.p.m4a",
+    "duration_ms": 429176,
+    "release": 29
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 97,
+  "fields": {
+    "title": "Void Control",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/63/f6/b6/63f6b673-905b-af11-acd7-c13c71648da8/mzaf_2911230777183001710.plus.aac.p.m4a",
+    "duration_ms": 459268,
+    "release": 29
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 98,
+  "fields": {
+    "title": "Curved Path",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e3/f4/11/e3f411e5-f767-525e-3b06-a6832974c324/mzaf_8091285077665643926.plus.aac.p.m4a",
+    "duration_ms": 453997,
+    "release": 29
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 99,
+  "fields": {
+    "title": "Nullpunkt #1",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/8f/f8/74/8ff874de-b0d0-f4c8-58c4-e3d739c8ab3e/mzaf_80107072801317279.plus.aac.p.m4a",
+    "duration_ms": 351427,
+    "release": 32
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 100,
+  "fields": {
+    "title": "Nullpunkt #2",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/aa/5d/7b/aa5d7b81-8f4f-c5a4-9b5a-ff7ec19b5e97/mzaf_8420028541215072612.plus.aac.p.m4a",
+    "duration_ms": 379296,
+    "release": 32
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 101,
+  "fields": {
+    "title": "Nullpunkt #3",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/01/30/28/0130284c-312d-4ea4-5a74-5671181ae8b8/mzaf_3045109696865971247.plus.aac.p.m4a",
+    "duration_ms": 392465,
+    "release": 32
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 102,
+  "fields": {
+    "title": "Nullpunkt #4",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/6f/56/c5/6f56c5aa-2bac-f1cf-0ced-2db31210595f/mzaf_15670763054417191719.plus.aac.p.m4a",
+    "duration_ms": 295781,
+    "release": 32
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 103,
+  "fields": {
+    "title": "Meet the Woo",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/1e/c3/fe/1ec3feee-599c-624c-4782-cdb783588706/mzaf_6940943290958454392.plus.aac.p.m4a",
+    "duration_ms": 121087,
+    "release": 44
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 104,
+  "fields": {
+    "title": "Welcome to the Party",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f8/b8/80/f8b880a6-0dfd-b800-3adc-78e917266b68/mzaf_14196405417256669665.plus.aac.p.m4a",
+    "duration_ms": 214954,
+    "release": 44
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 105,
+  "fields": {
+    "title": "Hawk Em",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/03/0d/02/030d02fb-0663-391c-4f3e-cc113191288e/mzaf_1148601529227288946.plus.aac.p.m4a",
+    "duration_ms": 118801,
+    "release": 44
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 106,
+  "fields": {
+    "title": "Better Have Your Gun",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c5/5e/d9/c55ed927-7df7-35d1-8b8c-f9057131babc/mzaf_13529802412510063936.plus.aac.p.m4a",
+    "duration_ms": 199831,
+    "release": 44
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 107,
+  "fields": {
+    "title": "Scenario",
+    "disc_number": 5,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/99/f5/ac/99f5acb0-7d0a-1d71-464c-9830b88ef1ba/mzaf_14181364371060161462.plus.aac.p.m4a",
+    "duration_ms": 241784,
+    "release": 44
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 108,
+  "fields": {
+    "title": "Dior",
+    "disc_number": 6,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/29/6b/5f/296b5fd7-1d59-fb83-a026-ca8407d4750e/mzaf_13079807705550728847.plus.aac.p.m4a",
+    "duration_ms": 216387,
+    "release": 44
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 109,
+  "fields": {
+    "title": "Feeling",
+    "disc_number": 7,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a4/f4/c4/a4f4c48b-76d1-8ca4-5437-ceb7a353d52b/mzaf_826808308756648781.plus.aac.p.m4a",
+    "duration_ms": 161281,
+    "release": 44
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 110,
+  "fields": {
+    "title": "PTSD",
+    "disc_number": 8,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/2a/f9/df/2af9df75-c1b9-600d-e964-66642b923807/mzaf_16832228625191668930.plus.aac.p.m4a",
+    "duration_ms": 199833,
+    "release": 44
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 111,
+  "fields": {
+    "title": "Brother Man",
+    "disc_number": 9,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/2a/f9/df/2af9df75-c1b9-600d-e964-66642b923807/mzaf_16832228625191668930.plus.aac.p.m4a",
+    "duration_ms": 199833,
+    "release": 44
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 112,
+  "fields": {
+    "title": "Chiseler's Rush",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/2b/6c/00/2b6c00ab-3e68-899a-8652-13b5be245ba5/mzaf_13406594842362191164.plus.aac.p.m4a",
+    "duration_ms": 433626,
+    "release": 21
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 113,
+  "fields": {
+    "title": "Majenta",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/e8/95/b9/e895b99c-7f31-522a-4466-752dcc2a3d25/mzaf_16322913372886252227.plus.aac.p.m4a",
+    "duration_ms": 380517,
+    "release": 21
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 114,
+  "fields": {
+    "title": "Get Ur Freak On",
+    "disc_number": 5,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music4/v4/1d/fe/20/1dfe20a4-6ac7-c0e6-7fe3-75f233833ccc/mzaf_313486874358896436.plus.aac.p.m4a",
+    "duration_ms": 236933,
+    "release": 37
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 115,
+  "fields": {
+    "title": "One Minute Man",
+    "disc_number": 3,
+    "artist_name": "feat. Ludacris",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music/03/0e/72/mzm.mwzyuyqh.aac.p.m4a",
+    "duration_ms": 252969,
+    "release": 37
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 116,
+  "fields": {
+    "title": "Stab Me",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/32/70/4a/32704a58-bfc2-9e2a-ec6b-7d6bf1177d05/mzaf_17818315328814721489.plus.aac.p.m4a",
+    "duration_ms": 293527,
+    "release": 26
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 117,
+  "fields": {
+    "title": "Sacrifico",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/40/74/bc/4074bc58-d88b-74ad-849e-bbc4a084b52e/mzaf_5042855285511274908.plus.aac.p.m4a",
+    "duration_ms": 269091,
+    "release": 26
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 118,
+  "fields": {
+    "title": "El Kesh",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/b1/df/22/b1df22e9-83dc-c405-3d56-1225e693b63c/mzaf_9046718659949037893.plus.aac.p.m4a",
+    "duration_ms": 355544,
+    "release": 26
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 119,
+  "fields": {
+    "title": "Manimoto",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/79/03/4c/79034cc8-af03-b386-430e-bfa3d7afb3e7/mzaf_938386162267191299.plus.aac.p.m4a",
+    "duration_ms": 317647,
+    "release": 26
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 120,
+  "fields": {
+    "title": "Revolutionary",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/06/e4/8b/06e48b55-7f7d-47e6-c608-6c29d971ae40/mzaf_7445636298094990774.plus.aac.p.m4a",
+    "duration_ms": 408160,
+    "release": 25
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 121,
+  "fields": {
+    "title": "Sun Through Rain",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/c4/b0/39/c4b03925-c38e-6185-c1ec-3c48f8d2a4da/mzaf_5879048806690938108.plus.aac.p.m4a",
+    "duration_ms": 426651,
+    "release": 25
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 122,
+  "fields": {
+    "title": "Harp Machine",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/7e/82/a0/7e82a0b6-7b5c-62b3-62e4-c2eff9288f37/mzaf_6290069572042019461.plus.aac.p.m4a",
+    "duration_ms": 346593,
+    "release": 25
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 123,
+  "fields": {
+    "title": "Rave Cache",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/0e/07/ff/0e07ff86-cfb5-3d85-d642-51eb1a4ee585/mzaf_8425803100506768806.plus.aac.p.m4a",
+    "duration_ms": 357204,
+    "release": 25
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 124,
+  "fields": {
+    "title": "Sky Trax",
+    "disc_number": 5,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/05/a0/4d/05a04d79-faac-80fa-d1ab-5451ee3f06e6/mzaf_11156850115044515387.plus.aac.p.m4a",
+    "duration_ms": 225882,
+    "release": 25
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 125,
+  "fields": {
+    "title": "The Truth Is Out There",
+    "disc_number": 6,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/f2/bd/f8/f2bdf8de-4e70-1a40-6f04-4e17d40b5514/mzaf_15610573100178725818.plus.aac.p.m4a",
+    "duration_ms": 247535,
+    "release": 25
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 126,
+  "fields": {
+    "title": "Dang",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/94/f4/85/94f48597-083d-f74e-2c19-7dbde94a3bf7/mzaf_514699316691000624.plus.aac.p.m4a",
+    "duration_ms": 275054,
+    "release": 40
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 127,
+  "fields": {
+    "title": "Westside",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/fc/8b/f0/fc8bf063-0831-5715-a579-987cf71c51a6/mzaf_6227383434893013389.plus.aac.p.m4a",
+    "duration_ms": 263067,
+    "release": 40
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 128,
+  "fields": {
+    "title": "Attention Span of a Cookie",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/7b/68/a9/7b68a94b-2cdf-9308-b1a6-13c040b825dd/mzaf_6527135394370318854.plus.aac.p.m4a",
+    "duration_ms": 212025,
+    "release": 40
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 129,
+  "fields": {
+    "title": "I See Faces in Everything",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/78/59/75/785975a1-6ccc-a40d-d82b-bc436776c717/mzaf_5627369817681526832.plus.aac.p.m4a",
+    "duration_ms": 278914,
+    "release": 40
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 130,
+  "fields": {
+    "title": "Syx",
+    "disc_number": 2,
+    "artist_name": "Batu",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/02/6c/5e/026c5edf-547f-49aa-50fb-c6edbb330410/mzaf_4376786760821030097.plus.aac.p.m4a",
+    "duration_ms": 279565,
+    "release": 63
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 131,
+  "fields": {
+    "title": "L9t",
+    "disc_number": 4,
+    "artist_name": "Peter Van Hoesen",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/ca/54/be/ca54be05-cef4-291e-48c3-39f839178c0a/mzaf_1971546361139506765.plus.aac.p.m4a",
+    "duration_ms": 360375,
+    "release": 63
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 132,
+  "fields": {
+    "title": "Snorkelling",
+    "disc_number": 5,
+    "artist_name": "Ploy",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/60/e7/b5/60e7b5b2-5b9a-9097-5a30-f45501c042ed/mzaf_3419669056414614674.plus.aac.p.m4a",
+    "duration_ms": 374413,
+    "release": 63
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 133,
+  "fields": {
+    "title": "15Three",
+    "disc_number": 8,
+    "artist_name": "Happa",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/0c/a7/d5/0ca7d5c2-4e9a-a244-3712-fa8a353266d5/mzaf_13053706014619080581.plus.aac.p.m4a",
+    "duration_ms": 311982,
+    "release": 63
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 134,
+  "fields": {
+    "title": "Hex",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music3/v4/10/ba/a1/10baa1fb-faa0-4e4b-4508-b6716f1164e1/mzaf_230859830949633250.plus.aac.p.m4a",
+    "duration_ms": 323242,
+    "release": 61
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 135,
+  "fields": {
+    "title": "Fatalist",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/Music4/v4/fa/a7/bb/faa7bb33-351b-5bb0-c155-ec4a1734d22b/mzaf_6691670972933561580.plus.aac.p.m4a",
+    "duration_ms": 264345,
+    "release": 61
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 136,
+  "fields": {
+    "title": "The Escape of the Blvck Rxbbit",
+    "disc_number": 1,
+    "artist_name": "Jlin feat. Avril Stormy Unger",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview19/v4/85/f7/c7/85f7c78f-5244-4cbb-d3c5-d945570539ac/mzaf_2363344315556863012.plus.aac.p.m4a",
+    "duration_ms": 252926,
+    "release": 35
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 137,
+  "fields": {
+    "title": "Nyakinyua Rise",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview71/v4/ba/1a/73/ba1a73e5-3263-0379-5af6-5b81f8f3efa5/mzaf_567485165699163349.plus.aac.p.m4a",
+    "duration_ms": 221928,
+    "release": 35
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 138,
+  "fields": {
+    "title": "Almost Trendy",
+    "disc_number": 1,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/45/3f/9e/453f9eb8-2ecf-10b6-b3f0-6f3fdb66b6ab/mzaf_9072004764762330854.plus.aac.p.m4a",
+    "duration_ms": 190588,
+    "release": 41
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 139,
+  "fields": {
+    "title": "Bass Attack Bap",
+    "disc_number": 2,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d7/87/3e/d7873e6e-085a-61d5-cf43-27dd83beb451/mzaf_4378474498023035847.plus.aac.p.m4a",
+    "duration_ms": 213066,
+    "release": 41
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 140,
+  "fields": {
+    "title": "Big Mama Africa Jam",
+    "disc_number": 3,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/2b/48/0a/2b480a3d-32a1-3192-981b-9a1384a166db/mzaf_3773131721975695003.plus.aac.p.m4a",
+    "duration_ms": 203887,
+    "release": 41
+  }
+},
+{
+  "model": "tracks.track",
+  "pk": 141,
+  "fields": {
+    "title": "Brokenfolks",
+    "disc_number": 4,
+    "artist_name": "",
+    "preview_URL": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/27/75/7c/27757ccc-771e-e2ae-087a-2dd98cadec66/mzaf_7719830727200021019.plus.aac.p.m4a",
+    "duration_ms": 269622,
+    "release": 41
+  }
 }
 ]

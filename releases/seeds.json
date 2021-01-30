@@ -235,7 +235,8 @@
     "artist": 12,
     "label": 12,
     "tags": [
-      3
+      3,
+      10
     ],
     "favourited_by": []
   }
@@ -252,7 +253,8 @@
     "artist": 13,
     "label": 10,
     "tags": [
-      3
+      3,
+      10
     ],
     "favourited_by": []
   }
@@ -337,7 +339,8 @@
     "artist": 18,
     "label": 17,
     "tags": [
-      4
+      4,
+      10
     ],
     "favourited_by": []
   }
@@ -609,7 +612,8 @@
     "artist": 34,
     "label": 31,
     "tags": [
-      6
+      6,
+      10
     ],
     "favourited_by": []
   }
@@ -1131,12 +1135,13 @@
     "title": "Send Them To Coventry",
     "release_year": 2020,
     "artwork": "https://i1.sndcdn.com/artworks-FfcXlRa77mnp-0-t500x500.jpg",
-    "description": "Pa Salieu’s ‘Send Them To Coventry’ is a scorching debut project from UK rap’s new golden boy. <br/> A little over a year since waking up in intensive care after being shot in the head, Coventry’s breakout star Pa Salieu stakes a claim to being the most exciting rising talent in UK rap. The mixtape boasts some previously unheard collaborations with M1llionz on ‘Informa’, Mahalia on ‘Energy’, and Trinidadian artist Boy Boy on ‘No Warnin’, while production from the likes of Felix Joseph, AOD, Jevon, Yussef Dayes and slowthai collaborator Kwes Darko, assures that Salieu’s blistering sound is done justice.<br/>Despite still being in a relatively early stage of his career, the Coventry rapper already possesses a star factor which makes him hard to ignore. His ability to switch between drill, hip hop, Afrobeats, and melody-driven styles with ease makes him a perfect artist for the modern generation of rap.",
+    "description": "Pa Salieu’s ‘Send Them To Coventry’ is a scorching debut project from UK rap’s new golden boy. <br/>Despite still being in a relatively early stage of his career, the Coventry rapper already possesses a star factor which makes him hard to ignore. His ability to switch between drill, hip hop, Afrobeats, and melody-driven styles with ease makes him a perfect artist for the modern generation of rap.</br>A little over a year since waking up in intensive care after being shot in the head, Coventry’s breakout star Pa Salieu stakes a claim to being the most exciting rising talent in UK rap. The mixtape boasts some previously unheard collaborations with M1llionz on ‘Informa’, Mahalia on ‘Energy’, and Trinidadian artist Boy Boy on ‘No Warnin’, while production from the likes of Felix Joseph, AOD, Jevon, Yussef Dayes and slowthai collaborator Kwes Darko, assures that Salieu’s blistering sound is done justice.",
     "buy_link": "https://lnk.to/SendThemToCoventry",
     "artist": 65,
     "label": 60,
     "tags": [
-      9
+      9,
+      10
     ],
     "favourited_by": []
   }
@@ -1215,7 +1220,7 @@
   "fields": {
     "title": "Kid U / Lost My Marbles",
     "release_year": 2015,
-    "artwork": "https://assets.boomkat.com/spree/products/689768/large/Bempah_Distribution-Preview_2.jpg",
+    "artwork": "https://f4.bcbits.com/img/a2078932452_10.jpg",
     "description": "Tarquin debuts on Mr. Mitch's Gobstopper with a wickedly schizoid grime sound. Following equally mercurial winners from Loom, Iglew and Social State, these two explore instrumental grime's oddest ends. 'Kid U' works at a sweetboy halfstep roll with bubbling vocal idents dancing around shearing metallic synths and pizzicato strings whipped up like some Murlo spesh. On the other hand, 'Lost my Marbles' is utter insanity, augmenting a nasty bassline-style chassis with cranky drops and toad croak tone to bomb the dance. Tip!",
     "buy_link": "https://boomkat.com/products/kid-u-lost-my-marbles",
     "artist": 70,

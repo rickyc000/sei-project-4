@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$216000$oJMyOjGgCxKu$DsPrBGk8yJFhNqBCJntzzdFRciOBQePSdvtmbeiCiTk=",
-    "last_login": "2021-01-28T10:52:59.916Z",
+    "last_login": "2021-01-29T09:34:08.457Z",
     "is_superuser": true,
     "first_name": "",
     "last_name": "",
@@ -85,6 +85,24 @@
     "date_joined": "2021-01-28T17:52:13.861Z",
     "email": "test@ricky.com",
     "username": "rickyTest",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$jgmpVICDnn4u$QCwGX4pZD/Bf0LOfw+RP0O4Y9haMiV6jtiC6anOzzBQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-01-29T15:56:42.315Z",
+    "email": "ricky.com",
+    "username": "ricky",
     "groups": [],
     "user_permissions": []
   }

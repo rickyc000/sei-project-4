@@ -37,12 +37,12 @@ function FeaturedSection() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     slidesToShow: 5,
     slidesToScroll: 1,
     fade: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     // variableWidth: true,
     pauseOnHover: true,
     arrows: true
