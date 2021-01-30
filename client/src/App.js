@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Home from './components/common/home/Home'
-import Nav from './components/common/Nav'
+import Nav from './components/common/header/Nav'
 import Footer from './components/common/Footer'
 
 import Register from './components/auth/Register'

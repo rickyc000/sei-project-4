@@ -1,0 +1,27 @@
+$base-color: #222621;
+$text-color: rgb(155, 155, 155);
+
+
+
+// TOP SECTION ABOVE SCROLLING SECTION
+.navbar-wrapper {
+  color:rgb(155, 155, 155);
+  // background-color: #222621;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+}
+
+
+.navbar-option {
+  text-decoration: none;
+  color: $text-color;
+  padding: 5px 15px;
+}
+
+.navbar-section {
+  display: flex;
+}
+
+// #root > header > div.navbar-wrapper > div:nth-child(2) > a > div
