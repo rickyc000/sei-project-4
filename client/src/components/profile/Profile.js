@@ -4,7 +4,7 @@ import { getUserProfile, headers } from '../lib/api'
 function Profile() {
 
   const [profile, setProfile] = React.useState({})
-
+  const [favouritedReleases, setFavouriteReleases] = React.useState([])
 
   React.useEffect(() => {
     const getProfile = async () => {
@@ -12,15 +12,16 @@ function Profile() {
         const { data } = await getUserProfile(headers())
         // console.log(data)
         setProfile(data)
+        setFavouriteReleases(data.favouritedReleases)
       } catch (err) {
         console.log(err)
       }
     }
-
-    
-
     getProfile()
   }, [])
+
+  console.log(profile)
+  console.log(favouritedReleases)
 
   return (
     <main>
@@ -29,7 +30,16 @@ function Profile() {
         {profile ?
           <div>
             Username: {profile.username}
-            {/* {profile.favouritedReleases} */}
+            {favouritedReleases.map(release => (
+              <div key={release.id}>
+                {release.title}
+                <img
+                  src={release.artwork}
+                  alt={release.title}
+                  width='200px'
+                />
+              </div>
+            ))}
           </div>
           :
           <div>Please log in or register</div>

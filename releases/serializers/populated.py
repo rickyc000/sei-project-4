@@ -13,4 +13,4 @@ class PopulatedReleaseSerializer(ReleaseSerializer):
     label = LabelSerializer()
     tracks = TrackSerializer(many=True)
     tags = TagSerializer(many=True)
-    favourited_by = NestedUserSerializer(many=True)
+    # favourited_by = NestedUserSerializer(many=True)

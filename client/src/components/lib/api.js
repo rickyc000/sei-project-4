@@ -66,7 +66,7 @@ export function getAllLabels() {
 // SINGLE LABEL
 export function getSingleLabel(id) {
   console.log('getSingleLabel')
-  return axios.get(`${baseURL}/labels/${id}`)
+  return axios.get(`${baseURL}/labels/${id}/`)
 }
 
 //* ARTISTS
@@ -79,8 +79,18 @@ export function getAllArtists() {
 //SINGLE ARTIST
 export function getSingleArtist(id) {
   console.log('getSingleArtist')
-  return axios.get(`${baseURL}/artists/${id}`)
+  return axios.get(`${baseURL}/artists/${id}/`)
 }
 
 
 //* FAVOURITES
+//FAVOURITE A RELEASE
+export function addToFavourites(id) {
+  return axios.post(`${baseURL}/releases/${id}/favourite/`, null, headers())
+}
+
+
+//UNFAVOURITE A RELEASE
+export function removeFromFavourites(id) {
+  return axios.delete(`${baseURL}/releases/${id}/favourite/`, headers())
+}
