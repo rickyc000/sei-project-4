@@ -1,0 +1,14 @@
+$base-color: #222621;
+$text-color: rgb(155, 155, 155);
+
+.footer {
+  background-color: $text-color;
+  color: $base-color;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

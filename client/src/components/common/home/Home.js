@@ -9,9 +9,9 @@ function Home() {
 
   return (
     <main>
-      Home Contents:
 
-      <section>
+
+      <section className="homepage-section">
         <FeaturedSection />
       </section>
 

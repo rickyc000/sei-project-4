@@ -45,40 +45,58 @@ function FeaturedSection() {
     autoplaySpeed: 4000,
     // variableWidth: true,
     pauseOnHover: true,
-    arrows: true
+    arrows: false,
+    centerMode: true
   }
 
   return (
-    <div>
-      Featured section
+    <div className="home-feature-wrapper">
+      <div className="featured-title-wrapper">
+        <div className="feature-box-text">
+          Featured 
+        </div>
+      </div>
 
-      
+      <div className="home-feature-content">
+        {featuredReleases ?
+          <Slider {...settings}>
+            {featuredReleases.map(release => (
+              <div key={release.id} className="slide-content">
 
-      {featuredReleases ?
-        <Slider {...settings}>
-          {featuredReleases.map(release => (
-            <div key={release.id}>
-              
-              <div> {release.title} </div>
-              <div>
-                <Link to={`/release/${release.id}`}>
-                  <img
-                    key={release.id}
-                    src={release.artwork}
-                    alt={release.title}
-                    width='300px'
-                    value={release.id}
-                    // onClick={handleClick}
-                  />
-                </Link>
+                <div>
+                  <Link to={`/release/${release.id}`}>
+                    <div className="home-feature-artwork-wrapper">
+                      <img
+                        className="home-feature-image"
+                        key={release.id}
+                        src={release.artwork}
+                        alt={release.title}
+                        // width='300px'
+                        value={release.id}
+                      // onClick={handleClick}
+                      />
+                    </div>
+                  </Link>
+                </div>
+
+                <div className="home-feature-info-wrapper">
+                  <div className="featured-album-artist">
+                    {release.title}
+                  </div>
+                  <div className="featured-album-name">
+                    {release.title}
+                  </div>
+                </div>
+
               </div>
-              
-            </div>
-          ))}
-        </Slider>
-        :
-        <div>Loading</div>
-      }
+            ))}
+          </Slider>
+          :
+          <div>Loading</div>
+        }
+      </div>
+
+
 
       {/* <img className="home-feature-image"
           src="https://f4.bcbits.com/img/a1024330960_10.jpg"

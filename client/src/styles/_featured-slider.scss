@@ -1,9 +1,112 @@
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
 
+$base-color: #222621;
+$text-color: rgb(155, 155, 155);
+
+.home-feature-wrapper {
+  display: flex;
+  width: 100%;
+  // border: 1px dotted yellow;
+  display: flex;
+}
+
+
+//* MIDDLE SECTION, CONTAINS SLIDER
+.home-feature-content {
+  border: 2px solid #AB9F36;
+  background-color: #AB9F36;
+  width: 500px;
+  display: flex;
+}
+
+
+//* WRAPS EACH SLIDE
+.slide-content {
+  display: flex;
+  // flex-wrap: wrap;
+  // background-color: lightgreen;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+}
+
+//* ARTWORK
+
+.home-feature-artwork-wrapper {
+  width: 300px;
+  margin: 10px;
+  // flex-grow: 1;
+}
+
+.home-feature-image {
+  object-fit: cover;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+
+//* INFO
+
+.home-feature-info-wrapper {
+  width: 350px;
+  height: 150px;
+}
+
+.featured-album-artist {
+  // background-color: $text-color;
+  color: $base-color;
+  font-size: 45px;
+  padding: 5px;
+}
+
+.featured-album-name {
+  font-size: 30px;
+  padding: 10px;
+  color: $base-color;
+}
+
+
+
+
 .slick-slide {
   visibility: hidden;
 }
 .slick-slide.slick-active {
   visibility: visible;
+}
+
+.slick-dots {
+  position: static;
+}
+
+.slick-slider {
+  min-width: 0px;
+}
+
+.slick-track {
+  min-width: 0px;
+}
+
+//* FEATURED
+
+.featured-title-wrapper {
+  width: 200px;
+  background-color: #DEBBFB;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 40px 10px;
+  margin: 0px 10px;
+}
+
+.feature-box-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-family: 'Amiri', serif;
+  color: $base-color;
+  font-size: 90px;
+  height: 300px;
+  display: block;
 }
