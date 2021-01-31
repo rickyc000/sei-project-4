@@ -62,27 +62,32 @@ function ReleaseShow() {
           <div className="release-content-wrapper" >
             <div className="showpage-top-section">
               <div className="showpage-left-section">
-                <img
-                  src={showRelease.artwork}
-                  alt='show release'
-                  width='300px'
-                />
+                <div className="showpage-artwork-wrapper">
+                  <img className="showpage-artwork"
+                    src={showRelease.artwork}
+                    alt='show release'
+                  />
+                </div>
+
                 <div onClick={handleFavourite}>
                   {isFavourite ?
-                    <div>FAVOURITED </div>
+                    <div>Added to collection </div>
                     :
-                    <div>NOT FAVOURITED</div>
+                    <div>Add to collection</div>
                   }
                 </div>
               </div>
               <div className="showpage-right-section">
-                <div>
+                <div className="showpage-artist-name">
+                  {showRelease.artist.name}
+                </div>
+                <div className="showpage-release-title">
                   {showRelease.title}
                 </div>
-                <div>
-                  {showRelease.label.name}
+                <div className="showpage-release-label">
+                  [{showRelease.label.name}]
                 </div>
-                <div>
+                <div className="showpage-description">
                   {showRelease.description}
                 </div>
               </div>
@@ -96,7 +101,7 @@ function ReleaseShow() {
                     className="play-button"
                     onClick={() => handlePlay(track, showRelease.artist.name)}
                   >Play</div>
-                  <div> {track.discNumber} </div>
+                  {/* <div> {track.discNumber} </div> */}
                   <div> {track.title}  </div>
                 </div>
               ))}

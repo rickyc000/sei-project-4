@@ -77,10 +77,10 @@ function FeaturedSection() {
                 </div>
                 <div className="home-feature-info-wrapper">
                   <div className="featured-album-artist">
-                    {release.title}
+                    {release.artist.name}
                   </div>
                   <div className="featured-album-name">
-                    {release.artist.name}
+                    {release.title}
                   </div>
                   <div className="featured-label-name">
                     [{release.label.name}]

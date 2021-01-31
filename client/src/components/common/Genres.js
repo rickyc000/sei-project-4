@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams, useHistory } from 'react-router-dom'
-import { getSingleTag } from '../../components/lib/api'
+import { getSingleTag, getAllReleases } from '../../components/lib/api'
 import ProductCard from '../utils/ProductCard'
 
 function Genres() {
@@ -12,9 +12,15 @@ function Genres() {
 
   const getReleases = async (id) => {
     try {
-      const { data } = await getSingleTag(id)
-      const taggedReleases = data.tags
-      setGenrePageReleases(taggedReleases)
+      if (id === 'all') {
+        const { data } = await getAllReleases()
+        const allReleases = data
+        setGenrePageReleases(allReleases)
+      } else {
+        const { data } = await getSingleTag(id)
+        const taggedReleases = data.tags
+        setGenrePageReleases(taggedReleases)
+      }
     } catch (err) {
       console.log(err)
     }
@@ -35,14 +41,13 @@ function Genres() {
       <div>
 
         <div className="custom-select-wrapper">
-
-
           <div className="custom-select">
             <select
               name="genres"
               id="genre-select"
               value={id}
               onChange={handleChange}>
+              <option value="all">Everything</option>
               <option value="3">Ambient / Electronic</option>
               <option value="4">Techno / Electro / House</option>
               <option value="5">Jungle / Drum & Bass / Footwork</option>

@@ -51,6 +51,9 @@ function Nav() {
           <Link to='/'>
             <div className="navbar-option">Home</div>
           </Link>
+          <Link to='/genres/all/'>
+            <div className="navbar-option">Genres</div>
+          </Link>
         </div>
 
 

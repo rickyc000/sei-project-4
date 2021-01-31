@@ -16,11 +16,11 @@ function ProductCard({ release }) {
           alt={release.title}
         />
       </Link>
-      <div className="product-card-release-title">
-        {release.title}
-      </div>
       <div>
         {release.artist.name}
+      </div>
+      <div className="product-card-release-title">
+        {release.title}
       </div>
       <div>
         [{release.label.name}]

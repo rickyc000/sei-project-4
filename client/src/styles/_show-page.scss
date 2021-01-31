@@ -1,29 +1,97 @@
+$base-color: #222621;
+$text-color: rgb(155, 155, 155);
+
+
 .showpage-top-section {
   display: flex;
-  border: 1px dotted dodgerblue;
+  justify-content: center;
+  // border: 1px dotted dodgerblue;
 }
 
 .showpage-left-section,
 .showpage-right-section {
+  width: 400px;
+  margin: 35px 15px;
+}
+
+// .showpage-left-section {
+//   border: 1px dotted yellow;
+// }
+
+// .showpage-right-section {
+//   border: 1px dotted green,
+// }
+
+
+
+
+
+.showpage-artwork-wrapper {
   width: 300px;
+  // margin: 10px;
+  // flex-grow: 1;
 }
 
-.showpage-left-section {
-  border: 1px dotted yellow;
+.showpage-artwork {
+  object-fit: cover;
+  // max-width: 400px;
+  max-height: 400px;
+  max-width: 400px;
 }
 
-.showpage-right-section {
-  border: 1px dotted green,
+.showpage-description {
+  text-transform: none;
 }
+
+.showpage-artist-name {
+  font-size: 50px;
+
+  // padding: 10px;
+}
+
+.showpage-artist-name,
+.showpage-release-title,
+.showpage-release-label,
+.showpage-description {
+  padding: 7px;
+}
+
+.showpage-artist-name,
+.showpage-release-title,
+.showpage-release-label {
+  background-color: $text-color;
+  color: $base-color;
+}
+
+.showpage-release-title,
+.showpage-release-label {
+  font-size: 20px;
+}
+
+.showpage-description {
+  padding: 20px 7px;
+  font-size: 17px;
+}
+
+.showpage-tracks-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 
 .track-wrapper {
   display: flex;
   height: 40px;
-  border: 1px dashed orange;
+  background-color: #EF9C00;
+  margin: 10px 150px;
+  color: $base-color;
+  font-size: 30px;
+  // border: 1px dashed orange;
 }
 
 .play-button {
-  padding: 5px;
-  background-color: lightgreen;
+  padding: 0 20px;
+  // background-color: lightgreen;
   cursor: pointer;
 }
