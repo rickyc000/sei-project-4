@@ -13,8 +13,14 @@ $text-color: rgb(155, 155, 155);
   width: 100%;
 }
 
-// .audio-player {
-//   width: 500px;
-//   font-size: 20px;
-//   color: $text-color;
-// }
+.audio-player {
+  width: 600px;
+  font-size: 20px;
+  color: $text-color;
+}
+
+.footer-wrapper {
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+}

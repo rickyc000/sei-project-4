@@ -6,8 +6,8 @@ import Player from '../utils/Player'
 function Footer() {
   console.log('rendering footer')
 
-  
-  
+
+
   // const [active, setActive] = React.useState(false)
 
 
@@ -49,11 +49,15 @@ function Footer() {
   // // console.log(tune)
 
   return (
-    <footer className="footer">
+    <footer className="footer-wrapper">
+
+      <div className="footer">
 
 
-      <Player />
-      {/* 
+
+
+        <Player />
+        {/* 
       {activeTrack.title ?
         <AudioPlayer
           audioFiles={trackToPlay}
@@ -62,7 +66,7 @@ function Footer() {
         <p>loading</p>
       } */}
 
-
+      </div>
 
     </footer>
   )

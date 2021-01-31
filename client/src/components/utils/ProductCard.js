@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function ProductCard({ release }) {
 
@@ -8,11 +9,13 @@ function ProductCard({ release }) {
 
   return (
     <div className="product-card-inner-wrapper">
-      <img
-        className="product-card-image"
-        src={release.artwork}
-        alt={release.title}
-      />
+      <Link to={`/release/${release.id}`}>
+        <img
+          className="product-card-image"
+          src={release.artwork}
+          alt={release.title}
+        />
+      </Link>
       <div className="product-card-release-title">
         {release.title}
       </div>

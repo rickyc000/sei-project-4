@@ -32,29 +32,31 @@ function Genres() {
 
   return (
     <main>
-      Genre page
-
       <div>
 
-        <select
-          name="genres"
-          id="genre-select"
-          value={id}
-          onChange={handleChange}>
-          <option value="3">Ambient / Electronic</option>
-          <option value="4">Techno / Electro / House</option>
-          <option value="5">Jungle / Drum & Bass / Footwork</option>
-          <option value="6">Hip-Hop / R&B / Soul</option>
-          <option value="7">Alternative / Punk / Rock / Folk</option>
-          <option value="8">Dubstep / UKG</option>
-          <option value="9">Grime / UK Rap / Drill</option>
-        </select>
+        <div className="custom-select-wrapper">
 
 
+          <div className="custom-select">
+            <select
+              name="genres"
+              id="genre-select"
+              value={id}
+              onChange={handleChange}>
+              <option value="3">Ambient / Electronic</option>
+              <option value="4">Techno / Electro / House</option>
+              <option value="5">Jungle / Drum & Bass / Footwork</option>
+              <option value="6">Hip-Hop / R&B / Soul</option>
+              <option value="7">Alternative / Punk / Rock / Folk</option>
+              <option value="8">Dubstep / UKG</option>
+              <option value="9">Grime / UK Rap / Drill</option>
+            </select>
+          </div>
 
-        <div className="ADD-TO-DISPLAY-FLEX-GENRES">
+        </div>
+        <div>
           {genrePageReleases ?
-            <div>
+            <div className="product-grid-wrapper">
               {genrePageReleases.map(release => (
                 <div key={release.id} className="product-card">
                   <ProductCard release={release} />
