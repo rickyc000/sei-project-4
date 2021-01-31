@@ -1,0 +1,59 @@
+$base-color: #222621;
+$text-color: rgb(155, 155, 155);
+
+.login-box-wrapper {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color:  #DEBBFB;
+  padding: 30px;
+  color: $base-color;
+}
+
+.register-box {
+  background-color: pink;
+  padding: 30px;
+  color: $base-color;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.input {
+  background-color: $base-color;
+  color: white;
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  border: 0;
+  padding: 8px;
+  width: 220px;
+}
+
+
+
+
+.login-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 7px 5px 0 0;
+}
+
+.login-button {
+  background-color: $base-color;
+  color: $text-color;
+  padding: 8px;
+  border: 0;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}

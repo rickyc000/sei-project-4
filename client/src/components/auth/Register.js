@@ -27,67 +27,72 @@ function Register() {
 
 
   return (
-    <div>
+    <div className="login-box-wrapper">
 
-      <form onSubmit={handleSubmit}>
-
-        <label>Username</label>
-        <input
-          placeholder="Username"
-          onChange={handleChange}
-          name="username"
-          value={formdata.username}
-        />
-        {errors.username && <p>{errors.username}</p>}
-
-        <div className="field">
-          <label>Email</label>
-          <div>
+      <div className="register-box">
+        <form onSubmit={handleSubmit}>
+          <div className="input-wrapper">
+            <label>Username</label>
             <input
-              placeholder="Email"
+              className="input"
+              placeholder="Username"
               onChange={handleChange}
-              name="email"
-              value={formdata.email}
+              name="username"
+              value={formdata.username}
             />
+            {errors.username && <p>{errors.username}</p>}
           </div>
-          {errors.email && <p>{errors.email}</p>}
-        </div>
-
-        <div>
-          <label>Password</label>
-          <div>
-            <input
-              type="password"
-              placeholder="Password"
-              onChange={handleChange}
-              name="password"
-              value={formdata.password}
-            />
+          <div className="input-wrapper">
+            <label>Email</label>
+            <div>
+              <input
+                className="input"
+                placeholder="Email"
+                onChange={handleChange}
+                name="email"
+                value={formdata.email}
+              />
+            </div>
+            {errors.email && <p>{errors.email}</p>}
           </div>
-          {errors.password && <p>{errors.password}</p>}
-        </div>
 
-        <div>
-          <label>Password Confirmation</label>
-          <div>
-            <input
-              type="password"
-              placeholder="Password Confirmation"
-              onChange={handleChange}
-              name="passwordConfirmation"
-              value={formdata.passwordConfirmation}
-            />
+          <div className="input-wrapper">
+            <label>Password</label>
+            <div>
+              <input
+                className="input"
+                type="password"
+                placeholder="Password"
+                onChange={handleChange}
+                name="password"
+                value={formdata.password}
+              />
+            </div>
+            {errors.password && <p>{errors.password}</p>}
           </div>
-          {errors.passwordConfirmation && <p>{errors.passwordConfirmation}</p>}
-        </div>
 
-        <div>
-          <button type="submit">Register</button>
-        </div>
+          <div className="input-wrapper">
+            <label>Password Confirmation</label>
+            <div>
+              <input
+                className="input"
+                type="password"
+                placeholder="Password Confirmation"
+                onChange={handleChange}
+                name="passwordConfirmation"
+                value={formdata.passwordConfirmation}
+              />
+            </div>
+            {errors.passwordConfirmation && <p>{errors.passwordConfirmation}</p>}
+          </div>
 
-      </form>
+          <div className="login-button-wrapper">
+            <button type="submit" className="login-button">Register</button>
+          </div>
 
+        </form>
 
+      </div>
 
     </div>
   )

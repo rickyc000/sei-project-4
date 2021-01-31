@@ -30,40 +30,45 @@ function Login() {
   }
 
   return (
+    <div className="login-box-wrapper">
 
-    <div>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Email</label>
-          <div>
-            <input
-              placeholder="Email"
-              onChange={handleChange}
-              name="email"
-              value={formdata.email}
-              onFocus={handleFocus}
-            />
+      <div className="login-box">
+        <form onSubmit={handleSubmit}>
+          <div className="input-wrapper">
+            <label>Email</label>
+            <div>
+              <input
+                className="input"
+                placeholder="Email"
+                onChange={handleChange}
+                name="email"
+                value={formdata.email}
+                onFocus={handleFocus}
+              />
+            </div>
           </div>
-        </div>
-        <div>
-          <label>Password</label>
-          <div>
-            <input
-              type="password"
-              placeholder="Password"
-              onChange={handleChange}
-              name="password"
-              value={formdata.password}
-              onFocus={handleFocus}
-            />
+          <div className="input-wrapper">
+            <label>Password</label>
+            <div>
+              <input
+                className="input"
+                type="password"
+                placeholder="Password"
+                onChange={handleChange}
+                name="password"
+                value={formdata.password}
+                onFocus={handleFocus}
+              />
+            </div>
+            {error && <p>Sorry, your username or password are incorrect</p>}
           </div>
-          {error && <p>Sorry, your username or password are incorrect</p>}
-        </div>
-        <div>
-          <button type="submit">Log In</button>
-        </div>
-      </form>
+          <div className="login-button-wrapper">
+            <button type="submit" className="login-button">Log In</button>
+          </div>
+        </form>
+      </div>
     </div>
+
 
   )
 
