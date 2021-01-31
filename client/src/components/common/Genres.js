@@ -1,6 +1,7 @@
 import React from 'react'
-import { useParams, useHistory, Link } from 'react-router-dom'
+import { useParams, useHistory } from 'react-router-dom'
 import { getSingleTag } from '../../components/lib/api'
+import ProductCard from '../utils/ProductCard'
 
 function Genres() {
 
@@ -51,30 +52,22 @@ function Genres() {
 
 
 
-        <div>
+        <div className="ADD-TO-DISPLAY-FLEX-GENRES">
           {genrePageReleases ?
             <div>
               {genrePageReleases.map(release => (
-                <div key={release.id}>
-                  <Link to={`/release/${release.id}/`}>
-                    <div> {release.title} </div>
-                    <div>
-                      <img
-                        key={release.id}
-                        src={release.artwork}
-                        alt={release.title}
-                        width='300px'
-                      />
-                    </div>
-                  </Link>
+                <div key={release.id} className="product-card">
+                  <ProductCard release={release} />
                 </div>
-              ))}
+              ))
+              }
             </div>
             :
             <div>Loading</div>
           }
 
         </div>
+
 
 
 

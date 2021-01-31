@@ -3,13 +3,14 @@
   border: 2px solid  #AB9F36;
   // width: 200px;
   // height: 200px;
-  margin: 5px;
+  margin: 10px;
 }
 
 //* ARTWORK
 
 .product-card-inner-wrapper {
-  // width: 200px;
+  width: 200px;
+  height: 280px;
   margin: 5px;
   // margin: 10px;
   // flex-grow: 1;
@@ -19,3 +20,15 @@
   object-fit: cover;
   max-height: 200px;
 }
+
+.product-card-release-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// p {
+//   white-space: nowrap;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+// }

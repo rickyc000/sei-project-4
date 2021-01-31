@@ -5,6 +5,7 @@ function ProductCard({ release }) {
   console.log(release)
 
 
+
   return (
     <div className="product-card-inner-wrapper">
       <img
@@ -12,14 +13,14 @@ function ProductCard({ release }) {
         src={release.artwork}
         alt={release.title}
       />
-      <div>
+      <div className="product-card-release-title">
         {release.title}
       </div>
       <div>
         {release.artist.name}
       </div>
       <div>
-        {release.label.name}
+        [{release.label.name}]
       </div>
     </div>
 

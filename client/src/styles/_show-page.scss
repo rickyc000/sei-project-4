@@ -1,0 +1,29 @@
+.showpage-top-section {
+  display: flex;
+  border: 1px dotted dodgerblue;
+}
+
+.showpage-left-section,
+.showpage-right-section {
+  width: 300px;
+}
+
+.showpage-left-section {
+  border: 1px dotted yellow;
+}
+
+.showpage-right-section {
+  border: 1px dotted green,
+}
+
+.track-wrapper {
+  display: flex;
+  height: 40px;
+  border: 1px dashed orange;
+}
+
+.play-button {
+  padding: 5px;
+  background-color: lightgreen;
+  cursor: pointer;
+}

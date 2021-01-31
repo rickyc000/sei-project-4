@@ -37,7 +37,7 @@ function FeaturedSection() {
     autoplay: true,
     autoplaySpeed: 4000,
     // variableWidth: true,
-    pauseOnHover: true,
+    // pauseOnHover: true,
     arrows: false,
     centerMode: true
   }
