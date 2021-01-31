@@ -4,12 +4,16 @@ $text-color: rgb(155, 155, 155);
 .product-grid-wrapper {
   width: 100%;
   display: flex;
+  justify-content: center;
+}
+
+.product-grid {
+  margin: 0 10px;
+  display: flex;
   flex-wrap: wrap;
   // justify-content: space-around;
   // margin: 10px;
 }
-
-
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ProductCard({ release }) {
+function FavouriteCard({ release }) {
 
   console.log(release)
 
@@ -30,4 +30,4 @@ function ProductCard({ release }) {
 
 }
 
-export default ProductCard
+export default FavouriteCard

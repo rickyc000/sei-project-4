@@ -1,5 +1,6 @@
 import React from 'react'
 import { getUserProfile, headers } from '../lib/api'
+import FavouriteCard from '../utils/FavouriteCard'
 
 function Profile() {
 
@@ -25,19 +26,13 @@ function Profile() {
 
   return (
     <main>
-      Profile page
-      <div>
+
+      <div className="product-grid-wrapper">
         {profile ?
-          <div>
-            Username: {profile.username}
+          <div className="product-grid">
             {favouritedReleases.map(release => (
-              <div key={release.id}>
-                {release.title}
-                <img
-                  src={release.artwork}
-                  alt={release.title}
-                  width='200px'
-                />
+              <div key={release.id} className="product-card">
+                <FavouriteCard release={release} />
               </div>
             ))}
           </div>

@@ -59,9 +59,9 @@ function Genres() {
           </div>
 
         </div>
-        <div>
+        <div className="product-grid-wrapper">
           {genrePageReleases ?
-            <div className="product-grid-wrapper">
+            <div className="product-grid">
               {genrePageReleases.map(release => (
                 <div key={release.id} className="product-card">
                   <ProductCard release={release} />
