@@ -47,16 +47,6 @@ function ReleaseShow() {
     }
   }
 
-  // //* Passes track information to the player (previous player)
-  // function handlePlay(track, artistName) {
-  //   const trackToPlay = [{
-  //     src: track.preview_URL,
-  //     title: artistName,
-  //     artist: track.title
-  //   }]
-  //   setValue(trackToPlay)
-  // }
-
   //* Passes track information to the player (updated player)
   function handlePlay(track, showRelease) {
     const trackToPlay = [{
@@ -85,11 +75,16 @@ function ReleaseShow() {
                   />
                 </div>
 
-                <div onClick={handleFavourite}>
+                <div
+                  onClick={handleFavourite}
+                  className="handle-favourite"
+                >
                   {isFavourite ?
-                    <div>Remove from collection </div>
+                    <div className="remove-from-collection">Remove</div>
                     :
-                    <div>Add to collection</div>
+                    <div className="add-to-collection">
+                      Add to collection
+                    </div>
                   }
                 </div>
               </div>

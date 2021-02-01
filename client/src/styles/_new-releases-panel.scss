@@ -4,7 +4,9 @@ $text-color: rgb(155, 155, 155);
 .new-releases-wrapper {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .new-releases-title {
@@ -15,8 +17,9 @@ $text-color: rgb(155, 155, 155);
   font-family: 'Amiri', serif;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
+  margin: 20px 0 0px;
   // border-bottom: 1px solid #EF9C00;
 }
 
@@ -25,7 +28,9 @@ $text-color: rgb(155, 155, 155);
 .product-panel {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 10px;
+  width: 900px;
 }
 
 

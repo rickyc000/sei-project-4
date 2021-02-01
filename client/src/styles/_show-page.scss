@@ -85,11 +85,19 @@ $text-color: rgb(155, 155, 155);
   display: flex;
   height: 40px;
   width: 830px;
-  background-color: #EF9C00;
+  color: #EF9C00;
   margin: 10px 150px;
-  color: $base-color;
+  background-color: $base-color;
   font-size: 30px;
-  // border: 1px dashed orange;
+  border: 1px solid #EF9C00;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+.track-wrapper:hover {
+  background-color: #EF9C00;
+  color: $base-color;
+  transition: 0.35s;
 }
 
 .play-button {
@@ -126,3 +134,43 @@ audio:focus {
 //   position: absolute;
 //   margin-left: 20px;
 // }
+
+.handle-favourite {
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  // text-transform: none;
+  font-size: 16px;
+}
+
+.add-to-collection,
+.remove-from-collection {
+  padding: 3px;
+  display: inline-block;
+}
+
+.add-to-collection {
+  border: 1px solid  #AB9F36;
+  color: #AB9F36;
+  transition: 0.35s;
+}
+
+.add-to-collection:hover {
+  background-color: #AB9F36;
+  color: $base-color;
+  transition: 0.35s;
+}
+
+.remove-from-collection {
+  color:  #DEBBFB;
+  background-color: $base-color;
+  transition: 0.35s;
+  border: 1px solid   #DEBBFB;
+}
+
+.remove-from-collection:hover {
+  background-color: #DEBBFB;
+  color: $base-color;
+  transition: 0.35s;
+}

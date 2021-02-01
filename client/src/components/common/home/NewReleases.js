@@ -1,13 +1,10 @@
 import React from 'react'
-// import ProductCard from '../../utils/ProductCard'
 
 import { getSingleTag } from '../../lib/api'
 import ProductCard from '../../utils/ProductCard'
 
 
-
 function FeaturedSection() {
-
 
   const [newReleases, setNewReleases] = React.useState(null)
 
@@ -29,12 +26,9 @@ function FeaturedSection() {
 
   return (
     <div className="new-releases-wrapper">
-
       <div className="new-releases-title">
         New Releases
       </div>
-
-
       {newReleases ?
         <div className="product-panel">
           {
@@ -45,17 +39,9 @@ function FeaturedSection() {
             ))
           }
         </div>
-
         :
         <p>Loading</p>
       }
-
-
-
-
-
-
-
     </div>
   )
 
