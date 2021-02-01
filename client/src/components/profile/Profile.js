@@ -26,12 +26,17 @@ function Profile() {
 
   return (
     <main>
+      <div className="profile-title-wrapper">
+        <div className="profile-title">
+          Your Collection
+        </div>
+      </div>
 
-      <div className="product-grid-wrapper">
+      <div className="fav-grid-wrapper">
         {profile ?
-          <div className="product-grid">
+          <div className="fav-grid">
             {favouritedReleases.map(release => (
-              <div key={release.id} className="product-card">
+              <div key={release.id} className="fav-card">
                 <FavouriteCard release={release} />
               </div>
             ))}
@@ -40,7 +45,7 @@ function Profile() {
           <div>Please log in or register</div>
         }
       </div>
-    </main>
+    </main >
   )
 }
 

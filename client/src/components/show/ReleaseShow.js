@@ -85,7 +85,7 @@ function ReleaseShow() {
                   {showRelease.title}
                 </div>
                 <div className="showpage-release-label">
-                  [{showRelease.label.name}]
+                  [{showRelease.label.name}] / {showRelease.releaseYear}
                 </div>
                 <div className="showpage-description">
                   {showRelease.description}

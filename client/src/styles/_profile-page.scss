@@ -1,0 +1,34 @@
+$base-color: #222621;
+$text-color: rgb(155, 155, 155);
+
+.fav-grid-wrapper {
+  width: 100%;
+  // display: flex;
+  // justify-content: center;
+}
+
+.fav-grid {
+  margin: 0 10px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-around;
+  // margin: 10px;
+}
+
+.profile-title-wrapper {
+  width: 100%;
+  // height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: $text-color;
+}
+
+.profile-title {
+  font-size: 23px;
+  // height: 50px;
+  // font-family: 'Amiri', serif;
+  // background-color: #EF9C00;
+  color: $base-color;
+  // color: #EF9C00;
+}

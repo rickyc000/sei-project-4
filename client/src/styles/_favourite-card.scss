@@ -1,0 +1,70 @@
+
+$base-color: #222621;
+$text-color: rgb(155, 155, 155);
+
+.fav-card {
+  display: flex;
+  border: 1px solid pink;
+  // background-color: $text-color;
+  // color: $base-color;
+  // width: 200px;
+  // height: 200px;
+  // margin: 0 15px 15px 15px;
+  margin: 15px;
+}
+
+
+
+.fav-card-inner-wrapper {
+  width: 300px;
+  // height: 380px;
+  margin: 5px;
+  display: flex;
+  // margin: 10px;
+  // flex-grow: 1;
+}
+
+.fav-card-content-wrapper {
+  width: 100%;
+}
+
+.fav-card-image {
+  object-fit: cover;
+  max-height: 300px;
+  max-width: 300px;
+  margin: 5px;
+}
+
+.fav-card-release-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// p {
+//   white-space: nowrap;
+//   overflow: hidden;
+//   text-overflow: ellipsis;
+// }
+
+.fav-card-tracks-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fav-track-wrapper {
+  display: flex;
+  height: 20px;
+  background-color: pink;
+  margin: 8px;
+  color: $base-color;
+  font-size: 15px;
+  // border: 1px dashed orange;
+}
+
+.fav-play-button {
+  padding: 0 20px;
+  // background-color: lightgreen;
+  cursor: pointer;
+}
