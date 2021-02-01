@@ -97,3 +97,32 @@ $text-color: rgb(155, 155, 155);
   // background-color: lightgreen;
   cursor: pointer;
 }
+
+// .audio {
+//   background-color: $text-color;
+// }
+
+audio {
+  // filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 600px;
+  height: 25px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: $text-color;
+}
+
+.player-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+audio:focus {
+  outline: none;
+}
+
+// .player-image-wrapper {
+//   position: absolute;
+//   margin-left: 20px;
+// }

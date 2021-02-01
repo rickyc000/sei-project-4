@@ -6,12 +6,23 @@ function FavouriteCard({ release }) {
 
   const { setValue } = useContext(TrackContext)
 
-  //* Passes track information to the player:
-  function handlePlay(track, artistName) {
+  // //* Passes track information to the player (previous player):
+  // function handlePlay(track, artistName) {
+  //   const trackToPlay = [{
+  //     src: track.preview_URL,
+  //     title: artistName,
+  //     artist: track.title
+  //   }]
+  //   setValue(trackToPlay)
+  // }
+
+  //* Passes track information to the player (updated player)
+  function handlePlay(track, showRelease) {
     const trackToPlay = [{
       src: track.preview_URL,
-      title: artistName,
-      artist: track.title
+      title: track.title,
+      artist: showRelease.artist.name,
+      artwork: showRelease.artwork
     }]
     setValue(trackToPlay)
   }
@@ -48,7 +59,7 @@ function FavouriteCard({ release }) {
             <div
               key={track.id}
               className="fav-track-wrapper"
-              onClick={() => handlePlay(track, release.artist.name)}>
+              onClick={() => handlePlay(track, release)}>
               <div
                 className="play-button"
               >

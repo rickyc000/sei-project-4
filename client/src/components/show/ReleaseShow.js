@@ -47,16 +47,27 @@ function ReleaseShow() {
     }
   }
 
-  //* Passes track information to the player:
-  function handlePlay(track, artistName) {
+  // //* Passes track information to the player (previous player)
+  // function handlePlay(track, artistName) {
+  //   const trackToPlay = [{
+  //     src: track.preview_URL,
+  //     title: artistName,
+  //     artist: track.title
+  //   }]
+  //   setValue(trackToPlay)
+  // }
+
+  //* Passes track information to the player (updated player)
+  function handlePlay(track, showRelease) {
     const trackToPlay = [{
       src: track.preview_URL,
-      title: artistName,
-      artist: track.title
+      title: track.title,
+      artist: showRelease.artist.name,
+      artwork: showRelease.artwork
     }]
     setValue(trackToPlay)
   }
-  
+
 
   return (
     <main>
@@ -102,7 +113,7 @@ function ReleaseShow() {
                 <div
                   key={track.id}
                   className="track-wrapper"
-                  onClick={() => handlePlay(track, showRelease.artist.name)}>
+                  onClick={() => handlePlay(track, showRelease)}>
                   <div
                     className="play-button"
                   >
