@@ -1,11 +1,12 @@
-import React from 'react'
-// import Footer from '../common/Footer'
-// import AudioPlayer from 'react-modular-audio-player'
+import React, { useContext } from 'react'
+import AudioPlayer from 'react-modular-audio-player'
+import { TrackContext } from '../../TrackContext'
 
 function Player(track, artistName) {
   console.log('rendering Player')
-  
-  // const [playerActive, setPlayerActive] = React.useState(false)
+
+
+  const { value } = useContext(TrackContext)
 
   //* Sets default info needed for Audio player
   let trackToPlay = [{
@@ -14,32 +15,6 @@ function Player(track, artistName) {
     artist: ''
   }]
 
-  // setPlayerActive(Boolean(track))
-  // Footer()
-  // React.useEffect(() => {
-  //   try {
-  //     console.log('hi')
-  //     trackToPlay = [{
-  //       src: track.preview_URL,
-  //       title: track.title,
-  //       artist: artistName
-  //     }]
-  //     setTune(trackToPlay)
-  //   } catch (err) {
-  //     console.log(err)
-  //   }
-  // }, [])
-  // console.log(playerActive)
-
-  // React.useEffect(() => {
-  //   try {
-  //     addDataToPlayer()
-  //     // setPlayerActive(true)
-  //   } catch (err) {
-  //     console.log(err)
-  //   }
-  // }, [])
-
   function addDataToPlayer() {
     if (track.title) {
       trackToPlay = [{
@@ -47,37 +22,27 @@ function Player(track, artistName) {
         title: track.title,
         artist: artistName
       }]
-      // setPlayerActive(true)
     } else {
-      console.log('nothing yet')
-      // setPlayerActive(false)
+      console.log('No track data')
     }
   }
 
   addDataToPlayer()
-
+  console.log(value)
   console.log(trackToPlay[0])
-  console.log(Boolean(track.title))
-
+  console.log(Boolean(track.title) + ' : track.title boolean')
 
   return (
-
     <div>
-      { typeof (track.title)}
+      {value ?
+        <AudioPlayer
+          audioFiles={value}
+        />
+        :
+        <p>No track selected</p>}
     </div>
-
-  // <div>
-  //   {track.title ?
-  //     <AudioPlayer
-  //       audioFiles={trackToPlay}
-  //     />
-  //     :
-  //     <p>nothing</p>}
-  // </div>
-
   )
 }
 
 export default Player
-
-
+//* This is exported into the footer component

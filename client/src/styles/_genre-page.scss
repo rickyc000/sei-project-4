@@ -13,19 +13,21 @@ $text-color: rgb(155, 155, 155);
   margin: 10px;
 }
 
+//* FOR 2 COLUMNS
 @media (min-width: 600px) {
   .product-grid {
     width: 470px;
   } 
 }
 
-
+//* FOR 3 COLUMNS
 @media (min-width: 832px) {
   .product-grid {
     width: 704px;
   } 
 }
 
+//* FOR 4 COLUMNS
 @media (min-width: 1020px) {
   .product-grid {
     width: 938px;

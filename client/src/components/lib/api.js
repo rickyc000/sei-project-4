@@ -24,7 +24,7 @@ export function loginUser(formdata) {
 
 //PROFILE
 export function getUserProfile() {
-  console.log(headers())
+  // console.log(headers())
   return axios.get(`${baseURL}/auth/profile/`, headers())
 }
 
@@ -37,7 +37,6 @@ export function getAllReleases() {
 
 //SINGLE RELEASE
 export function getSingleRelease(id) {
-  console.log('getSingleRelease')
   return axios.get(`${baseURL}/releases/${id}/`)
 }
 

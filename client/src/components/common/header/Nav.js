@@ -7,7 +7,7 @@ import Banner from './Banner'
 
 
 function Nav() {
-  console.log(isAuthenticated() + ' is Authenticated')
+  // console.log(isAuthenticated() + ' is Authenticated')
 
   const [profile, setProfile] = React.useState({})
   const [isLoggedIn, setIsLoggedIn] = React.useState(isAuthenticated())
@@ -17,7 +17,7 @@ function Nav() {
     logout()
     history.push('/')
   }
-  console.log(isLoggedIn + ' :isLoggedIn')
+  // console.log(isLoggedIn + ' :isLoggedIn')
 
   const history = useHistory()
 
@@ -38,7 +38,7 @@ function Nav() {
     }
   }, [])
 
-  console.log(profile)
+  // console.log(profile)
   // setIsLoggedIn(isAuthenticated())
 
   return (

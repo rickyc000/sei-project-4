@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom'
 import { getSingleRelease, addToFavourites, removeFromFavourites } from '../lib/api'
 import { getUserId } from '../lib/auth'
 // import test from '../common/Footer' 
-import Player from '../utils/Player'
+// import Player from '../utils/Player'
+import { TrackContext } from '../../TrackContext'
 
 function ReleaseShow() {
 
@@ -47,11 +48,27 @@ function ReleaseShow() {
     }
   }
 
+  const { value, setValue } = useContext(TrackContext)
+
+
+  // function handlePlay(track, artistName) {
+  //   Player(track, artistName)
+  // }
 
   function handlePlay(track, artistName) {
-    Player(track, artistName)
+
+    const trackToPlay = [{
+      src: track.preview_URL,
+      title: track.title,
+      artist: artistName
+    }]
+
+
+    setValue(trackToPlay)
   }
 
+  console.log(value)
+  
 
   return (
     <main>
@@ -99,8 +116,9 @@ function ReleaseShow() {
                   className="track-wrapper">
                   <div
                     className="play-button"
-                    onClick={() => handlePlay(track, showRelease.artist.name)}
-                  >Play</div>
+                    onClick={() => handlePlay(track, showRelease.artist.name)}>
+                    Play
+                  </div>
                   {/* <div> {track.discNumber} </div> */}
                   <div> {track.title}  </div>
                 </div>
