@@ -9,9 +9,9 @@ import { TrackContext } from '../../TrackContext'
 function ReleaseShow() {
 
   const { id } = useParams()
-  // test('hi')
   const [showRelease, setShowRelease] = React.useState(null)
   const [isFavourite, setIsFavourite] = React.useState(false)
+  const { setValue } = useContext(TrackContext)
 
   React.useEffect(() => {
     const getReleases = async () => {
@@ -30,7 +30,6 @@ function ReleaseShow() {
 
   const handleFavourite = async event => {
     event.preventDefault()
-
     if (isFavourite) {
       try {
         await removeFromFavourites(id)
@@ -48,26 +47,15 @@ function ReleaseShow() {
     }
   }
 
-  const { value, setValue } = useContext(TrackContext)
-
-
-  // function handlePlay(track, artistName) {
-  //   Player(track, artistName)
-  // }
-
+  //* Passes track information to the player:
   function handlePlay(track, artistName) {
-
     const trackToPlay = [{
       src: track.preview_URL,
-      title: track.title,
-      artist: artistName
+      title: artistName,
+      artist: track.title
     }]
-
-
     setValue(trackToPlay)
   }
-
-  console.log(value)
   
 
   return (
@@ -88,7 +76,7 @@ function ReleaseShow() {
 
                 <div onClick={handleFavourite}>
                   {isFavourite ?
-                    <div>Added to collection </div>
+                    <div>Remove from collection </div>
                     :
                     <div>Add to collection</div>
                   }
@@ -113,13 +101,13 @@ function ReleaseShow() {
               {showRelease.tracks.map(track => (
                 <div
                   key={track.id}
-                  className="track-wrapper">
+                  className="track-wrapper"
+                  onClick={() => handlePlay(track, showRelease.artist.name)}>
                   <div
                     className="play-button"
-                    onClick={() => handlePlay(track, showRelease.artist.name)}>
+                  >
                     Play
                   </div>
-                  {/* <div> {track.discNumber} </div> */}
                   <div> {track.title}  </div>
                 </div>
               ))}

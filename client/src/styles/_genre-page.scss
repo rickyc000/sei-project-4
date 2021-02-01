@@ -1,5 +1,6 @@
 $base-color: #222621;
 $text-color: rgb(155, 155, 155);
+$green-color: #AB9F36;
 
 .product-grid-wrapper {
   width: 100%;
@@ -10,7 +11,7 @@ $text-color: rgb(155, 155, 155);
 .product-grid {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 8px 0;
 }
 
 //* FOR 2 COLUMNS

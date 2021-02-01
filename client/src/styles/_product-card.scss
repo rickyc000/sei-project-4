@@ -1,6 +1,8 @@
+$green-color: #AB9F36;
+
 .product-card {
   display: flex;
-  border: 2px solid  #AB9F36;
+  border: 2px solid $green-color;
   // width: 200px;
   // height: 200px;
   margin: 10px;

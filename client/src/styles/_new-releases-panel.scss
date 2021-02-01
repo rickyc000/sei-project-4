@@ -3,7 +3,8 @@ $text-color: rgb(155, 155, 155);
 
 .new-releases-wrapper {
   width: 100%;
-  height: 600px;
+  display: flex;
+  justify-content: center;
 }
 
 .new-releases-title {
@@ -23,9 +24,28 @@ $text-color: rgb(155, 155, 155);
 
 .product-panel {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 10px;
 }
 
 
+//* FOR 2 COLUMNS
+@media (min-width: 600px) {
+  .product-panel {
+    width: 470px;
+  } 
+}
 
+//* FOR 3 COLUMNS
+@media (min-width: 832px) {
+  .product-panel {
+    width: 704px;
+  } 
+}
 
+//* FOR 4 COLUMNS
+@media (min-width: 1020px) {
+  .product-panel {
+    width: 938px;
+  } 
+}

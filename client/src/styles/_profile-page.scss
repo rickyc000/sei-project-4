@@ -1,5 +1,6 @@
 $base-color: #222621;
 $text-color: rgb(155, 155, 155);
+$green-color: #AB9F36;
 
 .fav-grid-wrapper {
   width: 100%;
@@ -21,11 +22,12 @@ $text-color: rgb(155, 155, 155);
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  background-color: $text-color;
+  // background-color: $text-color;
+  background-color: $green-color;
 }
 
 .profile-title {
-  font-size: 23px;
+  font-size: 20px;
   // height: 50px;
   // font-family: 'Amiri', serif;
   // background-color: #EF9C00;
