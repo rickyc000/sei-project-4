@@ -77,12 +77,14 @@ $text-color: rgb(155, 155, 155);
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 
 .track-wrapper {
   display: flex;
   height: 40px;
+  width: 830px;
   background-color: #EF9C00;
   margin: 10px 150px;
   color: $base-color;
