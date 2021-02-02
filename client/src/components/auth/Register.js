@@ -94,7 +94,7 @@ function Register() {
           <div className="login-button-wrapper">
             <button type="submit" className="login-button">Register</button>
           </div>
-          {/* {errors.email && <p>Error logging in</p>} */}
+          
         </form>
 
       </div>
