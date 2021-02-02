@@ -2,46 +2,52 @@ import React, { useContext } from 'react'
 // import AudioPlayer from 'react-modular-audio-player'
 import { TrackContext } from '../../TrackContext'
 import ReactAudioPlayer from 'react-audio-player'
+import Close from '../../assets/icons8-close-window-96.png'
 
 function Player() {
   console.log('rendering Player')
-  const { value } = useContext(TrackContext)
-  // const settings = true
-  // const fontSize = '40x'
+  const { trackToPlay, setTrackToPlay } = useContext(TrackContext)
+
+
+  //* Passes track information to the player (updated player)
+  function handleClosePlayer() {
+    const trackToPlay = [{
+      src: '',
+      title: '',
+      artist: '',
+      artwork: '',
+      footerPosition: '-70px'
+    }]
+    setTrackToPlay(trackToPlay)
+  }
 
   return (
     <div>
-      {/* <img src='../../../assets/icons8-play-96.png' alt='play' /> */}
-      {value ?
-      // <AudioPlayer
-      //   audioFiles={value}
-      //   hideForward={settings}
-      //   hideRewind={settings}
-      //   hideLoop={settings}
-      //   fontSize={fontSize}
-      //   playerWidth="600px"
-      //   // playIcon='../../../../client/assets/icons8-play-96.png'
-      //   // playHoverIcon='../../../../client/assets/icons8-play-96.png'
-      // />
+
+      {trackToPlay ?
 
         <div className="player-wrapper">
           <div className="player-image-wrapper">
             <img
-              src={value[0].artwork}
-              alt={value[0].title}
+              src={trackToPlay[0].artwork}
+              alt={trackToPlay[0].title}
               width='60px' />
           </div>
           <div className="player-info-wrapper">
-            <div className="player-title">{value[0].title}</div>
-            <div className="player-artist">{value[0].artist}</div>
+            <div className="player-title">{trackToPlay[0].title}</div>
+            <div className="player-artist">{trackToPlay[0].artist}</div>
           </div>
-
           <ReactAudioPlayer
-            src={value[0].src}
+            src={trackToPlay[0].src}
             autoPlay
             controls
             controlsList="nodownload"
           />
+          <div
+            className="player-close-button"
+            onClick={() => handleClosePlayer()}>
+            <img src={Close} alt="close-player" width="26px" />
+          </div>
         </div>
         :
         <p>No track selected</p>}

@@ -11,7 +11,7 @@ function ReleaseShow() {
   const { id } = useParams()
   const [showRelease, setShowRelease] = React.useState(null)
   const [isFavourite, setIsFavourite] = React.useState(false)
-  const { setValue } = useContext(TrackContext)
+  const { setTrackToPlay } = useContext(TrackContext)
 
   React.useEffect(() => {
     const getReleases = async () => {
@@ -53,9 +53,10 @@ function ReleaseShow() {
       src: track.preview_URL,
       title: track.title,
       artist: showRelease.artist.name,
-      artwork: showRelease.artwork
+      artwork: showRelease.artwork,
+      footerPosition: '0'
     }]
-    setValue(trackToPlay)
+    setTrackToPlay(trackToPlay)
   }
 
 

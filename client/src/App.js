@@ -16,15 +16,17 @@ import { TrackContext } from './TrackContext'
 
 
 function App() {
-  const [value, setValue] = useState([{
+  const [trackToPlay, setTrackToPlay] = useState([{
     src: '',
     title: '',
-    artist: ''
-  }], '')
+    artist: '',
+    artwork: '',
+    footerPosition: '-70px'
+  }])
 
   return (
     <BrowserRouter>
-      <TrackContext.Provider value={{ value, setValue }}>
+      <TrackContext.Provider value={{ trackToPlay, setTrackToPlay }}>
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />

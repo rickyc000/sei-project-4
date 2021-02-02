@@ -4,17 +4,7 @@ import { TrackContext } from '../../TrackContext'
 
 function FavouriteCard({ release }) {
 
-  const { setValue } = useContext(TrackContext)
-
-  // //* Passes track information to the player (previous player):
-  // function handlePlay(track, artistName) {
-  //   const trackToPlay = [{
-  //     src: track.preview_URL,
-  //     title: artistName,
-  //     artist: track.title
-  //   }]
-  //   setValue(trackToPlay)
-  // }
+  const { setTrackToPlay } = useContext(TrackContext)
 
   //* Passes track information to the player (updated player)
   function handlePlay(track, showRelease) {
@@ -22,9 +12,10 @@ function FavouriteCard({ release }) {
       src: track.preview_URL,
       title: track.title,
       artist: showRelease.artist.name,
-      artwork: showRelease.artwork
+      artwork: showRelease.artwork,
+      footerPosition: '0'
     }]
-    setValue(trackToPlay)
+    setTrackToPlay(trackToPlay)
   }
 
   return (
