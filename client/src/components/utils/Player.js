@@ -15,7 +15,6 @@ function Player() {
       src: '',
       title: '',
       artist: '',
-      artwork: '',
       footerPosition: '-70px'
     }]
     setTrackToPlay(trackToPlay)

@@ -11,6 +11,7 @@ $text-color: rgb(155, 155, 155);
   position: fixed;
   bottom: 0;
   width: 100%;
+  transition: bottom 0.5s;
 }
 
 .audio-player {
