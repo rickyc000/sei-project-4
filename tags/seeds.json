@@ -68,5 +68,12 @@
   "fields": {
     "name": "homepage-feature"
   }
+},
+{
+  "model": "tags.tag",
+  "pk": 11,
+  "fields": {
+    "name": "homepage-new-releases"
+  }
 }
 ]

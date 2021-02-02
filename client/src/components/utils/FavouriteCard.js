@@ -63,7 +63,13 @@ function FavouriteCard({ release }) {
               <div> {track.title}  </div>
             </div>
           ))}
+          <div className="fav-buy-link">
+            <a href={release.buyLink} target="_blank" rel="noreferrer">
+              Buy
+            </a>
+          </div>
         </div>
+
       </div>
 
 

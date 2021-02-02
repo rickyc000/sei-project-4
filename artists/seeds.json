@@ -495,5 +495,12 @@
   "fields": {
     "name": "Giggs"
   }
+},
+{
+  "model": "artists.artist",
+  "pk": 72,
+  "fields": {
+    "name": "Carlton Melton"
+  }
 }
 ]

@@ -460,5 +460,12 @@
   "fields": {
     "name": "SN1 Records"
   }
+},
+{
+  "model": "labels.label",
+  "pk": 67,
+  "fields": {
+    "name": "Agitated Records"
+  }
 }
 ]

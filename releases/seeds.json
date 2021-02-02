@@ -1,90 +1,21 @@
 [
 {
   "model": "releases.release",
-  "pk": 1,
-  "fields": {
-    "title": "Ricky's Mixtape",
-    "release_year": 2020,
-    "artwork": "image.com",
-    "description": "text",
-    "buy_link": "buy.com",
-    "artist": 1,
-    "label": 1,
-    "tags": [
-      1,
-      2
-    ],
-    "favourited_by": [
-      2
-    ]
-  }
-},
-{
-  "model": "releases.release",
-  "pk": 2,
-  "fields": {
-    "title": "Album Test Number 2",
-    "release_year": 2009,
-    "artwork": "image.com/image",
-    "description": "text",
-    "buy_link": "buy/buy.com",
-    "artist": 1,
-    "label": 1,
-    "tags": [
-      2
-    ],
-    "favourited_by": []
-  }
-},
-{
-  "model": "releases.release",
-  "pk": 3,
-  "fields": {
-    "title": "THIRD ALBUM Test",
-    "release_year": 2001,
-    "artwork": "artworkurl.com",
-    "description": "text",
-    "buy_link": "buylinkbuy.com",
-    "artist": 1,
-    "label": 1,
-    "tags": [
-      1
-    ],
-    "favourited_by": []
-  }
-},
-{
-  "model": "releases.release",
   "pk": 4,
   "fields": {
     "title": "Selected Ambient Works 85-92",
     "release_year": 1992,
     "artwork": "https://f4.bcbits.com/img/a1573754732_10.jpg",
-    "description": "Originally released via the R&S Ambient sub-label Apollo in '92 and repressed more times than anyone could even begin to keep a count of, Aphex Twin's Selected Ambient Works 85-92 is not only one of the most important releases in both the Aphex catalogue but also electronic music as an entire entity.<br/>A richly woven tapestry of blissful sounds that offer the listener new surprises, twists and turns no matter how many times they venture through its cosmos. The techno equivalent of mainlining serotonin, Selected Ambient Works 85-92 should be prescribed on a daily dose twice a day for any and everyone reading this...",
+    "description": "Originally released via the R&S Ambient sub-label Apollo in '92 and repressed more times than anyone could even begin to keep a count of, Aphex Twin's Selected Ambient Works 85-92 is not only one of the most important releases in both the Aphex catalogue but also electronic music as an entire entity.\r\n\r\nA richly woven tapestry of blissful sounds that offer the listener new surprises, twists and turns no matter how many times they venture through its cosmos. The techno equivalent of mainlining serotonin, Selected Ambient Works 85-92 should be prescribed on a daily dose twice a day for any and everyone reading this...",
     "buy_link": "https://bleep.com/release/21887-aphex-twin-selected-ambient-works-85-92",
     "artist": 2,
     "label": 2,
     "tags": [
       3
     ],
-    "favourited_by": []
-  }
-},
-{
-  "model": "releases.release",
-  "pk": 5,
-  "fields": {
-    "title": "Pessimist & Karim Maas",
-    "release_year": 2019,
-    "artwork": "https://f4.bcbits.com/img/a1492866913_10.jpg",
-    "description": "Pessimist links with longtime associate Karim Maas for twelve untitled, interconnected tracks of paranoid, dub-fissured hip-hop and voidal techno pressure. Forget dnb…this is a downer than downtempo excursion, deep and dread, heavy as a jeep parked on your chest, with low-slung, blunted breakbeats and weapons-grade sub-bass caught up in whirlpools of dissolve and decay and baleful, insinuating drone...yeah at times it feels less like a record and more like a bona fide AIRBORNE TOXIC EVENT. Intricate, elegant, its chillin-with-the-wrong-b-boy mood fantastically sustained, It conquers territory that previous Pessimist and Maas solo productions have only hinted at, connecting with the Isolationist/industrial traumascapes/infinite-comedown of 90s E.A.R./Köner, Main and SAW II, the enveloping neo-noir of Plastikman’s Consumed, the crackle-and-hiss materiality of Rhythm & Sound and Pole, the thermonuclear rack and ruin of Lustmord's Stalker. Just the baddest vibes...Music to get lost - real lost - inside.",
-    "buy_link": "https://www.lowcompany.co.uk/products/pessimist-karim-maas",
-    "artist": 3,
-    "label": 3,
-    "tags": [
-      3
-    ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -101,7 +32,9 @@
     "tags": [
       3
     ],
-    "favourited_by": []
+    "favourited_by": [
+      7
+    ]
   }
 },
 {
@@ -118,7 +51,10 @@
     "tags": [
       3
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2,
+      6
+    ]
   }
 },
 {
@@ -128,14 +64,16 @@
     "title": "Two Orb Reel",
     "release_year": 2017,
     "artwork": "https://assets.boomkat.com/spree/products/429537/large/33753434810054.jpeg",
-    "description": "Robert Aiki Aubrey Lowe follows up his Kulthan pearl for Latency (go check this one, we can’t get enough of it!) with an absorbingly wistful and coolly suggestive sound inside, knitting raw electricity into a series of impeccably refined and chamber-considered vignettes that leave lots to the imagination. <br /> Blessed with a sense of rhythmic cadence and controlled ballistics that sets his music apart from the now swelling modular milieu, Robert Lowe coaxes out his machines’ spirits and voices with the touch of a industrial era illusionist who has just realised how to spellbind crowds with the “magic” of electricity, enabling him to soundtrack, as the label puts it, “emotions of wonder, fear and transcendence.” OK, we’re not wide eyed Victorians with pagan beliefs in the supernatural (well, then again…), but records like this one certainly do challenge the mundane logic of any more skeptical listeners as to the existence of something “other” when it comes to electronic music. <br/> In 14 parts ranging from sub 1-minute mysteries to more expansive tracts of uniquely metered plong offset with curdled melodic and harmonic developments, the allure, as with much of Lowe’s music, lies in the way he naturally bridges those aspects so that everything moves in viscous union to extrude your head through the maze. And in the classic sense of African rhythmelodic musics, there are no ‘tricks’ or ‘drops’ - effectively spectacles - to speak of, instead placing focus on the journey or the ‘trek’ and insisting the listener is both physically and mentally rolled around inside their structures, fluidly engaging one’s proprioceptions in a way that bypasses or at least smudges what are putatively western-rooted compositional conventions.",
+    "description": "Robert Aiki Aubrey Lowe follows up his Kulthan pearl for Latency (go check this one, we can’t get enough of it!) with an absorbingly wistful and coolly suggestive sound inside, knitting raw electricity into a series of impeccably refined and chamber-considered vignettes that leave lots to the imagination. <br /> Blessed with a sense of rhythmic cadence and controlled ballistics that sets his music apart from the now swelling modular milieu, Robert Lowe coaxes out his machines’ spirits and voices with the touch of a industrial era illusionist who has just realised how to spellbind crowds with the “magic” of electricity, enabling him to soundtrack, as the label puts it, “emotions of wonder, fear and transcendence.” OK, we’re not wide eyed Victorians with pagan beliefs in the supernatural (well, then again…), but records like this one certainly do challenge the mundane logic of any more skeptical listeners as to the existence of something “other” when it comes to electronic music.\r\n\r\nIn 14 parts ranging from sub 1-minute mysteries to more expansive tracts of uniquely metered plong offset with curdled melodic and harmonic developments, the allure, as with much of Lowe’s music, lies in the way he naturally bridges those aspects so that everything moves in viscous union to extrude your head through the maze. And in the classic sense of African rhythmelodic musics, there are no ‘tricks’ or ‘drops’ - effectively spectacles - to speak of, instead placing focus on the journey or the ‘trek’ and insisting the listener is both physically and mentally rolled around inside their structures, fluidly engaging one’s proprioceptions in a way that bypasses or at least smudges what are putatively western-rooted compositional conventions.",
     "buy_link": "https://robertaikiaubreylowe.bandcamp.com/album/two-orb-reel",
     "artist": 6,
     "label": 6,
     "tags": [
       3
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -145,14 +83,16 @@
     "title": "Somewhere Decent To Live",
     "release_year": 2018,
     "artwork": "https://f4.bcbits.com/img/a1137618719_10.jpg",
-    "description": "\"Ambient duo Space Afrika offer a bird’s eye view of the city centre at night with Somewhere Decent To Live; their keenly anticipated first LP on sferic. Unshackled from dancefloor needs, but still inspired and feeding off its spirit and romance, the pair respectfully acknowledge the undercurrents of Jungle, dubstep, ambient techno and deep house which feed into their home city’s late night economy, dowsing their tributaries back to dub and rendering the findings in a quiet, modestly lush ambient haze with a flawlessly anaesthetising effect.</br>Taking gaseous form as a series of dark blue hues and electromagnetic subbass impulses, the vibe inside is delectably elusive. Unlike their previous transmissions on Where To Now? and Köln’s LL.M., the pair’s dancefloor urges are dissolved in favour of suggestively mutable ambient frameworks this time, leaving the kicks in the club whilst they appear to float overhead like the dead kid embarking his Bardo in Gaspar Noé’s Enter The Void.</br>In firm but gentle style they feel out eight interlinked headspaces, drifting like spectral flanneurs from the Diversions-like opener uwëm/creãtiõn to intercept telepathic thoughts from Teutonic friends in the percolated subs and drizzly ambient clag of sd/tl, before arriving at the most arresting moment in their catalogue thus far with the masterfully widescreen yet immersive bly and its sublimely smeared timbral thizz. </br>The 2nd half of the record subsequently describes a more inward journey from wistful loops in u+00B1 to the sylvan 2-step of gwabh and curve feat. Echium, ultimately culminating in the echo chamber melt of dred.\"",
+    "description": "\"Ambient duo Space Afrika offer a bird’s eye view of the city centre at night with Somewhere Decent To Live; their keenly anticipated first LP on sferic. Unshackled from dancefloor needs, but still inspired and feeding off its spirit and romance, the pair respectfully acknowledge the undercurrents of Jungle, dubstep, ambient techno and deep house which feed into their home city’s late night economy, dowsing their tributaries back to dub and rendering the findings in a quiet, modestly lush ambient haze with a flawlessly anaesthetising effect.\r\n\r\nTaking gaseous form as a series of dark blue hues and electromagnetic subbass impulses, the vibe inside is delectably elusive. Unlike their previous transmissions on Where To Now? and Köln’s LL.M., the pair’s dancefloor urges are dissolved in favour of suggestively mutable ambient frameworks this time, leaving the kicks in the club whilst they appear to float overhead like the dead kid embarking his Bardo in Gaspar Noé’s Enter The Void.\r\n\r\nIn firm but gentle style they feel out eight interlinked headspaces, drifting like spectral flanneurs from the Diversions-like opener uwëm/creãtiõn to intercept telepathic thoughts from Teutonic friends in the percolated subs and drizzly ambient clag of sd/tl, before arriving at the most arresting moment in their catalogue thus far with the masterfully widescreen yet immersive bly and its sublimely smeared timbral thizz.\r\n\r\nThe 2nd half of the record subsequently describes a more inward journey from wistful loops in u+00B1 to the sylvan 2-step of gwabh and curve feat. Echium, ultimately culminating in the echo chamber melt of dred.\"",
     "buy_link": "https://sferic.bandcamp.com/album/somewhere-decent-to-live",
     "artist": 7,
     "label": 7,
     "tags": [
       3
     ],
-    "favourited_by": []
+    "favourited_by": [
+      6
+    ]
   }
 },
 {
@@ -162,14 +102,18 @@
     "title": "Look Up Sharp",
     "release_year": 2019,
     "artwork": "https://f4.bcbits.com/img/a3854602498_10.jpg",
-    "description": "Carla Dal Forno drops the eagerly-awaited follow-up to her 2016 debut LP You Know What It’s Like through her own Kallista Records. On Look Up Sharp we find Dal Forno dealing in obfuscation and confusion once again to create an album that hovers in the space between harmony and dissonance, the obtuse and the transparent.<br/>Look Up Sharp draws from a wide variety of artists and genres. Hype Williams, Midori Takada, early trip-hop, Low, early Brian Eno, minimal synth and electronic post-punk are just a few of the sonic touchstones found across the record. While this may seem like a relatively disparate spread of styles, Dal Forno yokes them all together in a sort of dreamstate. Cloaked in reverb and laced with dubwise production techniques, the tracks of Look Up Sharp are designed to lull the listener into an uneasy reverie.<br/>While there are a fair few instrumentals here some of these tracks are loosely tethered to Dal Forno’s voice in order to prevent them from floating away into the ether. Aside from the relatively clear-headed ‘So Much Better’ - a song which wouldn’t sound out of place on The Velvet Underground & Nico, by the way - Dal Forno’s singing largely remains towards the back of the mix. Draping her impassive, woozy singing over cuts like ‘Leaving For Japan’ only serves to heighten Look Up Sharp’s air of uncanniness.<br/>Carla Dal Forno’s Look Up Sharp is a bewitching record, one that you can’t help but be drawn into.",
+    "description": "Carla Dal Forno drops the eagerly-awaited follow-up to her 2016 debut LP You Know What It’s Like through her own Kallista Records. On Look Up Sharp we find Dal Forno dealing in obfuscation and confusion once again to create an album that hovers in the space between harmony and dissonance, the obtuse and the transparent.\r\n\r\nLook Up Sharp draws from a wide variety of artists and genres. Hype Williams, Midori Takada, early trip-hop, Low, early Brian Eno, minimal synth and electronic post-punk are just a few of the sonic touchstones found across the record. While this may seem like a relatively disparate spread of styles, Dal Forno yokes them all together in a sort of dreamstate. Cloaked in reverb and laced with dubwise production techniques, the tracks of Look Up Sharp are designed to lull the listener into an uneasy reverie.\r\n\r\nWhile there are a fair few instrumentals here some of these tracks are loosely tethered to Dal Forno’s voice in order to prevent them from floating away into the ether. Aside from the relatively clear-headed ‘So Much Better’ - a song which wouldn’t sound out of place on The Velvet Underground & Nico, by the way - Dal Forno’s singing largely remains towards the back of the mix. Draping her impassive, woozy singing over cuts like ‘Leaving For Japan’ only serves to heighten Look Up Sharp’s air of uncanniness.\r\n\r\nCarla Dal Forno’s Look Up Sharp is a bewitching record, one that you can’t help but be drawn into.",
     "buy_link": "https://carladalforno.bandcamp.com/album/look-up-sharp",
     "artist": 8,
     "label": 8,
     "tags": [
       3
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2,
+      4,
+      6
+    ]
   }
 },
 {
@@ -179,14 +123,18 @@
     "title": "Workaround",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a3649766278_10.jpg",
-    "description": "The infectious draw of Beatrice Dillon’s Workaround comes from a prolonged time of tinkering and reformulating sound as it exists. It’s a debut that not only sticks to an unconventional agenda but shows a devotion to moving the genre of techno into another realm.<br/>Beatrice Dillon has long experimented with widening her electronic scope, but Workaround is an LP that takes into consideration its roots. Seen tipping her hat to iconic names like Throbbing Gristle, Shinichi Atobe, and even bits of Aphex Twin, Dillon offers an intriguingly straightforward approach to influence that retains her very own personal stamp right in its center.<br/>Dillon’s no stranger to the idea of risk in her music. With a slew of releases under her belt, it comes as no surprise that she’s bound to venture off into different avenues. Therefore, as she’s well-equipped to test new waters without obscuring her essence, and Workaround shows her as grounded as ever. Embracing chic elements of avant-garde and body-moving techno, her debut remains clear-cut, her songs fashioned around sharp, enunciated thuds.",
+    "description": "The infectious draw of Beatrice Dillon’s Workaround comes from a prolonged time of tinkering and reformulating sound as it exists. It’s a debut that not only sticks to an unconventional agenda but shows a devotion to moving the genre of techno into another realm.\r\n\r\nBeatrice Dillon has long experimented with widening her electronic scope, but Workaround is an LP that takes into consideration its roots. Seen tipping her hat to iconic names like Throbbing Gristle, Shinichi Atobe, and even bits of Aphex Twin, Dillon offers an intriguingly straightforward approach to influence that retains her very own personal stamp right in its center.\r\n\r\nDillon’s no stranger to the idea of risk in her music. With a slew of releases under her belt, it comes as no surprise that she’s bound to venture off into different avenues. Therefore, as she’s well-equipped to test new waters without obscuring her essence, and Workaround shows her as grounded as ever. Embracing chic elements of avant-garde and body-moving techno, her debut remains clear-cut, her songs fashioned around sharp, enunciated thuds.",
     "buy_link": "https://beatricedillon.bandcamp.com/album/workaround",
     "artist": 9,
     "label": 9,
     "tags": [
-      3
+      3,
+      11
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2,
+      7
+    ]
   }
 },
 {
@@ -196,14 +144,16 @@
     "title": "Lux",
     "release_year": 2021,
     "artwork": "https://f4.bcbits.com/img/a0333629621_10.jpg",
-    "description": "Venus Ex Machina’s Lux is an album which moves between widescreen electronic sound design, ominous dark ambiences and driving rhythm tracks that pitch up in various leftfield techno outposts.\r\n\r\nAt its most immediate, Venus Ex Machina’s music runs with the same experimental club spirit that one finds in explored by labels like NON Worldwide and Hyperdub - both imprints Venus Ex Machina has been involved with in her time. ‘Elephant’ and ‘Nachtspiel’ blend whirring polyrhythms with darkside takes on dub-techno atmospherics to propulsive, hypnotic effect. Some of the other club-adjacent productions of Lux are more boldly confrontational - there is both gqom and the Fade To Mind style to be found in the drum programming of ‘Grace’ while the metallic mid-tempo strut of ‘Mysterium’ comes close to EBM.<br/>Lux’s rhythm-centred joints are made all the more notable for their juxtaposition with the record’s more abstract, shadowy numbers. The LP is bookended by two tracks which largely eschew percussion and journey into strange, surreal electronic hinterlands, while the warping half-time of ‘Blood Moon (Solar Mix)’ switches up the pace of Lux in its midsection.<br/>Venus Ex Machina debuts on AD 93 with a collection of bold and bracing electronic innovations.",
+    "description": "Venus Ex Machina’s Lux is an album which moves between widescreen electronic sound design, ominous dark ambiences and driving rhythm tracks that pitch up in various leftfield techno outposts.\r\n\r\nAt its most immediate, Venus Ex Machina’s music runs with the same experimental club spirit that one finds in explored by labels like NON Worldwide and Hyperdub - both imprints Venus Ex Machina has been involved with in her time. ‘Elephant’ and ‘Nachtspiel’ blend whirring polyrhythms with darkside takes on dub-techno atmospherics to propulsive, hypnotic effect. Some of the other club-adjacent productions of Lux are more boldly confrontational - there is both gqom and the Fade To Mind style to be found in the drum programming of ‘Grace’ while the metallic mid-tempo strut of ‘Mysterium’ comes close to EBM.\r\n\r\nLux’s rhythm-centred joints are made all the more notable for their juxtaposition with the record’s more abstract, shadowy numbers. The LP is bookended by two tracks which largely eschew percussion and journey into strange, surreal electronic hinterlands, while the warping half-time of ‘Blood Moon (Solar Mix)’ switches up the pace of Lux in its midsection.\r\n\r\nVenus Ex Machina debuts on AD 93 with a collection of bold and bracing electronic innovations.",
     "buy_link": "https://ad93.ltd/",
     "artist": 10,
     "label": 10,
     "tags": [
       3
     ],
-    "favourited_by": []
+    "favourited_by": [
+      4
+    ]
   }
 },
 {
@@ -230,15 +180,17 @@
     "title": "Zoom",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a0956424764_10.jpg",
-    "description": "The natural world has long been forced to reckon with an expanding human influence across its surface. Is mechanisation incompatible with the splendor of nature? Lean in close to the music of upsammy and find out how beauty and the blur can exist in harmony.<br/>Zoom is Thessa Torsing’s first full-length album as upsammy. Since 2017, she has developed a signature style in front of listeners eyes and ears: hers is a mesh of airy tones, tender melodies and highly technical drum patterns which wrap around the body of the song like colourful thread around a metallic spindle. Zoom, a refinement of her sound and an expansion of its ambition, is evidently electronic yet seems to float some way off beyond the glow of a screen. “I don’t like it when something sounds stiff,” upsammy says. “If electronica is super sharp, quantized, hi-fi-ized, this is kind of logical; it is a computer after all. But then, for me, all the emotion is removed. I like little imperfections.”",
+    "description": "The natural world has long been forced to reckon with an expanding human influence across its surface. Is mechanisation incompatible with the splendor of nature? Lean in close to the music of upsammy and find out how beauty and the blur can exist in harmony.\r\n\r\nZoom is Thessa Torsing’s first full-length album as upsammy. Since 2017, she has developed a signature style in front of listeners eyes and ears: hers is a mesh of airy tones, tender melodies and highly technical drum patterns which wrap around the body of the song like colourful thread around a metallic spindle. Zoom, a refinement of her sound and an expansion of its ambition, is evidently electronic yet seems to float some way off beyond the glow of a screen. “I don’t like it when something sounds stiff,” upsammy says. “If electronica is super sharp, quantized, hi-fi-ized, this is kind of logical; it is a computer after all. But then, for me, all the emotion is removed. I like little imperfections.”",
     "buy_link": "https://dekmantel.com/shop/records/upsammy-zoom",
     "artist": 12,
     "label": 12,
     "tags": [
-      3,
-      10
+      10,
+      3
     ],
-    "favourited_by": []
+    "favourited_by": [
+      4
+    ]
   }
 },
 {
@@ -248,15 +200,17 @@
     "title": "Angel's Flight",
     "release_year": 2021,
     "artwork": "https://f4.bcbits.com/img/a1613733754_10.jpg",
-    "description": "Angel’s Flight is the new album from highly-acclaimed producer and composer Biosphere, set for release on vinyl and CD in January 2021.<br/>It features twelve tracks based on Beethoven’s String Quartet No. 14 that deftly tread the peripheries of classical and electronic composition.<br/>Much of the music was initially composed for Uncoordinated Dog, a dance production by the Ingun Bjørnsgaard Prosjekt in 2019 that explored the personal, the ambiguous, exposure and beauty – which gives you a sense of what the album holds.",
+    "description": "Angel’s Flight is the new album from highly-acclaimed producer and composer Biosphere, set for release on vinyl and CD in January 2021.\r\n\r\nIt features twelve tracks based on Beethoven’s String Quartet No. 14 that deftly tread the peripheries of classical and electronic composition.\r\n\r\nMuch of the music was initially composed for Uncoordinated Dog, a dance production by the Ingun Bjørnsgaard Prosjekt in 2019 that explored the personal, the ambiguous, exposure and beauty – which gives you a sense of what the album holds.",
     "buy_link": "https://ad93.ltd/",
     "artist": 13,
     "label": 10,
     "tags": [
-      3,
-      10
+      10,
+      3
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -266,7 +220,7 @@
     "title": "Hubris Variation",
     "release_year": 2016,
     "artwork": "https://f4.bcbits.com/img/a3941766350_10.jpg",
-    "description": "Oren Ambarchi gets the very best out of Ricardo Villalobos by tasking the veteran Chilean rhythmatician with emphasising the rhythmic backbone he produced for Ambarchi’s Hubris album. <br/> In one of those every-few-year spikes of genius we see from Ricky V, he goes microscopic on the levels of insectoid, Afro-latin groove mechanics, tweaking ever bar into an organic twist and resolution of the last in an achingly tight yet loose, micro-to-macro masterstroke that sounds something like Beatrice Dillon reworking This Heat. Or, then again, it just sounds like Ricardo Villalobos through and through. <br/> We’d love to hear a DJ play this in full, but we’ll probably have to make do with shuffling around to it while making dinner. Highly recommended either way.",
+    "description": "Oren Ambarchi gets the very best out of Ricardo Villalobos by tasking the veteran Chilean rhythmatician with emphasising the rhythmic backbone he produced for Ambarchi’s Hubris album.\r\n\r\nIn one of those every-few-year spikes of genius we see from Ricky V, he goes microscopic on the levels of insectoid, Afro-latin groove mechanics, tweaking ever bar into an organic twist and resolution of the last in an achingly tight yet loose, micro-to-macro masterstroke that sounds something like Beatrice Dillon reworking This Heat. Or, then again, it just sounds like Ricardo Villalobos through and through.\r\n\r\nWe’d love to hear a DJ play this in full, but we’ll probably have to make do with shuffling around to it while making dinner. Highly recommended either way.",
     "buy_link": "https://boomkat.com/products/hubris-variation",
     "artist": 14,
     "label": 13,
@@ -290,7 +244,9 @@
     "tags": [
       4
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -300,7 +256,7 @@
     "title": "Journey Of The Deep Sea Dweller I",
     "release_year": 2011,
     "artwork": "https://f4.bcbits.com/img/a4021342741_10.jpg",
-    "description": "First part of the Drexciya re-issue series! Drexciya might need an introduction for some, for others it is the most influential techno project ever. Part of the heritage of Detroit's Underground Resistance, Drexciya explored techno music like no-one else before. Raw and uncompromising music that reflects the harsh environment of the city where Drexciya was conceived. The aesthetics and the mythical approach combined with the unique music made this one of the biggest cult projects in techno music. Drexciya arguably stands for the darker side of techno and electro, music not only made for the club scene, but a further development of the music as an expression and extension of the mind. 20 years after the release of ''Deep Sea Dweller'' (their first release), and 10 years after ''Grava 4'' (their last), we present ''Journey Of The Deep Sea Dweller''. This series is an almost complete collection of their early works, and is remastered from the original master tapes. Since the original releases have such a strong character, appeal and stand on their own, this re-issue can never re-create the magic of those originals. So instead we stirred up the catalogue taking the tracks out of their original context, giving the 'in the know' listener a fresh experience and the new listener a document that is the best possible introduction to the aquatic world of Drexciya.",
+    "description": "Drexciya might need an introduction for some, for others it is the most influential techno project ever. \r\n\r\nPart of the heritage of Detroit's Underground Resistance, Drexciya explored techno music like no-one else before. Raw and uncompromising music that reflects the harsh environment of the city where Drexciya was conceived. The aesthetics and the mythical approach combined with the unique music made this one of the biggest cult projects in techno music. Drexciya arguably stands for the darker side of techno and electro, music not only made for the club scene, but a further development of the music as an expression and extension of the mind. 20 years after the release of ''Deep Sea Dweller'' (their first release), and 10 years after ''Grava 4'' (their last), we present ''Journey Of The Deep Sea Dweller''.\r\n\r\nThis series is an almost complete collection of their early works, and is remastered from the original master tapes. Since the original releases have such a strong character, appeal and stand on their own, this re-issue can never re-create the magic of those originals. So instead we stirred up the catalogue taking the tracks out of their original context, giving the 'in the know' listener a fresh experience and the new listener a document that is the best possible introduction to the aquatic world of Drexciya.",
     "buy_link": "https://clone.nl/item21960.html",
     "artist": 16,
     "label": 15,
@@ -317,7 +273,7 @@
     "title": "Middle Ouest",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a1589039402_10.jpg",
-    "description": "After a digital single on Optimo Music Digital Danceforce, Optimo Music welcomes Bergsonist to the main label with a full album. Ridiculously talented and prolific, Bergsonist is one of thee most interesting, thoughtful and important artists of our times.<br/>Bergsonist aka Selwa Abd is a New York–based artist and musician originally from Morocco.<br/>She is the founder of Bizaarbazaar, a music platform and publication that publishes podcasts and interviews by DJs and producers from around the world. Under the guise Bergsonist (derived from Deleuze's Bergsonism), she uses a variety of media to investigate social resonance through divergent conceptual aesthetics (minimalism, techno, and music concrete, to name a few). Through her work, she explores notions of identity, memory, and social politics.<br/>In 2017, she started Pick Up The Flow, a resource to promote congregation and exchange between peers. Currently, co-run with Stephen Decker.<br/>In 2019, she co-founded 3afak with DJ Sanna, a collective that aims to empower Arab women’s creative vision in New York.",
+    "description": "After a digital single on Optimo Music Digital Danceforce, Optimo Music welcomes Bergsonist to the main label with a full album. Ridiculously talented and prolific, Bergsonist is one of thee most interesting, thoughtful and important artists of our times.\r\n\r\nBergsonist aka Selwa Abd is a New York–based artist and musician originally from Morocco.She is the founder of Bizaarbazaar, a music platform and publication that publishes podcasts and interviews by DJs and producers from around the world. Under the guise Bergsonist (derived from Deleuze's Bergsonism), she uses a variety of media to investigate social resonance through divergent conceptual aesthetics (minimalism, techno, and music concrete, to name a few). Through her work, she explores notions of identity, memory, and social politics.\r\n\r\nIn 2017, she started Pick Up The Flow, a resource to promote congregation and exchange between peers. Currently, co-run with Stephen Decker.\r\n\r\nIn 2019, she co-founded 3afak with DJ Sanna, a collective that aims to empower Arab women’s creative vision in New York.",
     "buy_link": "https://bergsonist.bandcamp.com/album/middle-ouest",
     "artist": 17,
     "label": 16,
@@ -334,15 +290,17 @@
     "title": "Josey In Space",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a3238075294_10.jpg",
-    "description": "Josey Rebelle proves what all the fuss is about on her killer rag around UK hardcore, jungle, Detroit techno, jazz and up-to-the-minute electronics for BiS.<br/>Harvesting tracks by everyone from Afrodeutsche to Titonton Duvante and Loraine James, Rebelle works up some wicked friction thru restless permutations of pattern between house, techno, jungle, electro, breaks and dashes of poetry and jazz-wise madness.<br/>It’s the sort of mix that's best taken in one, but we have to highlight her use of Rum & Black’s ruthless hardcore barnstormer ‘Zombies At Dawn’, Brassfoot’s nasty hammer ‘Kingu’s Sceptre’, and the rude broken beat torque of Access 58’s ‘Jazz Drama’.",
+    "description": "Josey Rebelle proves what all the fuss is about on her killer rag around UK hardcore, jungle, Detroit techno, jazz and up-to-the-minute electronics for BiS.\r\n\r\nHarvesting tracks by everyone from Afrodeutsche to Titonton Duvante and Loraine James, Rebelle works up some wicked friction thru restless permutations of pattern between house, techno, jungle, electro, breaks and dashes of poetry and jazz-wise madness.\r\n\r\nIt’s the sort of mix that's best taken in one, but we have to highlight her use of Rum & Black’s ruthless hardcore barnstormer ‘Zombies At Dawn’, Brassfoot’s nasty hammer ‘Kingu’s Sceptre’, and the rude broken beat torque of Access 58’s ‘Jazz Drama’.",
     "buy_link": "https://beatsinspace.net/records/bis045/",
     "artist": 18,
     "label": 17,
     "tags": [
-      4,
-      10
+      10,
+      4
     ],
-    "favourited_by": []
+    "favourited_by": [
+      4
+    ]
   }
 },
 {
@@ -357,9 +315,13 @@
     "artist": 19,
     "label": 18,
     "tags": [
-      4
+      4,
+      11
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2,
+      7
+    ]
   }
 },
 {
@@ -393,7 +355,9 @@
     "tags": [
       4
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -403,7 +367,7 @@
     "title": "006",
     "release_year": 2016,
     "artwork": "https://f4.bcbits.com/img/a1821820265_10.jpg",
-    "description": "The artwork for Avalon Emerson's Whities debut depicts an Amiga-esque desert of blues, creams and reds, which gives the scene an exotic, even alien appearance. The music also seems to reappraise that environment. Deserts tend to inspire thoughts of desolation and sweltering toil, but Whities 006 is a wistful ode to Emerson's upbringing in Arizona.<br/>She paints a loving portrait, but there's grit and sweat underneath. Bass notes gallop endlessly across \"The Frontier,\" as if carrying the maudlin synth melody through the Mojave, and shakers labour intensely over the beat. With the rhythm gone, the \"High Desert Synthapella\" version of \"The Frontier\" sounds downcast. The bassline gave the original track a series of encouraging jolts, so its absence allows Emerson's synths to drift and disperse into nothingness. These two tracks reflect the yearning that can come with fond memories of childhood—Whities 006 isn't just affectionate, it can feel homesick, too.<br/>\"2000 Species Of Cacti\" has the bouncy, knocking rhythm of another Whities record, Kowton's excellent Whities 002. The track's drums snap at a scorched, buzzy synth, before a luminous melody shines overhead like falling stars. It fits snugly into Whities 006's theme, evoking the deserts of the American Southwest as a source of joy and wonderment rather than a lifeless, unforgiving plain.",
+    "description": "The artwork for Avalon Emerson's Whities debut depicts an Amiga-esque desert of blues, creams and reds, which gives the scene an exotic, even alien appearance. The music also seems to reappraise that environment. Deserts tend to inspire thoughts of desolation and sweltering toil, but Whities 006 is a wistful ode to Emerson's upbringing in Arizona.\r\n\r\nShe paints a loving portrait, but there's grit and sweat underneath. Bass notes gallop endlessly across \"The Frontier,\" as if carrying the maudlin synth melody through the Mojave, and shakers labour intensely over the beat. With the rhythm gone, the \"High Desert Synthapella\" version of \"The Frontier\" sounds downcast. The bassline gave the original track a series of encouraging jolts, so its absence allows Emerson's synths to drift and disperse into nothingness. These two tracks reflect the yearning that can come with fond memories of childhood—Whities 006 isn't just affectionate, it can feel homesick, too.\r\n\r\n\"2000 Species Of Cacti\" has the bouncy, knocking rhythm of another Whities record, Kowton's excellent Whities 002. The track's drums snap at a scorched, buzzy synth, before a luminous melody shines overhead like falling stars. It fits snugly into Whities 006's theme, evoking the deserts of the American Southwest as a source of joy and wonderment rather than a lifeless, unforgiving plain.",
     "buy_link": "https://ad93.ltd/",
     "artist": 22,
     "label": 10,
@@ -454,7 +418,7 @@
     "title": "Exorcise The Demons",
     "release_year": 1999,
     "artwork": "https://images-eu.ssl-images-amazon.com/images/I/317275S0YJL._AC_UL600_SR600,600_.jpg",
-    "description": "An almost uncompromisingly dark album, Source Direct's 'Exorcise the Demons' provokes a similar reaction to Photek's 'Modus Operandi' opus, a long-player with which it shares a number of relevant affinities. Both can be viewed essentially as journeys into the dark realms of progressive drum & bass, narrowing their authors' previous emotionally wider perspectives in favour of a more monolithic endeavour. Both include a couple of tracks that feel somewhat redundant in the overall context. And both fail to dissipate a slight but inescapable feeling of disappointment, when compared to their authors' previous impressive body of work. And yet… they're still among the genre's best long players. </br> Running through the album's track list, there’s not a single weak moment to be found here. Quite a few pieces are among Source Direct's best ever: the martial groove of 'Call & Response' (previously released as a 12'' and CD single), the dual concept of 'Love & Hate', the eerie and almost orchestral 'Capital D' (also previously released), the somber and anguished trip of 'Wanton Conduct' and above all 'Mind Weaver', with its cut up amen breaks and aggressive flash effects producing a tense, almost paranoid atmosphere, with devastating impact. Also deserving notice is the rather unusual percussive, dancefloor driven 'Dubstar', a tribal dub influenced track that even if not completely accomplished provides a new dimension to Source Direct's grand scheme.",
+    "description": "An almost uncompromisingly dark album, Source Direct's 'Exorcise the Demons' provokes a similar reaction to Photek's 'Modus Operandi' opus, a long-player with which it shares a number of relevant affinities. Both can be viewed essentially as journeys into the dark realms of progressive drum & bass, narrowing their authors' previous emotionally wider perspectives in favour of a more monolithic endeavour. Both include a couple of tracks that feel somewhat redundant in the overall context. And both fail to dissipate a slight but inescapable feeling of disappointment, when compared to their authors' previous impressive body of work. And yet… they're still among the genre's best long players.\r\n\r\nRunning through the album's track list, there’s not a single weak moment to be found here. Quite a few pieces are among Source Direct's best ever: the martial groove of 'Call & Response' (previously released as a 12'' and CD single), the dual concept of 'Love & Hate', the eerie and almost orchestral 'Capital D' (also previously released), the somber and anguished trip of 'Wanton Conduct' and above all 'Mind Weaver', with its cut up amen breaks and aggressive flash effects producing a tense, almost paranoid atmosphere, with devastating impact. Also deserving notice is the rather unusual percussive, dancefloor driven 'Dubstar', a tribal dub influenced track that even if not completely accomplished provides a new dimension to Source Direct's grand scheme.",
     "buy_link": "https://www.discogs.com/Source-Direct-Exorcise-The-Demons/master/126685",
     "artist": 25,
     "label": 23,
@@ -488,14 +452,16 @@
     "title": "Terminus EP",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a3636491375_10.jpg",
-    "description": "One of the best at warping D&B and deep techno, Forest Drive West rinses four subaquatic twysters for R&S and fans of Sully, Source Direct, UVB-76 Music.<br/>With 2018’s debut LP ‘Apparitions’ and ace 2019 turns for techno labels Whities, Echocord and Delsin in his rearview, London’s FDW both ruffs up and refines his sleek, rolling heft to deeply hypnotic degrees on the ‘Terminus EP’.<br/>‘Impulse’ rolls out a battery of possessed percussion and snarling neuro licks like Ruffhouse meets 33EMYBW, where ‘Terminus’ follows with needling juke patterns and rolling subs swarmed by disembodied sound design. ‘Void Control’ ices the mood to something like Mika Vainio stepping off with Pessimist, and the transition from cinematic drone into swingeingly tight 2-step and jungle rollige in ‘Curved Path’ surely marks out a new high water mark in his catalogue.",
+    "description": "One of the best at warping D&B and deep techno, Forest Drive West rinses four subaquatic twysters for R&S and fans of Sully, Source Direct, UVB-76 Music.\r\n\r\nWith 2018’s debut LP ‘Apparitions’ and ace 2019 turns for techno labels Whities, Echocord and Delsin in his rearview, London’s FDW both ruffs up and refines his sleek, rolling heft to deeply hypnotic degrees on the ‘Terminus EP’.\r\n\r\n‘Impulse’ rolls out a battery of possessed percussion and snarling neuro licks like Ruffhouse meets 33EMYBW, where ‘Terminus’ follows with needling juke patterns and rolling subs swarmed by disembodied sound design. ‘Void Control’ ices the mood to something like Mika Vainio stepping off with Pessimist, and the transition from cinematic drone into swingeingly tight 2-step and jungle rollige in ‘Curved Path’ surely marks out a new high water mark in his catalogue.",
     "buy_link": "https://boomkat.com/products/terminus-ep",
     "artist": 27,
     "label": 2,
     "tags": [
       5
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -573,7 +539,7 @@
     "title": "Bass + Funk & Soul",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a3472193868_10.jpg",
-    "description": "The story of Bass + Funk & Soul, the second album from DJ Earl, can be traced back to a trip to Brazil, where he was booked to play a festival. During his visit, Earl stayed with a promoter friend, who introduced him to Brazilian funk. \"This music was amazing!\" he said in a recent RA Exchange. As someone raised on the likes of Aretha Franklin and Barry White, he noted the similarities between this newfound music and the sounds of his childhood. Earl's quest to better understand the genre led him to a fateful moment, when the same friend gifted him a hefty file of Brazilian funk samples. <br/>In its best moments, Bass + Funk & Soul sounds like Earl trying to slow things down. Sometimes, it's even emotional. The album's closer, \"Stl Breathin,\" takes on a new meaning during a year in which many of us have lost loved ones, or faced the fragility of our own mortality due to an illness that strips your breath away. Rusty piano chords flutter off into the ether, and a melancholy voice fades like the last traces of a song emanating from a passing car. <br/> Earl's debut album heralded a shift towards a footwork sound that was more meticulously composed and palatable to off-the-dance floor listeners. Four years later, Bass + Funk & Soul is steeped in a softer palette that proves the influence of one pivotal trip to Brazil.",
+    "description": "The story of Bass + Funk & Soul, the second album from DJ Earl, can be traced back to a trip to Brazil, where he was booked to play a festival. During his visit, Earl stayed with a promoter friend, who introduced him to Brazilian funk. \"This music was amazing!\" he said in a recent RA Exchange. As someone raised on the likes of Aretha Franklin and Barry White, he noted the similarities between this newfound music and the sounds of his childhood. Earl's quest to better understand the genre led him to a fateful moment, when the same friend gifted him a hefty file of Brazilian funk samples.\r\n\r\nIn its best moments, Bass + Funk & Soul sounds like Earl trying to slow things down. Sometimes, it's even emotional. The album's closer, \"Stl Breathin,\" takes on a new meaning during a year in which many of us have lost loved ones, or faced the fragility of our own mortality due to an illness that strips your breath away. Rusty piano chords flutter off into the ether, and a melancholy voice fades like the last traces of a song emanating from a passing car.\r\n\r\nEarl's debut album heralded a shift towards a footwork sound that was more meticulously composed and palatable to off-the-dance floor listeners. Four years later, Bass + Funk & Soul is steeped in a softer palette that proves the influence of one pivotal trip to Brazil.",
     "buy_link": "https://djearlteklife.bandcamp.com/album/mtxlt190-bass-funk-soul?from=embed",
     "artist": 32,
     "label": 29,
@@ -590,7 +556,7 @@
     "title": "Dark Lotus",
     "release_year": 2017,
     "artwork": "https://f4.bcbits.com/img/a3488427871_10.jpg",
-    "description": "Jlin returns with the first fruits of her new work since last years ‘Free Fall’ EP. ’Dark Lotus’ is a transition between 'Dark Energy’, her debut album, and her forthcoming ‘Black Origami’ full-length. <br/> A-side ’The Return of the Blvck Rxbbit (ft. Avril Stormy Unger)’ is the more traditional of the two tracks, starting off proceedings with a constantly switching rhythmic structure and a stop-start sweeping hoover stab panning between the speakers, descending bleeps and Avril's vocals cut into shapes and pushed through effects. <br/>B-side ‘Nyakinyua Rise’ races headlong into uncharted territory, with a fierce barrage of djembe drums over pounding bass, punchy war cries and jubilant uluations that paint a tension between hot aggression and weightless ecstasy.",
+    "description": "Jlin returns with the first fruits of her new work since last years ‘Free Fall’ EP. ’Dark Lotus’ is a transition between 'Dark Energy’, her debut album, and her forthcoming ‘Black Origami’ full-length.\r\n\r\nA-side ’The Return of the Blvck Rxbbit (ft. Avril Stormy Unger)’ is the more traditional of the two tracks, starting off proceedings with a constantly switching rhythmic structure and a stop-start sweeping hoover stab panning between the speakers, descending bleeps and Avril's vocals cut into shapes and pushed through effects.\r\n\r\nB-side ‘Nyakinyua Rise’ races headlong into uncharted territory, with a fierce barrage of djembe drums over pounding bass, punchy war cries and jubilant uluations that paint a tension between hot aggression and weightless ecstasy.",
     "buy_link": "https://cargorecordsdirect.co.uk/products/jlin-dark-lotus",
     "artist": 33,
     "label": 30,
@@ -607,15 +573,17 @@
     "title": "Madvillainy",
     "release_year": 2004,
     "artwork": "https://f4.bcbits.com/img/a1024330960_10.jpg",
-    "description": "Madvillainy is a collaboration between rapper MF Doom and producer Madlib under the group name Madvillain.<br/>MF DOOM and Madlib were off the radar to many in 2003, but the announcement of a collaboration and the first track, “America's Most Blunted”, brought all the quiet fans out of the woodwork, and let to a controversial and highly acclaimed album release in early 2004 that helped expose the two artists to a large audience for the first time. While the producer and MC both did was what completely natural to them at the time, they turned the formula of popular rap at the time on its head, creating an album that is both unique and true to it's hip-hop influences.",
+    "description": "Madvillainy is a collaboration between rapper MF Doom and producer Madlib under the group name Madvillain.\r\n\r\nMF DOOM and Madlib were off the radar to many in 2003, but the announcement of a collaboration and the first track, “America's Most Blunted”, brought all the quiet fans out of the woodwork, and let to a controversial and highly acclaimed album release in early 2004 that helped expose the two artists to a large audience for the first time. While the producer and MC both did was what completely natural to them at the time, they turned the formula of popular rap at the time on its head, creating an album that is both unique and true to it's hip-hop influences.",
     "buy_link": "https://madvillain.bandcamp.com/album/madvillainy",
     "artist": 34,
     "label": 31,
     "tags": [
-      6,
-      10
+      10,
+      6
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -642,7 +610,7 @@
     "title": "Stankonia",
     "release_year": 2000,
     "artwork": "https://upload.wikimedia.org/wikipedia/en/0/0b/OutKast_-_Stankonia.JPG",
-    "description": "When OutKast released its fourth studio album Stankonia, the pioneering duo out of Atlanta, Ga., was not new to this, but they remained true to the hip-hop thing. Released on Halloween 2000, months after the initial Y2K scare that left people terrified of being throttled back into a period of darkness and technological paranoia, Stankonia took full advantage of the new millennium. They stayed true to what they did best and created something powerful on the fringes of mainstream pop culture's expectations of them as southerners and as rappers. <br/> Breaking new ground cleared from the debris of nostalgia, burned with their Chonkyfire, Stankonia challenged listeners to reconsider what it meant to be OutKasted in the wilderness of an unknown new world. Never ones to shy away from the stank of imagined and social-historical realities, Stankonia is a demonstration of André Benjamin and Big Boi evolving their sound, their identities, and their art. Benjamin was blasting centuries ahead with his latest moniker, André 3000, an Afrofuturist prediction that the future was Black and dope as hell, and Big Boi was growing increasingly experimental in not only his lyrical delivery but his fashion sense, paralleling Benjamin's own eccentric flair for fashion.",
+    "description": "When OutKast released its fourth studio album Stankonia, the pioneering duo out of Atlanta, Ga., was not new to this, but they remained true to the hip-hop thing. Released on Halloween 2000, months after the initial Y2K scare that left people terrified of being throttled back into a period of darkness and technological paranoia, Stankonia took full advantage of the new millennium. They stayed true to what they did best and created something powerful on the fringes of mainstream pop culture's expectations of them as southerners and as rappers. \r\n\r\nBreaking new ground cleared from the debris of nostalgia, burned with their Chonkyfire, Stankonia challenged listeners to reconsider what it meant to be OutKasted in the wilderness of an unknown new world. Never ones to shy away from the stank of imagined and social-historical realities, Stankonia is a demonstration of André Benjamin and Big Boi evolving their sound, their identities, and their art. Benjamin was blasting centuries ahead with his latest moniker, André 3000, an Afrofuturist prediction that the future was Black and dope as hell, and Big Boi was growing increasingly experimental in not only his lyrical delivery but his fashion sense, paralleling Benjamin's own eccentric flair for fashion.",
     "buy_link": "https://www.juno.co.uk/products/outkast-stankonia-reissue/627934-01/",
     "artist": 36,
     "label": 33,
@@ -659,7 +627,7 @@
     "title": "Baduizm",
     "release_year": 1997,
     "artwork": "https://www.udiscovermusic.com/wp-content/uploads/2019/02/Erykah-Badu-Baduizm.jpg",
-    "description": "If there was ever a chance that neo-soul would outpace traditional R&B, Baduizm made the case before The Miseducation of Lauryn Hill and Voodoo blew the roof off the discourse.<br/>When Baduizm debuted on February 11, 1997, it was just as she had described, jam-packed with concepts that spoke to a higher consciousness. Lead single “On & On,” the song that first brought her to wider public attention, makes several references to the teachings of the Five Percent Nation, a cultural movement grounded in the belief that all black people are divine. A core part of the Five-Percenter doctrine revolves around the idea of the black man as God. But Baduizm was more concerned with the empowered black woman, putting her work, relationships, family values, and quest for knowledge under the lens.<br/>Erykah Badu’s role in neo-soul made her a visionary of the modern soul revival, and it’s an influence that reverberates still through Janelle Monàe, Solange, D.R.A.M., and many more. But more than just representing a moment in time, Badu emerged from the neo-soul haze unscathed, with a classic debut firmly in her pocket and an unwavering drive to inspire and create.",
+    "description": "If there was ever a chance that neo-soul would outpace traditional R&B, Baduizm made the case before The Miseducation of Lauryn Hill and Voodoo blew the roof off the discourse.\r\n\r\nWhen Baduizm debuted on February 11, 1997, it was just as she had described, jam-packed with concepts that spoke to a higher consciousness. Lead single “On & On,” the song that first brought her to wider public attention, makes several references to the teachings of the Five Percent Nation, a cultural movement grounded in the belief that all black people are divine. A core part of the Five-Percenter doctrine revolves around the idea of the black man as God. But Baduizm was more concerned with the empowered black woman, putting her work, relationships, family values, and quest for knowledge under the lens.\r\n\r\nErykah Badu’s role in neo-soul made her a visionary of the modern soul revival, and it’s an influence that reverberates still through Janelle Monàe, Solange, D.R.A.M., and many more. But more than just representing a moment in time, Badu emerged from the neo-soul haze unscathed, with a classic debut firmly in her pocket and an unwavering drive to inspire and create.",
     "buy_link": "https://www.discogs.com/Erykah-Badu-Baduizm/release/202658",
     "artist": 37,
     "label": 34,
@@ -778,7 +746,7 @@
     "title": "Heaven To A Tortured Mind",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a0934507009_10.jpg",
-    "description": "Just over eighteen months on from the visionary success of 2018's Safe In The Hands Of Love, Yves Tumor pushes visceral sonic boundaries with his new full-length studio album Heaven To A Tortured Mind.  In a sense, Heaven To A Tortured Mind occupies the anthemic soundworld of the androgynous underworld that was explored in Safe In The Hands Of Love. Offering up a dozen pieces of vivid avant-pop (the days when he would fill an album with painterly, semi-concrete ambiences, as he did on 2017’s Experiencing The Deposit Of Faith, appear to have passed).<br/>Co-produced by Justin Raisen (Sky Ferreira, Ariel Pink, Charli XCX) this selection also comes off as slicker than its predecessor, less prone to rupture and seemingly more comfortable with its poppier impulses. There are even moments here which present as a kind of variation on the neo-soul sound that has been turned murky and swampy at Tumor’s mephistophelian hand. As such, along with Tumor’s disruptive contemporaries like Dean Blunt.\r\n<br/>Heaven To A Tortured Mind finds Yves Tumor growing into his position as an outsider popstar. The result is a beautiful, forthright LP from a supremely unique talent.",
+    "description": "Just over eighteen months on from the visionary success of 2018's Safe In The Hands Of Love, Yves Tumor pushes visceral sonic boundaries with his new full-length studio album Heaven To A Tortured Mind.  In a sense, Heaven To A Tortured Mind occupies the anthemic soundworld of the androgynous underworld that was explored in Safe In The Hands Of Love. Offering up a dozen pieces of vivid avant-pop (the days when he would fill an album with painterly, semi-concrete ambiences, as he did on 2017’s Experiencing The Deposit Of Faith, appear to have passed).\r\n\r\nCo-produced by Justin Raisen (Sky Ferreira, Ariel Pink, Charli XCX) this selection also comes off as slicker than its predecessor, less prone to rupture and seemingly more comfortable with its poppier impulses. There are even moments here which present as a kind of variation on the neo-soul sound that has been turned murky and swampy at Tumor’s mephistophelian hand. As such, along with Tumor’s disruptive contemporaries like Dean Blunt.\r\n\r\nHeaven To A Tortured Mind finds Yves Tumor growing into his position as an outsider popstar. The result is a beautiful, forthright LP from a supremely unique talent.",
     "buy_link": "https://bleep.com/release/177708-yves-tumor-heaven-to-a-tortured-mind",
     "artist": 44,
     "label": 41,
@@ -846,7 +814,7 @@
     "title": "Masana Temples",
     "release_year": 2018,
     "artwork": "https://f4.bcbits.com/img/a2717866482_10.jpg",
-    "description": "The shifting dimensions of Masana Temples, fourth album from psychedelic explorers Kikagaku Moyo,are informed by various experiences the band had with traveling through life together, ranging from the months spent on tour to making a pilgrimage to Lisbon to record the album with jazz musician Bruno Pernadas. The band sought out Pernadas both out of admiration for his music and in an intentional move to work with a producer who came from a wildly different background. With Masana Temples, the band wanted to challenge their own concepts of what psychedelic music could be. Elements of both the attentive folk and wild-eyed rocking sides of the band are still intact throughout, but they’re sharper and more defined.\r\nMore than the literal interpretation of being on a journey, the album’s always changing sonic panorama reflects the spiritual connection of the band moving through this all together. Life for a traveling band is a series of constant metamorphoses, with languages, cultures, climates and vibes changing with each new town. The only constant for Kikagaku Moyo throughout their travels were the five band members always together moving through it all, but each of them taking everything in from very different perspectives. Inspecting the harmonies and disparities between these perspectives, the group reflects the emotional impact of their nomadic paths. The music is the product of time spent in motion and all of the bending mindsets that come with it.",
+    "description": "The shifting dimensions of Masana Temples, fourth album from psychedelic explorers Kikagaku Moyo,are informed by various experiences the band had with traveling through life together, ranging from the months spent on tour to making a pilgrimage to Lisbon to record the album with jazz musician Bruno Pernadas. The band sought out Pernadas both out of admiration for his music and in an intentional move to work with a producer who came from a wildly different background. With Masana Temples, the band wanted to challenge their own concepts of what psychedelic music could be. Elements of both the attentive folk and wild-eyed rocking sides of the band are still intact throughout, but they’re sharper and more defined.\r\n\r\nMore than the literal interpretation of being on a journey, the album’s always changing sonic panorama reflects the spiritual connection of the band moving through this all together. Life for a traveling band is a series of constant metamorphoses, with languages, cultures, climates and vibes changing with each new town. The only constant for Kikagaku Moyo throughout their travels were the five band members always together moving through it all, but each of them taking everything in from very different perspectives. Inspecting the harmonies and disparities between these perspectives, the group reflects the emotional impact of their nomadic paths. The music is the product of time spent in motion and all of the bending mindsets that come with it.",
     "buy_link": "https://kikagakumoyoggb.bandcamp.com/album/masana-temples",
     "artist": 48,
     "label": 45,
@@ -880,12 +848,13 @@
     "title": "Town Centre",
     "release_year": 2019,
     "artwork": "https://img.discogs.com/bodcF8Qt23xzQj8pl7OQAZLgfXM=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-14313545-1585010852-5179.jpeg.jpg",
-    "description": "The hotly tipped post-punk, disco-funk phenomenon Squid are back with a new EP called Town Centre which is being released on vinyl via Dan Carey’s Speedy Wunderground label, the first EP from the legendary singles label. Town Centre is a perfect distillation of everything they have done so far, making good on the angular funk of The Dial 7″ (2018) the disco-punk of single Houseplants (2019) the ambitious songwriting of Terrestrial Changeover Blues (2018) and through to their more ambient-leaning early work.<br/>Town Centre is the most complete body of work they’ve created yet and is not only an enthralling listen, but also serves as a compelling blueprint as to what they can achieve.",
+    "description": "The hotly tipped post-punk, disco-funk phenomenon Squid are back with a new EP called Town Centre which is being released on vinyl via Dan Carey’s Speedy Wunderground label, the first EP from the legendary singles label. Town Centre is a perfect distillation of everything they have done so far, making good on the angular funk of The Dial 7″ (2018) the disco-punk of single Houseplants (2019) the ambitious songwriting of Terrestrial Changeover Blues (2018) and through to their more ambient-leaning early work.\r\n\r\nTown Centre is the most complete body of work they’ve created yet and is not only an enthralling listen, but also serves as a compelling blueprint as to what they can achieve.",
     "buy_link": "https://www.speedywunderground.com/releases/squid-town-centre-ep.html",
     "artist": 50,
     "label": 46,
     "tags": [
-      7
+      7,
+      11
     ],
     "favourited_by": []
   }
@@ -897,7 +866,7 @@
     "title": "Schlagenheim",
     "release_year": 2019,
     "artwork": "https://cdn.shopify.com/s/files/1/1391/7125/products/c0b3bf9d-9cf4-4d5c-9f68-1c20e4e810b7_2048x2048.jpg?v=1557760763",
-    "description": "black midi -- Geordie Greep   (vocals/guitar),   Matt Kwasniewski-Kelvin  (vocals/guitar), Cameron Picton (vocals/bass), and   Morgan Simpson   (drums) -- have a dynamic energy, playing as a musical unit that’s constantly in a state of flux and development. <br/> Schlagenheim was recorded with Speedy Wunderground producer Dan Carey, who the band praises for his quick, unfussy approach. black midi laid down eight of the record’s nine tracks in just five days. The process was one of refining and rebuilding tracks around the initial structures. Five hour jams would sometimes yield a riff that then became a few bars of a song. As anyone who’s been lucky enough to catch black midi live over recent months will testify, black midi’s songs are slippery creatures.",
+    "description": "black midi -- Geordie Greep   (vocals/guitar),   Matt Kwasniewski-Kelvin  (vocals/guitar), Cameron Picton (vocals/bass), and   Morgan Simpson   (drums) -- have a dynamic energy, playing as a musical unit that’s constantly in a state of flux and development.\r\n\r\nSchlagenheim was recorded with Speedy Wunderground producer Dan Carey, who the band praises for his quick, unfussy approach. black midi laid down eight of the record’s nine tracks in just five days. The process was one of refining and rebuilding tracks around the initial structures. Five hour jams would sometimes yield a riff that then became a few bars of a song. As anyone who’s been lucky enough to catch black midi live over recent months will testify, black midi’s songs are slippery creatures.",
     "buy_link": "https://store.roughtraderecords.com/collections/black-midi/products/black-midi-schlagenheim",
     "artist": 51,
     "label": 47,
@@ -914,7 +883,7 @@
     "title": "Bossanova",
     "release_year": 1990,
     "artwork": "https://cf-cdn.beggars.com/fourad/site/images/releases/packshots/5ee7aaf41065b.jpg",
-    "description": "The surf rock-space rock hybrid that is Bossanova did a lot of foundational work for the Pixies and would go on to confirm them as classic alternative rock musicians. The duality of the record is one thing but the real push comes from the Pixies ability to make these many different factions thread into one consistent rope of rock.<br/>Bossanova acts as the moment the Pixies not only found their voice but tapped into all of their musical senses.",
+    "description": "The surf rock-space rock hybrid that is Bossanova did a lot of foundational work for the Pixies and would go on to confirm them as classic alternative rock musicians. The duality of the record is one thing but the real push comes from the Pixies ability to make these many different factions thread into one consistent rope of rock.\r\n\r\nBossanova acts as the moment the Pixies not only found their voice but tapped into all of their musical senses.",
     "buy_link": "https://4ad.com/releases/925",
     "artist": 52,
     "label": 48,
@@ -965,7 +934,7 @@
     "title": "Loos In Twos (NRG)",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a1003079422_10.jpg",
-    "description": "Anz makes her Hessle Audio debut with a club-ready three track EP, following releases on the label by Pearson Sound and Pangaea in July. Lead track 'Loos In Twos (NRG)' goes turbo, with a ruffneck bassline, clattering breakbeats and dramatic rave stab breakdowns all combining to memorable, killer effect. On the B side, 'Gary Mission' gets loose with disorientating flanged FX and a wriggling low end, with the minimal beat track 'Stepper' using sharp vocal snippets and chest-rattling sub to light up the dance.<br/>Anz is a DJ and Producer based in Manchester (via London, Liverpool and Madrid). Renowned for her genre-spanning productions and mixes, she unearths the links between Electro, UK Garage, Jungle and more, underpinning a versatile take on contemporary UK club music that is as bright as it is unpredictable.",
+    "description": "Anz makes her Hessle Audio debut with a club-ready three track EP, following releases on the label by Pearson Sound and Pangaea in July. Lead track 'Loos In Twos (NRG)' goes turbo, with a ruffneck bassline, clattering breakbeats and dramatic rave stab breakdowns all combining to memorable, killer effect. On the B side, 'Gary Mission' gets loose with disorientating flanged FX and a wriggling low end, with the minimal beat track 'Stepper' using sharp vocal snippets and chest-rattling sub to light up the dance.\r\n\r\nAnz is a DJ and Producer based in Manchester (via London, Liverpool and Madrid). Renowned for her genre-spanning productions and mixes, she unearths the links between Electro, UK Garage, Jungle and more, underpinning a versatile take on contemporary UK club music that is as bright as it is unpredictable.",
     "buy_link": "https://anzdj.bandcamp.com/album/loos-in-twos-nrg",
     "artist": 55,
     "label": 51,
@@ -982,7 +951,7 @@
     "title": "Fire Kit EP",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a1265302084_10.jpg",
-    "description": "Hessle Audio welcome Laksa to the label with three tracks of rowdy and forward-thinking dance music, following his last release on Timedance in September.<br/>On the A-side, ‘Fire Kit’ sees the London-based producer and DJ approaching his sound from a different direction, with dancehall infused percussion offset by enveloping layers of sub-bass warmth at 95bpm.<br/>The B side jacks up the tempo with a raucous energy as the temperature drops to below freezing. Basslines rumble in ‘Belly Brocka’ and ‘T’s Tent’ like an approaching storm and snares lash through the mix like ice picks, with the broken rhythmic energy driving the dance forward in 2021 and beyond.<br/>Running the club night and monthly NTS show ‘re:lax’ with re:ni, Laksa has been consistently pushing bass mutations since his early EPs on Beneath’s Mistry label. A Bristol bass bobbler at heart, his hybrid sound has found a home on many respected labels such as Timedance, Ilian Tape and Whities, cementing his place amongst the latest UK talent.",
+    "description": "Hessle Audio welcome Laksa to the label with three tracks of rowdy and forward-thinking dance music, following his last release on Timedance in September.\r\n\r\nOn the A-side, ‘Fire Kit’ sees the London-based producer and DJ approaching his sound from a different direction, with dancehall infused percussion offset by enveloping layers of sub-bass warmth at 95bpm.\r\nThe B side jacks up the tempo with a raucous energy as the temperature drops to below freezing. Basslines rumble in ‘Belly Brocka’ and ‘T’s Tent’ like an approaching storm and snares lash through the mix like ice picks, with the broken rhythmic energy driving the dance forward in 2021 and beyond.\r\n\r\nRunning the club night and monthly NTS show ‘re:lax’ with re:ni, Laksa has been consistently pushing bass mutations since his early EPs on Beneath’s Mistry label. A Bristol bass bobbler at heart, his hybrid sound has found a home on many respected labels such as Timedance, Ilian Tape and Whities, cementing his place amongst the latest UK talent.",
     "buy_link": "https://laksa.bandcamp.com/album/fire-kit-ep",
     "artist": 56,
     "label": 51,
@@ -1057,7 +1026,9 @@
     "tags": [
       8
     ],
-    "favourited_by": []
+    "favourited_by": [
+      7
+    ]
   }
 },
 {
@@ -1074,7 +1045,9 @@
     "tags": [
       8
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -1084,7 +1057,7 @@
     "title": "Witness",
     "release_year": 2020,
     "artwork": "https://f4.bcbits.com/img/a3090402507_10.jpg",
-    "description": "One of the UK’s most respected electronic artists, Al Wootton (formerly known as Deadboy) presents his first album under the Al Wootton name, Witness.<br/>Since emerging in 2009, Wootton has been behind some of the biggest dance records of the last decade, releasing on labels like Numbers, Local Action and Aus Music. In 2019, he re-located from London to the seaside town of Ramsgate (following a period spent in Montreal) and re-branded under his birth name, building a home studio and honing a style of dance music that draws heavily from his long-term loves of garage and dub.<br/>Wootton has enjoyed a rich run of form since going back to basics: he’s released five 12”s in two years through his Trule label, copies of which now swiftly sell out as standard, and has also expanded the label to house releases by Melbourne producer Pugilist and old foil Julio Bashmore. On Witness, he channels this focus and momentum into an 8-track album that explores techno, garage, jungle and more, all tied together by the dub-inspired effects and atmosphere that has characterised his Al Wootton records to date.",
+    "description": "One of the UK’s most respected electronic artists, Al Wootton (formerly known as Deadboy) presents his first album under the Al Wootton name, Witness.\r\n\r\nSince emerging in 2009, Wootton has been behind some of the biggest dance records of the last decade, releasing on labels like Numbers, Local Action and Aus Music. In 2019, he re-located from London to the seaside town of Ramsgate (following a period spent in Montreal) and re-branded under his birth name, building a home studio and honing a style of dance music that draws heavily from his long-term loves of garage and dub.\r\n\r\nWootton has enjoyed a rich run of form since going back to basics: he’s released five 12”s in two years through his Trule label, copies of which now swiftly sell out as standard, and has also expanded the label to house releases by Melbourne producer Pugilist and old foil Julio Bashmore. On Witness, he channels this focus and momentum into an 8-track album that explores techno, garage, jungle and more, all tied together by the dub-inspired effects and atmosphere that has characterised his Al Wootton records to date.",
     "buy_link": "https://www.unearthedsounds.co.uk/products/al-wootton-witness-12-vinyl-lp",
     "artist": 62,
     "label": 57,
@@ -1101,7 +1074,7 @@
     "title": "Slipping",
     "release_year": 2019,
     "artwork": "https://f4.bcbits.com/img/a1830492759_10.jpg",
-    "description": "Joy Orbison nimbly bridges London club sounds in a strong new refinement and loosening of his style for Hinge Finger, the label he runs with TTT’s Will Bankhead.<br/>Bringing members of his home city’s jazz and soul scene, Mansur Brown and Keyah Blu, to a series of warped house, trip hop and experimental cuts alongside NYC’s Infinite, Joy O pointedly makes a transition into more textured, freeform and psychedelic/soulful frameworks after a decade of knocking out definitive UK club standards.<br/>Rounding up six diverse productions, ‘Slipping’ is as close as you’ll get to an album from Joy O, for now at least. From the charmingly scrappy but soulful intro to ‘Burn’, which soon turns into an irresistibly deep and technoid garage workout, to the Flying Lotus-like dexterity of ‘While She’s Away’, the session naturally scales between tempos and vibes is a very satisfying way, dipping to Tricky-meets-Tirzah-esque R&B/trip-hop on ‘Under’ ft. Keyah Blu, and taking in fuzzy, summery ambient nostalgia ‘w Dad’, plus a wickedly abstract sort of hardcore dembow stance on ‘Breathe In’, and a sweetly sun-blushed slice of ambient rare grooving in ‘Walworth Waltz’ ft. Mansur Brown.<br/>Much more than a pure dancefloor set, this one’s for the journey.",
+    "description": "Joy Orbison nimbly bridges London club sounds in a strong new refinement and loosening of his style for Hinge Finger, the label he runs with TTT’s Will Bankhead.\r\n\r\nBringing members of his home city’s jazz and soul scene, Mansur Brown and Keyah Blu, to a series of warped house, trip hop and experimental cuts alongside NYC’s Infinite, Joy O pointedly makes a transition into more textured, freeform and psychedelic/soulful frameworks after a decade of knocking out definitive UK club standards.\r\n\r\nRounding up six diverse productions, ‘Slipping’ is as close as you’ll get to an album from Joy O, for now at least. From the charmingly scrappy but soulful intro to ‘Burn’, which soon turns into an irresistibly deep and technoid garage workout, to the Flying Lotus-like dexterity of ‘While She’s Away’, the session naturally scales between tempos and vibes is a very satisfying way, dipping to Tricky-meets-Tirzah-esque R&B/trip-hop on ‘Under’ ft. Keyah Blu, and taking in fuzzy, summery ambient nostalgia ‘w Dad’, plus a wickedly abstract sort of hardcore dembow stance on ‘Breathe In’, and a sweetly sun-blushed slice of ambient rare grooving in ‘Walworth Waltz’ ft. Mansur Brown.\r\n\r\nMuch more than a pure dancefloor set, this one’s for the journey.",
     "buy_link": "https://tossportal.bandcamp.com/album/slipping",
     "artist": 63,
     "label": 58,
@@ -1135,7 +1108,7 @@
     "title": "Send Them To Coventry",
     "release_year": 2020,
     "artwork": "https://i1.sndcdn.com/artworks-FfcXlRa77mnp-0-t500x500.jpg",
-    "description": "Pa Salieu’s ‘Send Them To Coventry’ is a scorching debut project from UK rap’s new golden boy. <br/>Despite still being in a relatively early stage of his career, the Coventry rapper already possesses a star factor which makes him hard to ignore. His ability to switch between drill, hip hop, Afrobeats, and melody-driven styles with ease makes him a perfect artist for the modern generation of rap.</br>A little over a year since waking up in intensive care after being shot in the head, Coventry’s breakout star Pa Salieu stakes a claim to being the most exciting rising talent in UK rap. The mixtape boasts some previously unheard collaborations with M1llionz on ‘Informa’, Mahalia on ‘Energy’, and Trinidadian artist Boy Boy on ‘No Warnin’, while production from the likes of Felix Joseph, AOD, Jevon, Yussef Dayes and slowthai collaborator Kwes Darko, assures that Salieu’s blistering sound is done justice.",
+    "description": "Pa Salieu’s ‘Send Them To Coventry’ is a scorching debut project from UK rap’s new golden boy.\r\n\r\nDespite still being in a relatively early stage of his career, the Coventry rapper already possesses a star factor which makes him hard to ignore. His ability to switch between drill, hip hop, Afrobeats, and melody-driven styles with ease makes him a perfect artist for the modern generation of rap.\r\n\r\nA little over a year since waking up in intensive care after being shot in the head, Coventry’s breakout star Pa Salieu stakes a claim to being the most exciting rising talent in UK rap. The mixtape boasts some previously unheard collaborations with M1llionz on ‘Informa’, Mahalia on ‘Energy’, and Trinidadian artist Boy Boy on ‘No Warnin’, while production from the likes of Felix Joseph, AOD, Jevon, Yussef Dayes and slowthai collaborator Kwes Darko, assures that Salieu’s blistering sound is done justice.",
     "buy_link": "https://lnk.to/SendThemToCoventry",
     "artist": 65,
     "label": 60,
@@ -1143,7 +1116,10 @@
       9,
       10
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2,
+      7
+    ]
   }
 },
 {
@@ -1153,7 +1129,7 @@
     "title": "They Don't Know",
     "release_year": 2001,
     "artwork": "http://s3.amazonaws.com/quietus_production/images/articles/28201/8558464_1589442165_crop_550x539.jpg",
-    "description": "The gaps between musical genres are painted in fuzzy shades rather than smart geometrical lines, making it nigh-on impossible to tell where one ends and another begins. This, on the whole, is a good thing. But it means the true pioneers can sometimes fall between the gaps. So Solid Crew, a collective of MCs and producers from South London, arguably fell victim to this fate: too early for the grime explosion and too late for UK Garage, their place in history is uncertain, even as grime bursts with millennial health.<br/>They Don’t Know was a brilliant riposte to anyone who might have thought that topping the singles chart had gone to So Solid’s heads. Sure, the album had hooks, from the nagging vocals on the title track (a song that appears to be composed of about 50% choruses and 45% swagger) to the maddening synth/bass riff call and response on 'Woah'. But it was as hard as a Bermondsey foundry, oozing with the same sub bass, distorted synth lines and serrated drum hits that had made 'Dilemma' such a musical slap in the face. There can be few multi-platinum albums in history that made such a virtue of their crude sonic force.<br/>They Don’t Know was hugely experimental in its production too, with the drums (especially) pointing the way towards grime. UK Garage and its 2-step offshoot might have dabbled initially in experimental drum programming but by 2001 many of the more commercial UKG songs were built on predictable drum patterns. The drums on They Don’t Know – and especially on songs like 'If It Was Me' and 'Deeper' – were all over the place and fearsomely funky, nodding to dancehall, 2-step, house and hip hop without ever bending a knee to one genre, in a way that Dizzee Rascal would take up on Boy In Da Corner two years later.",
+    "description": "The gaps between musical genres are painted in fuzzy shades rather than smart geometrical lines, making it nigh-on impossible to tell where one ends and another begins. This, on the whole, is a good thing. But it means the true pioneers can sometimes fall between the gaps. So Solid Crew, a collective of MCs and producers from South London, arguably fell victim to this fate: too early for the grime explosion and too late for UK Garage, their place in history is uncertain, even as grime bursts with millennial health.\r\n\r\nThey Don’t Know was a brilliant riposte to anyone who might have thought that topping the singles chart had gone to So Solid’s heads. Sure, the album had hooks, from the nagging vocals on the title track (a song that appears to be composed of about 50% choruses and 45% swagger) to the maddening synth/bass riff call and response on 'Woah'. But it was as hard as a Bermondsey foundry, oozing with the same sub bass, distorted synth lines and serrated drum hits that had made 'Dilemma' such a musical slap in the face. There can be few multi-platinum albums in history that made such a virtue of their crude sonic force.\r\n\r\nThey Don’t Know was hugely experimental in its production too, with the drums (especially) pointing the way towards grime. UK Garage and its 2-step offshoot might have dabbled initially in experimental drum programming but by 2001 many of the more commercial UKG songs were built on predictable drum patterns. The drums on They Don’t Know – and especially on songs like 'If It Was Me' and 'Deeper' – were all over the place and fearsomely funky, nodding to dancehall, 2-step, house and hip hop without ever bending a knee to one genre, in a way that Dizzee Rascal would take up on Boy In Da Corner two years later.",
     "buy_link": "https://www.discogs.com/So-Solid-Crew-They-Dont-Know/release/115228",
     "artist": 66,
     "label": 61,
@@ -1170,7 +1146,7 @@
     "title": "White Label Classics",
     "release_year": 2012,
     "artwork": "https://f4.bcbits.com/img/a0229049053_10.jpg",
-    "description": "A definitive collection of Ruff Sqwad's legendary instrumentals from 2002-7 that were hugely significant in shaping the grime sound.<br/>In the early to mid 2000s, before grime became a household name, before number 1 singles and international shows, a group of teenage producers, MCs and DJs from Bow mostly school-friends created a sound, and a name for themselves, that will stand the test of time. Whittled down from over 50 legendary instrumentals to 22, 'these are the anthems, the tunes people remember us by. The ones people have been asking for ever since.'",
+    "description": "A definitive collection of Ruff Sqwad's legendary instrumentals from 2002-7 that were hugely significant in shaping the grime sound.\r\n\r\nIn the early to mid 2000s, before grime became a household name, before number 1 singles and international shows, a group of teenage producers, MCs and DJs from Bow mostly school-friends created a sound, and a name for themselves, that will stand the test of time. Whittled down from over 50 legendary instrumentals to 22, 'these are the anthems, the tunes people remember us by. The ones people have been asking for ever since.'",
     "buy_link": "https://nohatsnohoods.bandcamp.com/album/white-label-classics",
     "artist": 67,
     "label": 62,
@@ -1187,7 +1163,7 @@
     "title": "Gotcha",
     "release_year": 2020,
     "artwork": "https://t2.genius.com/unsafe/440x0/https%3A%2F%2Fimages.genius.com%2Fac66501ed92b3aeb31aab6a1437ffbe2.1000x1000x1.png",
-    "description": "Fashioning an artistic international tie which merges two cultures and still pays homage to the UK rap/drill scene; two of the UK's biggest rising stars Unknown T and Digga D have collaborated with Jamaica's King of Dancehall Vybz Kartel to bring us 'Gotcha' their new chilly UK drill-beat song.<br/>With sounds provided UK producer and music engineer Sean D this explosive new tune has brought together a first time collaboration never before seen from the two UK artists. Having released some of the strongest sounds this year including 'Woi' and 'Chingy' from Digga D and Unknown T's 'Rise Above Hate' album this only adds to the rappers' impeccable discographies. <br/>Speaking on the track Sean states: \"The concept of a Jamaican basement/reggae artist on drill excited me as it hasn't been done yet. Being a massive fan of Vybz Kartel, he was the go to artist to start the concept - I sent him the instrumental and he laid a verse and chorus on the track. I reached to T and Digga as I thought they'd be the perfect match\".",
+    "description": "Fashioning an artistic international tie which merges two cultures and still pays homage to the UK rap/drill scene; two of the UK's biggest rising stars Unknown T and Digga D have collaborated with Jamaica's King of Dancehall Vybz Kartel to bring us 'Gotcha' their new chilly UK drill-beat song.\r\n\r\nWith sounds provided UK producer and music engineer Sean D this explosive new tune has brought together a first time collaboration never before seen from the two UK artists. Having released some of the strongest sounds this year including 'Woi' and 'Chingy' from Digga D and Unknown T's 'Rise Above Hate' album this only adds to the rappers' impeccable discographies.\r\n\r\nSpeaking on the track Sean states: \"The concept of a Jamaican basement/reggae artist on drill excited me as it hasn't been done yet. Being a massive fan of Vybz Kartel, he was the go to artist to start the concept - I sent him the instrumental and he laid a verse and chorus on the track. I reached to T and Digga as I thought they'd be the perfect match\".",
     "buy_link": "https://open.spotify.com/album/610mjyWnCbxvgSa2AqvKiz?si=Nf9vq_EUT1ybw4kwIqZ1_g",
     "artist": 68,
     "label": 63,
@@ -1204,14 +1180,17 @@
     "title": "Konnichiwa",
     "release_year": 2016,
     "artwork": "https://d1c4rk9le5opln.cloudfront.net/42a7ee898a2cbfcd541b6983ca477190.jpg",
-    "description": "A landmark in British street music that takes on the world without compromising one inch of its grime core.<br/>Mercury Music Prize Winning album 2016. One of the most influential albums of this generation, on the legendary Boy Better Know imprint.",
+    "description": "A landmark in British street music that takes on the world without compromising one inch of its grime core.\r\n\r\nMercury Music Prize Winning album 2016. One of the most influential albums of this generation, on the legendary Boy Better Know imprint.",
     "buy_link": "https://www.phonicarecords.com/product/skepta-konnichiwa-lp-boy-better-know/144344",
     "artist": 69,
     "label": 64,
     "tags": [
-      9
+      9,
+      11
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -1246,6 +1225,50 @@
       9
     ],
     "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 74,
+  "fields": {
+    "title": "Pessimist & Karim Maas",
+    "release_year": 2019,
+    "artwork": "https://f4.bcbits.com/img/a1492866913_10.jpg",
+    "description": "Pessimist links with longtime associate Karim Maas for twelve untitled, interconnected tracks of paranoid, dub-fissured hip-hop and voidal techno pressure. Forget dnb…this is a downer than downtempo excursion, deep and dread, heavy as a jeep parked on your chest, with low-slung, blunted breakbeats and weapons-grade sub-bass caught up in whirlpools of dissolve and decay and baleful, insinuating drone...yeah at times it feels less like a record and more like a bona fide AIRBORNE TOXIC EVENT. Intricate, elegant, its chillin-with-the-wrong-b-boy mood fantastically sustained, It conquers territory that previous Pessimist and Maas solo productions have only hinted at, connecting with the Isolationist/industrial traumascapes/infinite-comedown of 90s E.A.R./Köner, Main and SAW II, the enveloping neo-noir of Plastikman’s Consumed, the crackle-and-hiss materiality of Rhythm & Sound and Pole, the thermonuclear rack and ruin of Lustmord's Stalker. Just the baddest vibes...Music to get lost - real lost - inside.",
+    "buy_link": "https://www.lowcompany.co.uk/products/pessimist-karim-maas",
+    "artist": 3,
+    "label": 3,
+    "tags": [
+      3
+    ],
+    "favourited_by": [
+      2,
+      3,
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 75,
+  "fields": {
+    "title": "Where This Leads",
+    "release_year": 2020,
+    "artwork": "https://f4.bcbits.com/img/a2404277548_10.jpg",
+    "description": "One of the most interesting things about Carlton Melton’s music is that it is split in two. On each album, from debut Country Ways onward, there lives a restless conflict between different approaches: the experimental, the avant-garde and the improvisatory jostles for space with some of the more conventional tropes of heavy rock such as bludgeoning riffs and structured songwriting. Where This Leads, the San Francisco band’s seventh LP, is particularly divided within itself, and it makes for arguably their most compelling and original work yet.",
+    "buy_link": "https://meltoncarlton.bandcamp.com/album/where-this-leads",
+    "artist": 72,
+    "label": 67,
+    "tags": [
+      7
+    ],
+    "favourited_by": [
+      3,
+      4,
+      5,
+      6
+    ]
   }
 }
 ]
