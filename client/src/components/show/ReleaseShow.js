@@ -5,6 +5,7 @@ import { getUserId } from '../lib/auth'
 // import test from '../common/Footer' 
 // import Player from '../utils/Player'
 import { TrackContext } from '../../TrackContext'
+// import Play from '../../assets/play.png'
 
 function ReleaseShow() {
 
@@ -114,6 +115,7 @@ function ReleaseShow() {
                     className="play-button"
                   >
                     Play
+                    {/* <svg src={Play} alt="play" className="release-play-icon" visibility="visible"/> */}
                   </div>
                   <div> {track.title}  </div>
                 </div>

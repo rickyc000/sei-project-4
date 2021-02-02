@@ -9,8 +9,8 @@ function useForm(initialState) {
     const nextErrorState = { ...errors, [event.target.name]: '' }
     setFormdata(nextState)
     setErrors(nextErrorState)
-    console.log(nextState)
-    console.log(nextErrorState)
+    // console.log(nextState)
+    // console.log(nextErrorState)
   }
 
 

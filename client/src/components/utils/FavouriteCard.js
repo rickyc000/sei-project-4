@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { TrackContext } from '../../TrackContext'
+// import Play from '../../assets/icons8-play-96.png'
 
 function FavouriteCard({ release }) {
 
@@ -54,7 +55,10 @@ function FavouriteCard({ release }) {
               <div
                 className="play-button"
               >
-                Play
+                {/* Play */}
+                <i className="fas fa-play fav-play" id="fav-play"></i>
+
+
               </div>
               <div> {track.title}  </div>
             </div>

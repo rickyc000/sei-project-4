@@ -7,8 +7,6 @@ import Banner from './Banner'
 
 
 function Nav() {
-  // console.log(isAuthenticated() + ' is Authenticated')
-
   const [profile, setProfile] = React.useState({})
   const [isLoggedIn, setIsLoggedIn] = React.useState(isAuthenticated())
 
@@ -17,7 +15,7 @@ function Nav() {
     logout()
     history.push('/')
   }
-  // console.log(isLoggedIn + ' :isLoggedIn')
+
 
   const history = useHistory()
 
@@ -26,6 +24,7 @@ function Nav() {
       try {
         const { data } = await getUserProfile(headers())
         setProfile(data)
+        // setIsLoggedIn(true)
       } catch (err) {
         console.log(err)
         // setHasError(true)
@@ -38,8 +37,6 @@ function Nav() {
     }
   }, [])
 
-  // console.log(profile)
-  // setIsLoggedIn(isAuthenticated())
 
   return (
     <header>
@@ -70,7 +67,7 @@ function Nav() {
           <div className="navbar-section">
             <Link to='/profile/'>
               <div className="navbar-option">
-                Account: {profile.username}
+                {profile.username}
               </div>
             </Link>
             <div

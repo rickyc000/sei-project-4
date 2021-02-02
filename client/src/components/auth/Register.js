@@ -14,16 +14,21 @@ function Register() {
   })
 
   const handleSubmit = async event => {
-    console.log(formdata)
     event.preventDefault()
+    // console.log(await registerUser(formdata))
 
+    // console.log(formdata)
     try {
+      console.log(formdata)
       await registerUser(formdata)
       history.push('/login')
     } catch (err) {
-      setErrors(err.response.data.errors)
+      console.log(err.response)
+      setErrors(err.response.data)
     }
   }
+
+  console.log(formdata)
 
 
   return (
@@ -89,7 +94,7 @@ function Register() {
           <div className="login-button-wrapper">
             <button type="submit" className="login-button">Register</button>
           </div>
-
+          {/* {errors.email && <p>Error logging in</p>} */}
         </form>
 
       </div>

@@ -86,8 +86,16 @@ $text-color: rgb(155, 155, 155);
 
 
 .fav-play-button {
-  padding: 0 20px;
+  padding: 0 20px 8px;
   // background-color: lightgreen;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   cursor: pointer;
 }
 
+.fa-play {
+  font-size: 9px;
+  align-self: center;
+  margin: 0 0 6px;
+}
