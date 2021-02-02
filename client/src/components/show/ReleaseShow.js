@@ -1,11 +1,8 @@
 import React, { useContext } from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import { getSingleRelease, addToFavourites, removeFromFavourites } from '../lib/api'
-import { getUserId } from '../lib/auth'
-// import test from '../common/Footer' 
-// import Player from '../utils/Player'
+import { isAuthenticated, getUserId } from '../lib/auth'
 import { TrackContext } from '../../TrackContext'
-// import Play from '../../assets/play.png'
 
 function ReleaseShow() {
 
@@ -13,6 +10,7 @@ function ReleaseShow() {
   const [showRelease, setShowRelease] = React.useState(null)
   const [isFavourite, setIsFavourite] = React.useState(false)
   const { setTrackToPlay } = useContext(TrackContext)
+  const isLoggedIn = isAuthenticated()
 
   React.useEffect(() => {
     const getReleases = async () => {
@@ -77,18 +75,39 @@ function ReleaseShow() {
                   />
                 </div>
 
-                <div
-                  onClick={handleFavourite}
-                  className="handle-favourite"
-                >
-                  {isFavourite ?
-                    <div className="remove-from-collection">Remove</div>
-                    :
-                    <div className="add-to-collection">
-                      Add to collection
-                    </div>
-                  }
-                </div>
+                {!isLoggedIn ?
+                  <div className="handle-favourite">
+                    <Link to='/login/'>
+                      <div className="add-to-collection-blocked">
+                        Add to collection
+                      </div>
+                    </Link>
+                  </div>
+                  :
+                  <div
+                    onClick={handleFavourite}
+                    className="handle-favourite"
+                  >
+                    {isFavourite ?
+                      <div className="remove-from-collection">Remove</div>
+                      :
+                      <div className="add-to-collection">
+                        Add to collection
+                      </div>
+                    }
+                  </div>
+
+
+                }
+
+
+
+
+
+
+
+
+
               </div>
               <div className="showpage-right-section">
                 <div className="showpage-artist-name">

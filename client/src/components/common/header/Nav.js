@@ -8,8 +8,7 @@ import Banner from './Banner'
 
 function Nav() {
   const [profile, setProfile] = React.useState({})
-  const [hasError, setHasError] = React.useState(false)
-  console.log('nav rendering')
+  // const [hasError, setHasError] = React.useState(false)
   const isLoggedIn = isAuthenticated()
   const { pathname } = useLocation()
 
@@ -19,7 +18,6 @@ function Nav() {
     history.push('/')
   }
 
-  console.log('isAuthenticated? ' + isAuthenticated())
 
 
   const history = useHistory()
@@ -29,16 +27,16 @@ function Nav() {
       try {
         const { data } = await getUserProfile(headers())
         setProfile(data)
-        setHasError(false)
+        // setHasError(false)
       } catch (err) {
         console.log(err)
-        setHasError(true)
+        // setHasError(true)
       }
     }
     getProfile()
   }, [pathname])
 
-  console.log('hasError? ' + hasError)
+  // console.log('hasError? ' + hasError)
 
   return (
     <header>

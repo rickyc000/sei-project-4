@@ -60,7 +60,7 @@ function Login() {
                 onFocus={handleFocus}
               />
             </div>
-            {error && <p>Sorry, your username or password are incorrect</p>}
+            {error && <p>Incorrect</p>}
           </div>
           <div className="login-button-wrapper">
             <button type="submit" className="login-button">Log In</button>

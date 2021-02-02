@@ -5,6 +5,7 @@ $text-color: rgb(155, 155, 155);
 .showpage-top-section {
   display: flex;
   justify-content: center;
+  cursor: default;
   // border: 1px dotted dodgerblue;
 }
 
@@ -188,3 +189,11 @@ audio:focus {
 //   height: 15px;
 // }
 
+.add-to-collection-blocked {
+  border: 1px solid  $text-color;
+  color: $text-color;
+  transition: 0.35s;
+  padding: 3px;
+  display: inline-block;
+  cursor: default;
+}
