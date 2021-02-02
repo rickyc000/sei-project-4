@@ -7,7 +7,7 @@ import Slider from 'react-slick'
 function FeaturedSection() {
 
   const [featuredReleases, setFeaturedReleases] = React.useState(null)
-  const [hasError, setHasError] = React.useState(false)
+  // const [hasError, setHasError] = React.useState(false)
 
   React.useEffect(() => {
     const getReleases = async () => {
@@ -17,14 +17,14 @@ function FeaturedSection() {
         setFeaturedReleases(taggedReleases)
       } catch (err) {
         console.log(err)
-        setHasError(true)
+        // setHasError(true)
       }
     }
     getReleases()
   }, [])
 
-  console.log(featuredReleases)
-  console.log(hasError)
+  // console.log(featuredReleases)
+  // console.log(hasError)
 
 
   const settings = {

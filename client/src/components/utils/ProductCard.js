@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function ProductCard({ release }) {
 
-  console.log(release)
+  // console.log(release)
 
 
   return (

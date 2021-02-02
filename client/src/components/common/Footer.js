@@ -4,7 +4,7 @@ import { TrackContext } from '../../TrackContext'
 
 
 function Footer() {
-  console.log('rendering footer')
+
   const { trackToPlay } = useContext(TrackContext)
   console.log(trackToPlay[0].footerPosition)
 

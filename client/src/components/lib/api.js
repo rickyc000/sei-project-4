@@ -44,13 +44,13 @@ export function getSingleRelease(id) {
 //*TAGS
 // ALL TAGS
 export function getAllTags() {
-  console.log('getAllTags')
+  // console.log('getAllTags')
   return axios.get(`${baseURL}/tags/`)
 }
 
 //SINGLE TAG
 export function getSingleTag(id) {
-  console.log('getSingleTag')
+  // console.log('getSingleTag')
   return axios.get(`${baseURL}/tags/${id}/`)
 }
 

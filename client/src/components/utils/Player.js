@@ -5,7 +5,7 @@ import ReactAudioPlayer from 'react-audio-player'
 import Close from '../../assets/icons8-close-window-96.png'
 
 function Player() {
-  console.log('rendering Player')
+
   const { trackToPlay, setTrackToPlay } = useContext(TrackContext)
 
 

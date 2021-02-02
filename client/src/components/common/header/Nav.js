@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useHistory } from 'react-router-dom'
+import { Link, useHistory, useLocation } from 'react-router-dom'
 import { isAuthenticated, logout } from '../../lib/auth'
 import { getUserProfile, headers } from '../../lib/api'
 
@@ -8,13 +8,18 @@ import Banner from './Banner'
 
 function Nav() {
   const [profile, setProfile] = React.useState({})
-  const [isLoggedIn, setIsLoggedIn] = React.useState(isAuthenticated())
+  const [hasError, setHasError] = React.useState(false)
+  console.log('nav rendering')
+  const isLoggedIn = isAuthenticated()
+  const { pathname } = useLocation()
 
   const handleLogout = () => {
-    setIsLoggedIn(false)
+    // setIsLoggedIn(false)
     logout()
     history.push('/')
   }
+
+  console.log('isAuthenticated? ' + isAuthenticated())
 
 
   const history = useHistory()
@@ -24,19 +29,16 @@ function Nav() {
       try {
         const { data } = await getUserProfile(headers())
         setProfile(data)
-        // setIsLoggedIn(true)
+        setHasError(false)
       } catch (err) {
         console.log(err)
-        // setHasError(true)
+        setHasError(true)
       }
     }
-    if (isLoggedIn) {
-      getProfile()
-    } else {
-      return
-    }
-  }, [])
+    getProfile()
+  }, [pathname])
 
+  console.log('hasError? ' + hasError)
 
   return (
     <header>

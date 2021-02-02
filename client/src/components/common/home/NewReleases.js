@@ -22,7 +22,7 @@ function FeaturedSection() {
     getReleases()
   }, [])
 
-  console.log(newReleases)
+  // console.log(newReleases)
 
   return (
     <div className="new-releases-wrapper">
