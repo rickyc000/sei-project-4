@@ -1,7 +1,8 @@
 import React from 'react'
 
 import FeaturedSection from './FeaturedSection'
-import NewReleases from './NewReleases'
+import NewReleasesSection from './NewReleases'
+import LabelFeatureSection from './LabelFeatureSection'
 
 
 
@@ -17,8 +18,13 @@ function Home() {
       </section>
 
       <section className="homepage-section">
-        <NewReleases />
+        <LabelFeatureSection />
       </section>
+
+      <section className="homepage-section">
+        <NewReleasesSection />
+      </section>
+
 
 
       

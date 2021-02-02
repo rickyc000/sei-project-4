@@ -1,7 +1,11 @@
 $base-color: #222621;
 $text-color: rgb(155, 155, 155);
+$green-color: #AB9F36;
+$purple-color: #DEBBFB;
 
-.new-releases-wrapper {
+
+//* Wrapper for all contain within section
+.product-section-wrapper {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,9 +13,9 @@ $text-color: rgb(155, 155, 155);
   align-items: center;
 }
 
-.new-releases-title {
-  color: #EF9C00;
-  // color: $base-color;
+
+//* Title section
+.product-section-title {
   font-size: 55px;
   height: 65px;
   font-family: 'Amiri', serif;
@@ -20,37 +24,26 @@ $text-color: rgb(155, 155, 155);
   justify-content: center;
   width: 100%;
   margin: 20px 0 0px;
-  // border-bottom: 1px solid #EF9C00;
+}
+
+.new-releases-title {
+  color: #EF9C00;
+}
+
+.label-feature-title {
+  color: $purple-color;
 }
 
 
-
+//* 4-product set width product panel
 .product-panel {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 10px;
-  width: 900px;
+  width: 990px;
 }
 
 
-//* FOR 2 COLUMNS
-@media (min-width: 600px) {
-  .product-panel {
-    width: 470px;
-  } 
-}
 
-//* FOR 3 COLUMNS
-@media (min-width: 832px) {
-  .product-panel {
-    width: 704px;
-  } 
-}
 
-//* FOR 4 COLUMNS
-@media (min-width: 1020px) {
-  .product-panel {
-    width: 938px;
-  } 
-}

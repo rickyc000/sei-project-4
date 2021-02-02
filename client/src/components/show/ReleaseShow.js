@@ -89,7 +89,9 @@ function ReleaseShow() {
                     className="handle-favourite"
                   >
                     {isFavourite ?
-                      <div className="remove-from-collection">Remove</div>
+                      <div className="remove-from-collection">
+                        Remove
+                      </div>
                       :
                       <div className="add-to-collection">
                         Add to collection

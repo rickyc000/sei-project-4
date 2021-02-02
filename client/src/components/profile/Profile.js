@@ -21,8 +21,7 @@ function Profile() {
     getProfile()
   }, [])
 
-  console.log(profile)
-  console.log(favouritedReleases)
+
 
   return (
     <main>

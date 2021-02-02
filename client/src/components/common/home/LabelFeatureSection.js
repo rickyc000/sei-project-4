@@ -4,15 +4,15 @@ import { getSingleTag } from '../../lib/api'
 import ProductPanel from '../../utils/ProductPanel'
 
 
-function NewReleasesSection() {
-  const [newReleases, setNewReleases] = React.useState(null)
+function LabelFeatureSection() {
+  const [labelFeatureReleases, setLabelFeatureReleases] = React.useState(null)
 
   React.useEffect(() => {
     const getReleases = async () => {
       try {
-        const { data } = await getSingleTag(11)
+        const { data } = await getSingleTag(12)
         const taggedReleases = data.tags
-        setNewReleases(taggedReleases)
+        setLabelFeatureReleases(taggedReleases)
       } catch (err) {
         console.log(err)
       }
@@ -22,11 +22,11 @@ function NewReleasesSection() {
 
   return (
     <div className="product-section-wrapper">
-      <div className="product-section-title new-releases-title">
-        New Releases
+      <div className="product-section-title label-feature-title">
+        Label Of The Month: xpq?
       </div>
-      {newReleases ?
-        <ProductPanel releases={newReleases} />
+      {labelFeatureReleases ?
+        <ProductPanel releases={labelFeatureReleases} />
         :
         <p>Loading</p>
       }
@@ -34,4 +34,4 @@ function NewReleasesSection() {
   )
 }
 
-export default NewReleasesSection
+export default LabelFeatureSection

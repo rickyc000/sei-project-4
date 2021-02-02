@@ -6,7 +6,7 @@ import { TrackContext } from '../../TrackContext'
 function Footer() {
 
   const { trackToPlay } = useContext(TrackContext)
-  console.log(trackToPlay[0].footerPosition)
+  // console.log(trackToPlay[0].footerPosition)
 
   return (
     <footer className="footer-wrapper">
