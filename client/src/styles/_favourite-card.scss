@@ -108,7 +108,22 @@ $text-color: rgb(155, 155, 155);
   align-self: flex-end;
   justify-self: flex-end;
   // position: absolute;
-  width: 30px;
+  // width: 50px;s
   margin: 3px 0;
   padding: 5px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.buy-link-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-external-link-alt {
+  font-size: 12px;
+  margin: 3px 0 3px 8px;
+  color: rgb(119, 119, 119);
 }

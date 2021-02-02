@@ -65,7 +65,10 @@ function FavouriteCard({ release }) {
           ))}
           <div className="fav-buy-link">
             <a href={release.buyLink} target="_blank" rel="noreferrer">
-              Buy
+              <div className="buy-link-button">
+                <div>Buy</div>
+                <i className="fas fa-external-link-alt"></i>
+              </div>
             </a>
           </div>
         </div>
