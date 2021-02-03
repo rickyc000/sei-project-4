@@ -105,14 +105,6 @@ function ReleaseShow() {
                   </div>
                 }
 
-
-
-
-
-
-
-
-
               </div>
               <div className="showpage-right-section">
                 <div className="showpage-artist-name">
@@ -139,15 +131,23 @@ function ReleaseShow() {
                     className="play-button"
                   >
                     Play
-                    {/* <svg src={Play} alt="play" className="release-play-icon" visibility="visible"/> */}
                   </div>
                   <div> {track.title}  </div>
                 </div>
               ))}
             </div>
+            <div className="back-to-genres-wrapper">
+              <Link to={'/genres/all/'}>
+                <div className="back-to-genres">
+                  Back to Genres
+                </div>
+              </Link>
+            </div>
           </div>
           :
-          <p>Loading</p>
+          <div className="showpage-loading">
+            
+          </div>
         }
 
       </div >

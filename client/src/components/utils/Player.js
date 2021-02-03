@@ -34,12 +34,14 @@ function Player() {
             <div className="player-title">{trackToPlay[0].title}</div>
             <div className="player-artist">{trackToPlay[0].artist}</div>
           </div>
-          <ReactAudioPlayer
-            src={trackToPlay[0].src}
-            autoPlay
-            controls
-            controlsList="nodownload"
-          />
+          <div className="audio-player-wrapper">
+            <ReactAudioPlayer
+              src={trackToPlay[0].src}
+              autoPlay
+              controls
+              controlsList="nodownload"
+            />
+          </div>
           <div
             className="player-close-button"
             onClick={() => handleClosePlayer()}>

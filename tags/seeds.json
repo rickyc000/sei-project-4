@@ -1,20 +1,6 @@
 [
 {
   "model": "tags.tag",
-  "pk": 1,
-  "fields": {
-    "name": "Test Tag 1"
-  }
-},
-{
-  "model": "tags.tag",
-  "pk": 2,
-  "fields": {
-    "name": "Test Tag 2"
-  }
-},
-{
-  "model": "tags.tag",
   "pk": 3,
   "fields": {
     "name": "Ambient / Electronic"
@@ -74,6 +60,20 @@
   "pk": 11,
   "fields": {
     "name": "homepage-new-releases"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 12,
+  "fields": {
+    "name": "label-month"
+  }
+},
+{
+  "model": "tags.tag",
+  "pk": 13,
+  "fields": {
+    "name": "artist-focus"
   }
 }
 ]

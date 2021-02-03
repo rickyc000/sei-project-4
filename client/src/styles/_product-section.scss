@@ -11,6 +11,10 @@ $purple-color: #DEBBFB;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: fade-in-stall 2.5s;
+  &:hover {
+    animation-play-state: running;
+  }
 }
 
 

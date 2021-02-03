@@ -502,5 +502,75 @@
   "fields": {
     "name": "Carlton Melton"
   }
+},
+{
+  "model": "artists.artist",
+  "pk": 73,
+  "fields": {
+    "name": "Ghostride The Drift"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 74,
+  "fields": {
+    "name": "exael"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 75,
+  "fields": {
+    "name": "Low Budget Aliens"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 76,
+  "fields": {
+    "name": "Critical Amnesia"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 77,
+  "fields": {
+    "name": "Sophie"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 78,
+  "fields": {
+    "name": "Galcher Lustwerk"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 79,
+  "fields": {
+    "name": "Perko"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 80,
+  "fields": {
+    "name": "Mica Levi"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 81,
+  "fields": {
+    "name": "Dizzee Rascal"
+  }
+},
+{
+  "model": "artists.artist",
+  "pk": 82,
+  "fields": {
+    "name": "JME"
+  }
 }
 ]

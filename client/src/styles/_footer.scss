@@ -14,6 +14,22 @@ $text-color: rgb(155, 155, 155);
   transition: bottom 0.5s;
 }
 
+// .player-wrapper {
+//   width: 100vw;
+// }
+
+.player-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+
+.audio-player-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .audio-player {
   width: 100%;
   font-size: 20px;
@@ -32,11 +48,31 @@ $text-color: rgb(155, 155, 155);
   right: 20px;
 }
 
+audio {
+  // filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 70%;
+  height: 25px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: $text-color;
+}
+
+// .player-wrapper {
+//   display: flex;
+//   align-items: center;
+//   width: 100%;
+// }
+
+audio:focus {
+  outline: none;
+}
+
 
 
 .player-info-wrapper {
-  width: 170px;
-  margin: 0 30px;
+  width: 200px;
+  // margin: 0 3px;
 }
 
 .player-title,

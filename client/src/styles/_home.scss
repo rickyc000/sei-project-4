@@ -15,6 +15,10 @@
   margin: 80px 0;
   border-bottom: 2px solid #AB9F36;
   border-top: 2px solid #AB9F36;
+  animation: fade-in-stall 2.5s;
+  &:hover {
+    animation-play-state: running;
+  }
   // display: flex;
 }
 .homepage-genre-section-title {

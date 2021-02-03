@@ -6,12 +6,17 @@ $green-color: #AB9F36;
   width: 100%;
   display: flex;
   justify-content: center;
+  // animation: fade-in-stall 3s;
 }
 
 .product-grid {
   display: flex;
   flex-wrap: wrap;
   margin: 8px 0;
+  animation: fade-in-stall 2s;
+  &:hover {
+    animation-play-state: running;
+  }
 }
 
 //* FOR 2 COLUMNS
@@ -34,8 +39,6 @@ $green-color: #AB9F36;
     width: 938px;
   } 
 }
-
-
 
 
 .custom-select-wrapper {

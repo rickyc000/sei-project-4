@@ -467,5 +467,61 @@
   "fields": {
     "name": "Agitated Records"
   }
+},
+{
+  "model": "labels.label",
+  "pk": 68,
+  "fields": {
+    "name": "xpq?"
+  }
+},
+{
+  "model": "labels.label",
+  "pk": 69,
+  "fields": {
+    "name": "Huntleys & Palmers"
+  }
+},
+{
+  "model": "labels.label",
+  "pk": 70,
+  "fields": {
+    "name": "Numbers"
+  }
+},
+{
+  "model": "labels.label",
+  "pk": 71,
+  "fields": {
+    "name": "Transgressive Records"
+  }
+},
+{
+  "model": "labels.label",
+  "pk": 72,
+  "fields": {
+    "name": "Ghostly International"
+  }
+},
+{
+  "model": "labels.label",
+  "pk": 73,
+  "fields": {
+    "name": "Posh Isolation"
+  }
+},
+{
+  "model": "labels.label",
+  "pk": 74,
+  "fields": {
+    "name": "Mica Levi"
+  }
+},
+{
+  "model": "labels.label",
+  "pk": 75,
+  "fields": {
+    "name": "XL Recordings"
+  }
 }
 ]

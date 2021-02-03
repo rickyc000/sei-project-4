@@ -32,9 +32,7 @@
     "tags": [
       3
     ],
-    "favourited_by": [
-      7
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -51,10 +49,7 @@
     "tags": [
       3
     ],
-    "favourited_by": [
-      2,
-      6
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -64,16 +59,14 @@
     "title": "Two Orb Reel",
     "release_year": 2017,
     "artwork": "https://assets.boomkat.com/spree/products/429537/large/33753434810054.jpeg",
-    "description": "Robert Aiki Aubrey Lowe follows up his Kulthan pearl for Latency (go check this one, we can’t get enough of it!) with an absorbingly wistful and coolly suggestive sound inside, knitting raw electricity into a series of impeccably refined and chamber-considered vignettes that leave lots to the imagination. <br /> Blessed with a sense of rhythmic cadence and controlled ballistics that sets his music apart from the now swelling modular milieu, Robert Lowe coaxes out his machines’ spirits and voices with the touch of a industrial era illusionist who has just realised how to spellbind crowds with the “magic” of electricity, enabling him to soundtrack, as the label puts it, “emotions of wonder, fear and transcendence.” OK, we’re not wide eyed Victorians with pagan beliefs in the supernatural (well, then again…), but records like this one certainly do challenge the mundane logic of any more skeptical listeners as to the existence of something “other” when it comes to electronic music.\r\n\r\nIn 14 parts ranging from sub 1-minute mysteries to more expansive tracts of uniquely metered plong offset with curdled melodic and harmonic developments, the allure, as with much of Lowe’s music, lies in the way he naturally bridges those aspects so that everything moves in viscous union to extrude your head through the maze. And in the classic sense of African rhythmelodic musics, there are no ‘tricks’ or ‘drops’ - effectively spectacles - to speak of, instead placing focus on the journey or the ‘trek’ and insisting the listener is both physically and mentally rolled around inside their structures, fluidly engaging one’s proprioceptions in a way that bypasses or at least smudges what are putatively western-rooted compositional conventions.",
+    "description": "Robert Aiki Aubrey Lowe follows up his Kulthan pearl for Latency (go check this one, we can’t get enough of it!) with an absorbingly wistful and coolly suggestive sound inside, knitting raw electricity into a series of impeccably refined and chamber-considered vignettes that leave lots to the imagination.\r\n\r\nBlessed with a sense of rhythmic cadence and controlled ballistics that sets his music apart from the now swelling modular milieu, Robert Lowe coaxes out his machines’ spirits and voices with the touch of a industrial era illusionist who has just realised how to spellbind crowds with the “magic” of electricity, enabling him to soundtrack, as the label puts it, “emotions of wonder, fear and transcendence.” OK, we’re not wide eyed Victorians with pagan beliefs in the supernatural (well, then again…), but records like this one certainly do challenge the mundane logic of any more skeptical listeners as to the existence of something “other” when it comes to electronic music.\r\n\r\nIn 14 parts ranging from sub 1-minute mysteries to more expansive tracts of uniquely metered plong offset with curdled melodic and harmonic developments, the allure, as with much of Lowe’s music, lies in the way he naturally bridges those aspects so that everything moves in viscous union to extrude your head through the maze. And in the classic sense of African rhythmelodic musics, there are no ‘tricks’ or ‘drops’ - effectively spectacles - to speak of, instead placing focus on the journey or the ‘trek’ and insisting the listener is both physically and mentally rolled around inside their structures, fluidly engaging one’s proprioceptions in a way that bypasses or at least smudges what are putatively western-rooted compositional conventions.",
     "buy_link": "https://robertaikiaubreylowe.bandcamp.com/album/two-orb-reel",
     "artist": 6,
     "label": 6,
     "tags": [
       3
     ],
-    "favourited_by": [
-      2
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -90,9 +83,7 @@
     "tags": [
       3
     ],
-    "favourited_by": [
-      6
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -109,11 +100,7 @@
     "tags": [
       3
     ],
-    "favourited_by": [
-      2,
-      4,
-      6
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -128,13 +115,9 @@
     "artist": 9,
     "label": 9,
     "tags": [
-      3,
-      11
+      3
     ],
-    "favourited_by": [
-      2,
-      7
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -149,11 +132,10 @@
     "artist": 10,
     "label": 10,
     "tags": [
-      3
+      3,
+      11
     ],
-    "favourited_by": [
-      4
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -185,12 +167,10 @@
     "artist": 12,
     "label": 12,
     "tags": [
-      10,
-      3
+      3,
+      10
     ],
-    "favourited_by": [
-      4
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -205,12 +185,10 @@
     "artist": 13,
     "label": 10,
     "tags": [
-      10,
-      3
+      3,
+      10
     ],
-    "favourited_by": [
-      2
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -244,9 +222,7 @@
     "tags": [
       4
     ],
-    "favourited_by": [
-      2
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -295,12 +271,10 @@
     "artist": 18,
     "label": 17,
     "tags": [
-      10,
-      4
+      4,
+      10
     ],
-    "favourited_by": [
-      4
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -315,12 +289,10 @@
     "artist": 19,
     "label": 18,
     "tags": [
-      4,
-      11
+      4
     ],
     "favourited_by": [
-      2,
-      7
+      2
     ]
   }
 },
@@ -355,9 +327,7 @@
     "tags": [
       4
     ],
-    "favourited_by": [
-      2
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -374,7 +344,9 @@
     "tags": [
       4
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -391,7 +363,9 @@
     "tags": [
       4
     ],
-    "favourited_by": []
+    "favourited_by": [
+      2
+    ]
   }
 },
 {
@@ -459,9 +433,7 @@
     "tags": [
       5
     ],
-    "favourited_by": [
-      2
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -578,12 +550,10 @@
     "artist": 34,
     "label": 31,
     "tags": [
-      10,
-      6
+      6,
+      10
     ],
-    "favourited_by": [
-      2
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -644,7 +614,7 @@
     "title": "And Yet It's All Love",
     "release_year": 2018,
     "artwork": "https://f4.bcbits.com/img/a1035460681_10.jpg",
-    "description": "It's been four years since Eglo Records' Fatima released 2014's Blue Note-approved, critically acclaimed debut Yellow Memories. This September, the London- via -Stockholm, Sweden songstress, returns with her second album, And Yet It's All Love — an emotional, yet entertaining trip through the full cycle of a romantic relationship, told in Fatima's now-familiar soulful style.\r\nFrom first singles \"Somebody Else” and \"Caught In A Lie\" to \"Waltz\" and \"Just To Hold You\" — listeners are transported from first meet, the blinding honeymoon period and struggle right through to the break-up and eventual fallout. Once again, she calls on a talented array of producers and instrumentalists to paint that picture; from Stones Throw's MNDSGN, J.D Reid (Mabel, D Double E), Purist (Daupe), Taz Arnold (Kendrick Lamar), Swarvy and regular collaborator, Natureboy Flako.\r\nEarly support has already come from the likes of Gilles Peterson (BBC 6Music/Worldwide FM), Benji B (Radio 1 / 1Xtra), Toddla T, NTS Radio, Crack Magazine, Pitchfork and Resident Advisor. Up-and-coming San Francisco-based illustrator, sculptor and painter, Monica Kim Garza crafts the album artwork, placing one of her powerfully intimate nude paintings at its centre.\r\nFor the uninitiated, Fatima, has earned a reputation as one of the UK's most respected vocalists. Her debut LP Yellow Memories featured heavyweight collaborations with Floating Points, Theo Parrish and Anderson Paak producer Knxwledge. It was met with critical acclaim winning Gilles Peterson's 'Album Of The Year' at the 2014 Worldwide Awards as well as ranking No.10 in Rolling Stone Magazine's Top 20 R&B albums of the year before being re-released by the legendary Blue Note records.",
+    "description": "It's been four years since Eglo Records' Fatima released 2014's Blue Note-approved, critically acclaimed debut Yellow Memories. This September, the London- via -Stockholm, Sweden songstress, returns with her second album, And Yet It's All Love — an emotional, yet entertaining trip through the full cycle of a romantic relationship, told in Fatima's now-familiar soulful style.\r\n\r\nFrom first singles \"Somebody Else” and \"Caught In A Lie\" to \"Waltz\" and \"Just To Hold You\" — listeners are transported from first meet, the blinding honeymoon period and struggle right through to the break-up and eventual fallout. Once again, she calls on a talented array of producers and instrumentalists to paint that picture; from Stones Throw's MNDSGN, J.D Reid (Mabel, D Double E), Purist (Daupe), Taz Arnold (Kendrick Lamar), Swarvy and regular collaborator, Natureboy Flako.\r\nEarly support has already come from the likes of Gilles Peterson (BBC 6Music/Worldwide FM), Benji B (Radio 1 / 1Xtra), Toddla T, NTS Radio, Crack Magazine, Pitchfork and Resident Advisor. Up-and-coming San Francisco-based illustrator, sculptor and painter, Monica Kim Garza crafts the album artwork, placing one of her powerfully intimate nude paintings at its centre.\r\n\r\nFor the uninitiated, Fatima, has earned a reputation as one of the UK's most respected vocalists. Her debut LP Yellow Memories featured heavyweight collaborations with Floating Points, Theo Parrish and Anderson Paak producer Knxwledge. It was met with critical acclaim winning Gilles Peterson's 'Album Of The Year' at the 2014 Worldwide Awards as well as ranking No.10 in Rolling Stone Magazine's Top 20 R&B albums of the year before being re-released by the legendary Blue Note records.",
     "buy_link": "https://fatima.bandcamp.com/album/and-yet-its-all-love",
     "artist": 38,
     "label": 35,
@@ -853,8 +823,7 @@
     "artist": 50,
     "label": 46,
     "tags": [
-      7,
-      11
+      7
     ],
     "favourited_by": []
   }
@@ -1026,9 +995,7 @@
     "tags": [
       8
     ],
-    "favourited_by": [
-      7
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -1045,9 +1012,7 @@
     "tags": [
       8
     ],
-    "favourited_by": [
-      2
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -1116,10 +1081,7 @@
       9,
       10
     ],
-    "favourited_by": [
-      2,
-      7
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -1185,12 +1147,9 @@
     "artist": 69,
     "label": 64,
     "tags": [
-      9,
-      11
+      9
     ],
-    "favourited_by": [
-      2
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -1241,12 +1200,7 @@
     "tags": [
       3
     ],
-    "favourited_by": [
-      2,
-      3,
-      5,
-      6
-    ]
+    "favourited_by": []
   }
 },
 {
@@ -1263,12 +1217,239 @@
     "tags": [
       7
     ],
-    "favourited_by": [
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 76,
+  "fields": {
+    "title": "Ghostride The Drift",
+    "release_year": 2019,
+    "artwork": "https://f4.bcbits.com/img/a3425292958_10.jpg",
+    "description": "Ghostride The Drift is a highly promising new smudge-ambient project dreamt by Huerco S, Exael and Special Guest DJ aka uon, for his and D. Tiffany’s new label.\r\n\r\nTheir extended self-titled debut finds the trio’s shared tastes consolidated and mutated in 5 parts of spiralling, psychedelic and elusive dub forms that evoke the sensation of floating in a fog-choked rave at 5AM.  Finding range between pockets of noisy dub ephemera, tracts of scudding, weightless hyper-dub, and seductively dragging downbeats, the EP speaks to each producer’s sound in turn and all at once. \r\n\r\nThe opening blast of fathoms-deep, gaseous iridescence and buried but pelting kick drums is a huge highlight, recalling Xth Reflexion joints for Aught, while moments of Basic Channel-esque abstraction colour the downtime between beats, variously rolling out with brownian motion, and then a sluggish ruggish ’90s ambient appeal one can imagine soundtracking a thousand dawns this summer and beyond...",
+    "buy_link": "https://xpqsound.bandcamp.com/album/ghostride-the-drift",
+    "artist": 73,
+    "label": 68,
+    "tags": [
       3,
+      12
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 77,
+  "fields": {
+    "title": "Dioxippe",
+    "release_year": 2019,
+    "artwork": "https://f4.bcbits.com/img/a1086788279_10.jpg",
+    "description": "After turning some heads with a debut drop from Ghostride The Drift, D. Tiffany and Special Guest DJ’s xpq? imprint invite GTD member Exael back for a second bite of the cherry. On Dioxippe the Berlin-based producer comes through with a set of MIDI malfunctions that flit between beat-driven techno, experimental electronics and acidic deconstructions. Cuts like the title track and ‘cyl reedit’ have a warped and scuzzy feel to them that one also finds in the output of artists like Bergsonist and Metrist. The machines make their presence felt throughout Dioxippe, be they chattering maniacally (‘untitled’) or hissing malevolently (‘rond’).",
+    "buy_link": "https://xpqsound.bandcamp.com/album/dioxippe",
+    "artist": 74,
+    "label": 68,
+    "tags": [
       4,
+      12
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 78,
+  "fields": {
+    "title": "Junk DNA",
+    "release_year": 2020,
+    "artwork": "https://f4.bcbits.com/img/a2000014260_10.jpg",
+    "description": "Mysterious “married outlaws” Low Budget Aliens firm up a killer sort of (I)DeMaterialised spin on drill, jungle, footwork and ruff bass sound for D. Tiffany and uon’s XPQ? label\r\n\r\n‘Junk DNA’ spells out a dead crafty sound in orbit somewhere between early Actress, the ambient dance mutations of Ghostride The Drift and Skee Mask’s nervy rufige. It’s smudged regurgitations are pretty much bang on the pulse for contemporary music’s up-in-the-air flux of styles in a way that feels like it could go in any of ten directions at once. \r\n\r\n‘CRASh LANDING’ kicks it off with a sort of radioactive rendering of drill, and ‘Hazardous Waste Pump’ turns up the gas on a slowfast jungle tip, teeing up a weightless flex shared wrth the centrifugal footworking dynamics of ’FE Ignot’ and what sounds like a vaporised 33EMYBW in ‘HOME SICK!’, while ‘BOWSERS HIGHT COURT’ leans into X-files breakcore, and the deadly one-two of ‘Service Mode 2’ and ‘LEVEL 1 2 3 4’ whip D&B and 150bpm beat science into wilder, experimental dancefloor thrills.",
+    "buy_link": "https://xpqsound.bandcamp.com/album/junk-dna",
+    "artist": 75,
+    "label": 68,
+    "tags": [
       5,
-      6
-    ]
+      12
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 79,
+  "fields": {
+    "title": "Critical Amnesia",
+    "release_year": 2020,
+    "artwork": "https://f4.bcbits.com/img/a0654159612_10.jpg",
+    "description": "With the release of Critical Amnesia’s self-titled EP, Berlin’s strangest dancefloor occupiers XPQ? prove yet again that they’re incapable of releasing anything tied to this planet. Critical Amnesia is masterfully made by unseen hands, each track given a catalogue-like number as a title to accompany the broken breakbeat and techno within. ‘NS0S1’ belies a desire to send bodies moving, while ‘0DSN1’ and its discordant sequels would rather leave the entire club scratching their heads.",
+    "buy_link": "https://xpqsound.bandcamp.com/album/critical-amnesia",
+    "artist": 76,
+    "label": 68,
+    "tags": [
+      3,
+      12
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 80,
+  "fields": {
+    "title": "Nothing More To Say",
+    "release_year": 2012,
+    "artwork": "https://f4.bcbits.com/img/a1719205650_10.jpg",
+    "description": "On Sophie's first proper release, the dance producer has created a shimmery and decidedly retro electro-house gem. \"Nothing More to Say\" surfaced in different forms last year, but this latest version, an interpretation of the single's sides as one track, is sharper from start to finish.",
+    "buy_link": "https://sophiemsmsmsm.bandcamp.com/track/nothing-more-to-say-dub",
+    "artist": 77,
+    "label": 69,
+    "tags": [
+      4,
+      13
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 81,
+  "fields": {
+    "title": "Lemonade / Hard",
+    "release_year": 2014,
+    "artwork": "https://f4.bcbits.com/img/a3027868264_10.jpg",
+    "description": "SOPHIE returns with a new single of feisty, sugar-high bass contortions for Numbers. 'Lemonade' lurches between minimal blips and all out, maximal pop fireworks, its squeaky clean sound somehow making the whole thing more unpredictable and wild. Over on the flip 'Hard' is all toying vocals and sharp, candy-coloured edges, bass high kicks and glossy synths pulled into an excitable whole. Yet another knockout release from the producer.",
+    "buy_link": "https://nmbrs.bandcamp.com/album/lemonade-hard",
+    "artist": 77,
+    "label": 70,
+    "tags": [
+      3,
+      13
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 82,
+  "fields": {
+    "title": "OIL OF EVERY PEARL'S UN-INSIDES",
+    "release_year": 2018,
+    "artwork": "https://f4.bcbits.com/img/a1763729468_10.jpg",
+    "description": "With her debut album OIL OF EVERY PEARL'S UN-INSIDES, SOPHIE very much achieved her unique aim of making music that sits perfectly on the radar of nationwide mainstream radio appeal, yet turned it on its head by smuggling in some very rubbery and experimental latex clad ideas of what makes commercial pop music something for people to fetishise to the nth degree. This is the sort of album we can see bursting any preconceptions and made up minds on what makes SOPHIE's music such an addictive pill to swallow.\r\n\r\nAt this point SOPHIE's under and overground dominance is pretty much untouchable really, she has worked with everyone from Diplo to Madonna and was scouted for Jay-Z's talent agency Roc Nation. Yet she also cites Autechre as heroes and is mates with Glasgow's Numbers crew. What other artists can you really name who can easily move in both circles? Until Madonna swings by Rubadub to score some techno wax the next time she plays in Glasgow we'd say pretty much no one.\r\n\r\nWhile it's a very dividing record its strength is in its confidence to take traditional pop music to the outer edges and then some, and while you may not like all of it. It's a damn site more boundary pushing than the million and one bedroom producers knocking out dusty house and techno trax each week.",
+    "buy_link": "https://bleep.com/release/103882-sophie-oil-of-every-pearls-un-insides",
+    "artist": 77,
+    "label": 71,
+    "tags": [
+      3,
+      13
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 83,
+  "fields": {
+    "title": "BIPP (Autechre Mx) / UNISIL",
+    "release_year": 2021,
+    "artwork": "https://d1rgjmn2wmqeif.cloudfront.net/r/b/217954.jpg",
+    "description": "It turns out that SOPHIE and Autechre’s eventual pairing was down to fate. Before SOPHIE became the global arbiter of hyperkinetic pop futurism, the budding bedroom producer acquired a leaked Autechre live recording from 2007 — a document of an explorative phase between Untilted and Quaristice — and promptly sought the hardware they utilised. In a striking turn of historical interplay, those leaked recordings came to inform aspects of the off-kilter club atmospherics of her debut compilation, Product.\r\n\r\nA remix was bound to happen. Autechre morph the mega-endorphin influx of the original ‘BIPP’ into a luxurious, syrupy pour; SOPHIE’s diva hook is re-pitched to a chopped and screwed swing, as a plethora of fine percussive detail — an errant hi-hat here, a digitised tom accentuation there — fills the indices between the rave-indebted bass climbs.\r\n\r\nRecorded in SOPHIE’s Product days but never given its own release, ‘UNISIL’ is pure menace and mischief. Driven by a grizzly electronica pace and a cheerleader’s “hey”-handclap melee, the track is a potent narcotic made from soundsystem breaking techno and the producer’s penchant for finding the pop even in the darkest of places.\r\n\r\nAn unforeseeable historical cycle surges through this release, as Autechre simultaneously nod toward their own legacy in addition to the immanence of SOPHIE’s.\r\n\r\nRest in Power SOPHIE.",
+    "buy_link": "https://bleep.com/release/217954-sophie-bipp-autechre-mx-unisil",
+    "artist": 77,
+    "label": 70,
+    "tags": [
+      3,
+      13
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 84,
+  "fields": {
+    "title": "Information (Redacted)",
+    "release_year": 2021,
+    "artwork": "https://f4.bcbits.com/img/a0176914704_10.jpg",
+    "description": "Following his 2019 Ghostly International debut, Information, Galcher Lustwerk backed it up with Proof; and now, the Cleveland-raised, New York-based producer opens the confidential files for one last exposé, a collection of instrumentals called Information (Redacted). The album revisits material from both the LP and EP, removing Lustwerk's vocals from the strobe-lit haze, forgoing the truth in service of the vibe. The facts further obscured but robustly operative, here more instinctive and open to interpretation. These are low key dance productions, some slowed to dubby, hypnotic effect (“Thermonics,” “Left In The Dark”), others set loose in the night with no narrative guide. The instrumental format reveals Lustwerk’s control of tone and mood, his nuanced use of drums, and his clever knack as an arranger. Though his work was always ready for the club, these pieces become less dramatic than their first iterations and opt to be more primed for implementation at the decks, if even just in your living room. Two tracks on the back half are new — “Warming Up” and “Waltz” — the former finds Lustwerk at his loungiest, the latter closes the collection in an ambient organ coda.",
+    "buy_link": "https://galcherlustwerk.bandcamp.com/album/information-redacted",
+    "artist": 78,
+    "label": 72,
+    "tags": [
+      4,
+      11
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 85,
+  "fields": {
+    "title": "Galerie",
+    "release_year": 2020,
+    "artwork": "https://f4.bcbits.com/img/a1499689320_10.jpg",
+    "description": "Posh Isolation is proud to present ”Galerie” by the Copenhagen based Scotsman Perko. While being mostly recognized for his organic blend of club music arrangements, “Galerie” emphasises a focus on field recordings, textures and striped-down abstraction. Over the course of 8 tracks Perko builds small worlds of tangible ambience and horizons of amiable beauty. The sense of ebb and flow throughout “Galerie” gives it a sense of contemplative weightlessness and the perception of mild sun glittering blindness.",
+    "buy_link": "https://perko.bandcamp.com/album/galerie",
+    "artist": 79,
+    "label": 73,
+    "tags": [
+      3,
+      11
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 86,
+  "fields": {
+    "title": "Ruff Dog",
+    "release_year": 2020,
+    "artwork": "https://f4.bcbits.com/img/a3708523859_10.jpg",
+    "description": "In a striking stylistic return to their avant-pop roots — first seeded as Micachu and The Shapes (later renamed Good Sad Happy Bad) — Ruff Dog sees the composer Mica Levi rejecting the sweep of cinematic strings found in her scores for Jackie or Under The Skin and embracing the immediacy of lo-fi pop, without sacrificing the meticulous detail consistent throughout their esoteric career.\r\n\r\nThis is Levi’s first proper solo release, but in typically irreverent fashion, they nimbly eschew the prerequisite amount of intimacy by playing fast and loose with distorting textural qualities; distantly echoing vocals, scorched guitar distortion, and a warm blanket of tape hiss. The rock song skeletons of ‘Kind of Strange’ and ‘One Tear’ are slyly obscured by a torrent of fuzz, while the sounds of domesticity — a phone alarm, or the album’s titular dog — become an ersatz backing band on the likes of ‘Chains Baggy’. The sonic ethos is at its most evocative on ‘Wings’, sounding heavily like a cut from an early My Bloody Valentine session.\r\n\r\nEven with this much inscrutability, Ruff Dog succeeds in feeling like a deeply personal record granting the listener a glimpse into Levi’s world.",
+    "buy_link": "https://micalevi.bandcamp.com/album/ruff-dog",
+    "artist": 80,
+    "label": 74,
+    "tags": [
+      7,
+      11
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 87,
+  "fields": {
+    "title": "Boy In da Corner",
+    "release_year": 2004,
+    "artwork": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/81/1c/c8/811cc88c-ade5-2da1-0645-c3af3004cc3f/source/600x600bb.jpg",
+    "description": "Already a true classic and incredibly important album, Dizzee Rascal’s game changing debut 2003 LP Boy In Da Corner crystallizes the sounds, moods and surroundings of the UK’s inner-city in a way that ensures underground hip-hop and grim will never be the same again. Dizzee’s wailing, concentrated anger manifests itself as cut-throat lyrics delivered with precision, taking on a greater intensity once going head to head with the gritted wobble bass of ‘Stop Dat’ and creeping beats on ‘2 Far’. Big, bold statements are made on the classics ‘Fix Up Look Sharp’ and ‘Jus A Rascal’ but it's the harsher ‘Seems 2 Be’ and ‘Live O’ where Dizzee really rips up the rulebook and opens up a new path.",
+    "buy_link": "https://bleep.com/release/1753-dizzee-rascal-boy-in-da-corner",
+    "artist": 81,
+    "label": 75,
+    "tags": [
+      9
+    ],
+    "favourited_by": []
+  }
+},
+{
+  "model": "releases.release",
+  "pk": 88,
+  "fields": {
+    "title": "Integrity>",
+    "release_year": 2015,
+    "artwork": "https://crackmagazine.net/wp-content/uploads/2015/06/71BnHp7rRGL._SL1400_.jpg",
+    "description": "A man whose career we've followed for a while, from the raw youtube videos from his Boy Better Know crew, to a top 10 album, JME has always grabbed attention. On this highly personal album we hear of his route so far to achieve the position he holds today, shunning major label offers to keep his personal brand and style intact and under his control. We have a lot of respect for Jamie Adenuga and Integrity shows of all of his talents and maintains his relevance in today's grime spectrum.",
+    "buy_link": "https://bleep.com/release/60455-jme-integrity",
+    "artist": 82,
+    "label": 64,
+    "tags": [
+      9
+    ],
+    "favourited_by": []
   }
 }
 ]

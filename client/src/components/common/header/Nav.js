@@ -12,7 +12,7 @@ import Banner from './Banner'
 function Nav() {
   const [profile, setProfile] = React.useState({})
   const { favourites, setFavourites } = useContext(FavouriteContext)
-  console.log('nav render')
+
   const isLoggedIn = isAuthenticated()
   const { pathname } = useLocation()
 

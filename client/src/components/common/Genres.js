@@ -39,7 +39,6 @@ function Genres() {
   return (
     <main>
       <div>
-
         <div className="custom-select-wrapper">
           <div className="custom-select">
             <select
@@ -70,7 +69,9 @@ function Genres() {
               }
             </div>
             :
-            <div>Loading</div>
+            <div>
+              Loading
+            </div>
           }
 
         </div>
