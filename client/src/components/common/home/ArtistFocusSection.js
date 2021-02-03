@@ -4,13 +4,13 @@ import { getSingleTag } from '../../lib/api'
 import ProductPanel from '../../utils/ProductPanel'
 
 
-function LabelFeatureSection() {
+function ArtistFocusSection() {
   const [labelFeatureReleases, setLabelFeatureReleases] = React.useState(null)
 
   React.useEffect(() => {
     const getReleases = async () => {
       try {
-        const { data } = await getSingleTag(12)
+        const { data } = await getSingleTag(13)
         const taggedReleases = data.tags
         setLabelFeatureReleases(taggedReleases)
       } catch (err) {
@@ -23,7 +23,7 @@ function LabelFeatureSection() {
   return (
     <div className="product-section-wrapper">
       <div className="product-section-title label-feature-title">
-        Label Focus: xpq?  
+        Artist Focus: Sophie
       </div>
       {labelFeatureReleases ?
         <ProductPanel releases={labelFeatureReleases} />
@@ -34,4 +34,4 @@ function LabelFeatureSection() {
   )
 }
 
-export default LabelFeatureSection
+export default ArtistFocusSection

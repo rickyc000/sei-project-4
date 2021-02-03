@@ -9,7 +9,6 @@ function Player() {
   const { trackToPlay, setTrackToPlay } = useContext(TrackContext)
 
 
-  //* Passes track information to the player (updated player)
   function handleClosePlayer() {
     const trackToPlay = [{
       src: '',
@@ -24,7 +23,6 @@ function Player() {
     <div>
 
       {trackToPlay ?
-
         <div className="player-wrapper">
           <div className="player-image-wrapper">
             <img

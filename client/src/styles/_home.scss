@@ -8,3 +8,20 @@
   // margin: 10px;
 }
 
+
+.homepage-genre-wrapper {
+  // height: 300px;
+  width: 100vw;
+  margin: 80px 0;
+  border-bottom: 2px solid #AB9F36;
+  border-top: 2px solid #AB9F36;
+  // display: flex;
+}
+.homepage-genre-section-title {
+  width: 100%;
+  font-size: 55px;
+  font-family: 'Amiri', serif;
+  color: $base-color;
+  display: flex;
+  justify-content: center;
+}

@@ -13,6 +13,7 @@ import ReleaseShow from './components/show/ReleaseShow'
 import Genres from './components/common/Genres'
 
 import { TrackContext } from './TrackContext'
+import { FavouriteContext } from './FavouriteContext'
 
 
 function App() {
@@ -23,20 +24,23 @@ function App() {
     artwork: '',
     footerPosition: '-70px'
   }])
+  const [favourites, setFavourites] = useState(null)
 
   return (
     <BrowserRouter>
       <TrackContext.Provider value={{ trackToPlay, setTrackToPlay }}>
-        <Nav />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/register/" component={Register} />
-          <Route path="/login/" component={Login} />
-          <Route path="/release/:id" component={ReleaseShow} />
-          <Route path="/genres/:id" component={Genres} />
-          <Route path="/profile/" component={Profile} />
-        </Switch>
-        <Footer />
+        <FavouriteContext.Provider value={{ favourites, setFavourites }}>
+          <Nav />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/register/" component={Register} />
+            <Route path="/login/" component={Login} />
+            <Route path="/release/:id" component={ReleaseShow} />
+            <Route path="/genres/:id" component={Genres} />
+            <Route path="/profile/" component={Profile} />
+          </Switch>
+          <Footer />
+        </ FavouriteContext.Provider>
       </ TrackContext.Provider>
     </BrowserRouter>
   )

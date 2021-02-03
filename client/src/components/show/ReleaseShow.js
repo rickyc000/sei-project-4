@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { getSingleRelease, addToFavourites, removeFromFavourites } from '../lib/api'
 import { isAuthenticated, getUserId } from '../lib/auth'
 import { TrackContext } from '../../TrackContext'
+// import { FavouriteContext } from '../../FavouriteContext'
 
 function ReleaseShow() {
 
@@ -10,6 +11,7 @@ function ReleaseShow() {
   const [showRelease, setShowRelease] = React.useState(null)
   const [isFavourite, setIsFavourite] = React.useState(false)
   const { setTrackToPlay } = useContext(TrackContext)
+  // const { setFavourites } = useContext(FavouriteContext)
   const isLoggedIn = isAuthenticated()
 
   React.useEffect(() => {
@@ -33,6 +35,7 @@ function ReleaseShow() {
       try {
         await removeFromFavourites(id)
         setIsFavourite(!isFavourite)
+        // setFavourites(1)
       } catch (err) {
         console.log(err)
       }
@@ -40,6 +43,7 @@ function ReleaseShow() {
       try {
         await addToFavourites(id)
         setIsFavourite(!isFavourite)
+        // setFavourites(-1)
       } catch (err) {
         console.log(err)
       }
@@ -98,8 +102,6 @@ function ReleaseShow() {
                       </div>
                     }
                   </div>
-
-
                 }
 
 

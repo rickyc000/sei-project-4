@@ -2,7 +2,6 @@ $base-color: #222621;
 $text-color: rgb(155, 155, 155);
 
 
-
 .navbar-wrapper {
   color: $text-color;
   background-color: $base-color;
@@ -19,8 +18,14 @@ $text-color: rgb(155, 155, 155);
   color: $text-color;
   padding: 5px 15px;
   cursor: pointer;
+  display: flex;
 }
 
 .navbar-section {
   display: flex;
+}
+
+.fa-record-vinyl {
+  font-size: 14px;
+  margin: 0 4px;
 }

@@ -1,14 +1,20 @@
+// import React, { useContext } from 'react'
 import React from 'react'
+
 import { Link, useHistory, useLocation } from 'react-router-dom'
 import { isAuthenticated, logout } from '../../lib/auth'
 import { getUserProfile, headers } from '../../lib/api'
+// import { FavouriteContext } from '../../../FavouriteContext'
 
 import Banner from './Banner'
 
 
 function Nav() {
   const [profile, setProfile] = React.useState({})
+  // const [favouriteCount, setFavouriteCount] = React.useState(0)
   // const [hasError, setHasError] = React.useState(false)
+  // const { favourites, setFavourites } = useContext(FavouriteContext)
+  console.log('nav render')
   const isLoggedIn = isAuthenticated()
   const { pathname } = useLocation()
 
@@ -18,15 +24,16 @@ function Nav() {
     history.push('/')
   }
 
-
-
   const history = useHistory()
+  
 
   React.useEffect(() => {
     const getProfile = async () => {
       try {
         const { data } = await getUserProfile(headers())
         setProfile(data)
+        // setFavouriteCount(data.favouritedReleases.length + favourites)
+        // setFavourites(0)
         // setHasError(false)
       } catch (err) {
         console.log(err)
@@ -37,6 +44,8 @@ function Nav() {
   }, [pathname])
 
   // console.log('hasError? ' + hasError)
+  // console.log(favouriteCount)
+  // setFavourites(null)
 
   return (
     <header>
@@ -68,6 +77,12 @@ function Nav() {
             <Link to='/profile/'>
               <div className="navbar-option">
                 {profile.username}
+
+                {profile.favouritedReleases &&
+                  <div>
+                    <i className="fas fa-record-vinyl"></i>
+                    {profile.favouritedReleases.length}</div>
+                }
               </div>
             </Link>
             <div
