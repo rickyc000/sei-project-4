@@ -22,7 +22,7 @@ function ArtistFocusSection() {
 
   return (
     <div className="product-section-wrapper">
-      <div className="product-section-title label-feature-title">
+      <div className="product-section-title artist-feature-title">
         Artist Focus: Sophie
       </div>
       {labelFeatureReleases ?

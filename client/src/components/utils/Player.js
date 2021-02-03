@@ -14,7 +14,7 @@ function Player() {
       src: '',
       title: '',
       artist: '',
-      footerPosition: '-70px'
+      footerPosition: '-72px'
     }]
     setTrackToPlay(trackToPlay)
   }
@@ -25,10 +25,10 @@ function Player() {
       {trackToPlay ?
         <div className="player-wrapper">
           <div className="player-image-wrapper">
-            <img
+            <img className="player-image"
               src={trackToPlay[0].artwork}
               alt={trackToPlay[0].title}
-              width='60px' />
+            />
           </div>
           <div className="player-info-wrapper">
             <div className="player-title">{trackToPlay[0].title}</div>

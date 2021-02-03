@@ -22,7 +22,7 @@ function App() {
     title: '',
     artist: '',
     artwork: '',
-    footerPosition: '-70px'
+    footerPosition: '-72px'
   }])
   const [favourites, setFavourites] = useState(null)
 

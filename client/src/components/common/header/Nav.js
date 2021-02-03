@@ -1,25 +1,22 @@
-// import React, { useContext } from 'react'
-import React from 'react'
+import React, { useContext } from 'react'
+// import React from 'react'
 
 import { Link, useHistory, useLocation } from 'react-router-dom'
 import { isAuthenticated, logout } from '../../lib/auth'
 import { getUserProfile, headers } from '../../lib/api'
-// import { FavouriteContext } from '../../../FavouriteContext'
+import { FavouriteContext } from '../../../FavouriteContext'
 
 import Banner from './Banner'
 
 
 function Nav() {
   const [profile, setProfile] = React.useState({})
-  // const [favouriteCount, setFavouriteCount] = React.useState(0)
-  // const [hasError, setHasError] = React.useState(false)
-  // const { favourites, setFavourites } = useContext(FavouriteContext)
+  const { favourites, setFavourites } = useContext(FavouriteContext)
   console.log('nav render')
   const isLoggedIn = isAuthenticated()
   const { pathname } = useLocation()
 
   const handleLogout = () => {
-    // setIsLoggedIn(false)
     logout()
     history.push('/')
   }
@@ -32,20 +29,13 @@ function Nav() {
       try {
         const { data } = await getUserProfile(headers())
         setProfile(data)
-        // setFavouriteCount(data.favouritedReleases.length + favourites)
-        // setFavourites(0)
-        // setHasError(false)
+        setFavourites(0)
       } catch (err) {
         console.log(err)
-        // setHasError(true)
       }
     }
     getProfile()
-  }, [pathname])
-
-  // console.log('hasError? ' + hasError)
-  // console.log(favouriteCount)
-  // setFavourites(null)
+  }, [pathname, favourites])
 
   return (
     <header>
@@ -81,7 +71,9 @@ function Nav() {
                 {profile.favouritedReleases &&
                   <div>
                     <i className="fas fa-record-vinyl"></i>
-                    {profile.favouritedReleases.length}</div>
+                    {profile.favouritedReleases.length}
+                    {/* {favouriteCount} */}
+                  </div>
                 }
               </div>
             </Link>
