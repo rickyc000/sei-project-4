@@ -51,7 +51,7 @@ export function getAllTags() {
 //SINGLE TAG
 export function getSingleTag(id) {
   // console.log('getSingleTag')
-  return axios.get(`${baseURL}/tags/${id}/`)
+  return axios.get(`${baseURL}/tags/${id}/`, { timeout: 30000 })
 }
 
 

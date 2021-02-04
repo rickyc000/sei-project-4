@@ -30,8 +30,8 @@ function Nav() {
         const { data } = await getUserProfile(headers())
         setProfile(data)
         setFavourites(0)
-      } catch (err) {
-        console.log(err)
+      } catch {
+        // console.log(err)
       }
     }
     getProfile()
