@@ -8,7 +8,7 @@ function ProductCard({ release }) {
 
   return (
     <div className="product-card-inner-wrapper">
-      <Link to={`/release/${release.id}/`}>
+      <Link to={`/release/${release.id}`}>
         <img
           className="product-card-image"
           src={release.artwork}

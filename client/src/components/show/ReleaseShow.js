@@ -82,7 +82,7 @@ function ReleaseShow() {
 
                 {!isLoggedIn ?
                   <div className="handle-favourite">
-                    <Link to='/login/'>
+                    <Link to='/login'>
                       <div className="add-to-collection-blocked">
                         Add to collection
                       </div>
@@ -137,7 +137,7 @@ function ReleaseShow() {
               ))}
             </div>
             <div className="back-to-genres-wrapper">
-              <Link to={'/genres/all/'}>
+              <Link to={'/genres/all'}>
                 <div className="back-to-genres">
                   Back to Genres
                 </div>

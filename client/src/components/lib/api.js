@@ -32,7 +32,7 @@ export function getUserProfile() {
 // ALL RELEASES
 export function getAllReleases() {
   console.log('getAllReleases')
-  return axios.get(`${baseURL}/releases`)
+  return axios.get(`${baseURL}/releases/`)
 }
 
 //SINGLE RELEASE

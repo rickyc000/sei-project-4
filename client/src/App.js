@@ -33,11 +33,11 @@ function App() {
           <Nav />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/register/" component={Register} />
-            <Route path="/login/" component={Login} />
+            <Route path="/register" component={Register} />
+            <Route path="/login" component={Login} />
             <Route path="/release/:id" component={ReleaseShow} />
             <Route path="/genres/:id" component={Genres} />
-            <Route path="/profile/" component={Profile} />
+            <Route path="/profile" component={Profile} />
           </Switch>
           <Footer />
         </ FavouriteContext.Provider>

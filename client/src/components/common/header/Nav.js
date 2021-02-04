@@ -47,7 +47,7 @@ function Nav() {
           <Link to='/'>
             <div className="navbar-option">Home</div>
           </Link>
-          <Link to='/genres/all/'>
+          <Link to='/genres/all'>
             <div className="navbar-option">Genres</div>
           </Link>
         </div>
@@ -55,16 +55,16 @@ function Nav() {
 
         {!isLoggedIn ?
           <div className="navbar-section">
-            <Link to='/login/'>
+            <Link to='/login'>
               <div className="navbar-option">Login</div>
             </Link>
-            <Link to='/register/'>
+            <Link to='/register'>
               <div className="navbar-option">Register</div>
             </Link>
           </div>
           :
           <div className="navbar-section">
-            <Link to='/profile/'>
+            <Link to='/profile'>
               <div className="navbar-option">
                 {profile.username}
 

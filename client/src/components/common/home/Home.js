@@ -31,7 +31,7 @@ function Home() {
       <section className="homepage-section">
         <div className="homepage-genre-wrapper">
           <div className="parallax">
-            <Link to={'/genres/all/'}>
+            <Link to={'/genres/all'}>
               <div className="homepage-genre-section-title">
                 Explore Genres
               </div>
