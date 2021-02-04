@@ -22,19 +22,25 @@ function Nav() {
   }
 
   const history = useHistory()
-  
+
 
   React.useEffect(() => {
-    const getProfile = async () => {
-      try {
-        const { data } = await getUserProfile(headers())
-        setProfile(data)
-        setFavourites(0)
-      } catch {
-        // console.log(err)
+
+    if (isLoggedIn) {
+      const getProfile = async () => {
+        try {
+          const { data } = await getUserProfile(headers())
+          setProfile(data)
+          setFavourites(0)
+        } catch {
+          // console.log(err)
+        }
       }
+      getProfile()
+
     }
-    getProfile()
+
+
   }, [pathname, favourites])
 
   return (
