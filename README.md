@@ -52,21 +52,18 @@ https://rickys-records.herokuapp.com/
 
 ### Genres Page
 
-Browse all spaces by category. Categories include Art & Design, Sports & Leisure and Mother Nature.
+
 
 ![Genres-Page](client/src/assets/readme/rrecords-genres.gif)
 
 ### Profile Page
 
-View your saved categories and the spaces you've created or favourited on your profile page.
+
 
 ![Profile](client/src/assets/readme/rrecords-profile.gif)
 
 ### Forms
 
-Register, Login, Create and Edit forms, complete with error messaging to notify you if something's wrong.
-
-![Forms](client/src/assets/readme/forms.png)
 
 ## Process
 
@@ -81,7 +78,7 @@ Register, Login, Create and Edit forms, complete with error messaging to notify 
 
 
 ```
-code
+
 ```
 
 ### Front End
@@ -89,14 +86,13 @@ code
 
 
 ```
-code
 
 ```
 
-More stuff
+
 
 ```
-code
+
 ```
 
 
@@ -105,13 +101,8 @@ code
 ### Styling
 
 
-Boomkat, Bleep, Bandcamp
 
-Fade In
 
-Parallax 
-
-<img src='./client/src/assets/readme/title-mockup.png' width="650px">
 
 
 
