@@ -33,7 +33,7 @@ function Home() {
           <div className="parallax">
             <Link to={'/genres/all'}>
               <div className="homepage-genre-section-title">
-                Genres
+                Explore Genres
               </div>
             </Link>
           </div>
