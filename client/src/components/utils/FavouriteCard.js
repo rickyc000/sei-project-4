@@ -7,7 +7,7 @@ function FavouriteCard({ release }) {
 
   const { setTrackToPlay } = useContext(TrackContext)
 
-  //* Passes track information to the player (updated player)
+  //* Passes track information to the player
   function handlePlay(track, showRelease) {
     const trackToPlay = [{
       src: track.preview_URL,
@@ -55,10 +55,7 @@ function FavouriteCard({ release }) {
               <div
                 className="play-button"
               >
-                {/* Play */}
                 <i className="fas fa-play fav-play" id="fav-play"></i>
-
-
               </div>
               <div> {track.title}  </div>
             </div>
@@ -72,7 +69,6 @@ function FavouriteCard({ release }) {
             </a>
           </div>
         </div>
-
       </div>
 
 

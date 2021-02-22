@@ -26,8 +26,6 @@ function ProductCard({ release }) {
       </div>
     </div>
   )
-
-
 }
 
 export default ProductCard

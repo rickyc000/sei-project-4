@@ -78,7 +78,6 @@ function Nav() {
                   <div>
                     <i className="fas fa-record-vinyl"></i>
                     {profile.favouritedReleases.length}
-                    {/* {favouriteCount} */}
                   </div>
                 }
               </div>
