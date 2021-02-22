@@ -232,34 +232,25 @@ function ProductPanel({ releases }) {
 export default ProductPanel
 ```
 
-
-
-
-
-
-
 ### Styling
 
+The ability to work on separate Sass files was key to keeping my styling organised here. I also used colour variables to allow me to easily experiment with different colour schemes.
 
-
-
-
-
-
+Visually, I wanted the focus of the site to be on the music artwork. I therefore used dark and muted colours to try and achieve this.
 
 ## Reflection
 
 ### Challenges
 
-* **Challenge:** 
-
+* **useContext():** Having not previously used the useContext method in React, mastering this was a key part of this project as it enabled the footer audio player to work as I had originally intended.
 ### Wins
 
-* **Win:** 
+* **Time Management:** This being the largest-scale solo project I've worked on, I was pleased with how I structured my time; setting out clear objectives of which tasks I needed to complete and when to achieve my overall objective. 
+
 
 ### Future Improvements
 
-* **Feature:** 
+* **Artist and Label pages:** Having built in the functionality for Artist and Label views in the back-end, and with readily available Product Cards and Product Panels on the front-end, setting up Artist and Label pages would be simple and easily achievable. 
 
 
 
