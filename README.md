@@ -247,6 +247,9 @@ Visually, I wanted the focus of the site to be on the music artwork. I therefore
 
 * **Time Management:** This being the largest-scale solo project I've worked on, I was pleased with how I structured my time; setting out clear objectives of which tasks I needed to complete and when to achieve my overall objective. 
 
+### Key Learnings
+
+* **Django REST Framework:** Building this app has allowed me to see the benefits of using this framework to easily build a flexible web API. Once the core of the back-end had been built, the admin interface proved to be a powerful tool in allowing me to quickly input data and scale-up the project.
 
 ### Future Improvements
 

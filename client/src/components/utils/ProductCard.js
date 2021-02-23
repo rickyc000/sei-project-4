@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom'
 
 function ProductCard({ release }) {
 
-  // console.log(release)
-
-
   return (
     <div className="product-card-inner-wrapper">
       <Link to={`/release/${release.id}`}>
