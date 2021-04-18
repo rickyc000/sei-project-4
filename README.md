@@ -48,7 +48,7 @@ My goal here was to present some incredible releases in an interesting way, allo
 
 The homepage shows a number of different features: Featured Albums, Label Focus, New Releases and Artist Focus as well as a link to the genres page.
 
-This is achieved by 'tagging' the content - adding Tag fields to a release such as 'Label Focus. Ordering the content in this way would allow me to easily change the shopfront-style homepage, in the same way online stores update their homepage features on an often weekly cycle.
+This is achieved by 'tagging' the content - adding Tag fields to a release such as 'Label Focus'. Ordering the content in this way would allow me to easily change the shopfront-style homepage, in the same way online stores update their homepage features on an often weekly cycle.
 
 ![Homepage](client/src/assets/readme/rrecords-homepage.gif)
 
