@@ -29,13 +29,6 @@ My fourth and final project as part of GA's Software Engineering Immersive cours
 ## Deployed Version
 https://rickys-records.herokuapp.com/
 
-
-
-## Code Installation
-
-
-
-
 ## App Overview
 
 Having previously worked in music retail, I wanted to create my own music platform featuring a range of music that I'm currently into.
